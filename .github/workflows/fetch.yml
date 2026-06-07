@@ -1,0 +1,44 @@
+name: Fetch World Cup data
+
+on:
+  schedule:
+    # Every 30 minutes. GitHub cron is UTC and best-effort (may run late under load).
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+# Prevent overlapping runs from racing on the same commit.
+concurrency:
+  group: fetch-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch data
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: node scripts/fetch.js
+
+      - name: Commit updated data
+        run: |
+          git config user.name "wc-sweeps-bot"
+          git config user.email "actions@github.com"
+          git add public/data/matches.json public/data/last-updated.txt public/config
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "data: refresh matches.json [skip ci]"
+            git push
+          fi

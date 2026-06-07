@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b132b" />
+  <title>World Cup 2026 Sweeps</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>World Cup 2026 Sweeps</h1>
+    <p class="subtitle">Live leaderboard &middot; 48 teams &middot; 11 Jun – 19 Jul 2026</p>
+  </header>
+
+  <main>
+    <section id="status" class="status" aria-live="polite">Loading…</section>
+
+    <section id="leaderboard-section" hidden>
+      <ol id="leaderboard" class="leaderboard"></ol>
+    </section>
+
+    <section class="rules-panel">
+      <details>
+        <summary>Scoring rules &amp; payout</summary>
+        <div id="rules" class="rules-body"></div>
+      </details>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span id="last-updated">—</span>
+    <span class="footer-sep">&middot;</span>
+    <span>Data: API-Football</span>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

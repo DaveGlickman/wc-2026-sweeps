@@ -1,0 +1,12 @@
+{
+  "_comment": "One entry per person. teams = the two TEAM IDs drawn for them (1 from Pot A, 1 from Pot B). Find team IDs via API-Football (GET /teams?league=1&season=2026) or from public/data/matches.json once the fetch job has run. The 'name' inside each team is an optional display hint; live data from the API overrides it. Replace the example below with your 20 people after the draw.",
+  "people": [
+    {
+      "name": "Example Person 1",
+      "teams": [
+        { "id": 0, "name": "Pot A team" },
+        { "id": 0, "name": "Pot B team" }
+      ]
+    }
+  ]
+}

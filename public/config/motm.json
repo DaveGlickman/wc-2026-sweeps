@@ -1,0 +1,4 @@
+{
+  "_comment": "Man of the Match map. API-Football has no MOTM, so the admin fills this by hand: one entry per finished match, keyed by fixtureId (string) -> playerId (number). Example: \"1208000\": 999. Find the fixtureId in public/data/matches.json. To drop MOTM entirely, set player.motm to 0 in scoring.json and leave this empty.",
+  "motm": {}
+}

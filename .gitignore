@@ -1,0 +1,5 @@
+.DS_Store
+*.log
+
+# Claude Code local config (machine-specific)
+.claude/

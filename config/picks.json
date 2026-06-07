@@ -1,0 +1,12 @@
+{
+  "_comment": "One entry per person, matched to allocations.json by 'name' (must be spelled identically). players = the two PLAYER IDs picked: index 0 = forward/attacker (Pot A pick), index 1 = midfielder/defender/goalkeeper (Pot B pick). Any nation; duplicates across people are allowed. Find player IDs via API-Football (GET /players?league=1&season=2026&search=Name). The 'name'/'position' fields are optional display hints; live data overrides them. Position is validated by the fetch job's verify step (see README). Picks lock before 11 June and never change.",
+  "people": [
+    {
+      "name": "Example Person 1",
+      "players": [
+        { "id": 0, "name": "Forward (Pot A)", "position": "F" },
+        { "id": 0, "name": "Mid/Def/GK (Pot B)", "position": "M" }
+      ]
+    }
+  ]
+}

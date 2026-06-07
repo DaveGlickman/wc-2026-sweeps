@@ -1,0 +1,29 @@
+{
+  "team": {
+    "win": 3,
+    "draw": 1,
+    "loss": 0,
+    "cleanSheet": 1
+  },
+  "teamProgression": {
+    "R16": 4,
+    "QF": 7,
+    "SF": 11,
+    "Final": 16,
+    "Champions": 25
+  },
+  "player": {
+    "goal": 4,
+    "assist": 2,
+    "motm": 3,
+    "cleanSheet": 2,
+    "yellow": -1,
+    "red": -3,
+    "ownGoal": -2
+  },
+  "payout": {
+    "first": 0.6,
+    "second": 0.3,
+    "third": 0.1
+  }
+}
