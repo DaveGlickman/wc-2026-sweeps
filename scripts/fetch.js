@@ -121,22 +121,32 @@ function posCode(positionObj) {
   return null;
 }
 
-// Map a fixture date to a round label that app.js roundKey() understands.
+// Normalise an ESPN calendar stage label to one app.js roundKey() understands.
+function labelFromCalendarLabel(raw) {
+  const l = String(raw).toLowerCase();
+  if (l.includes('32')) return 'Round of 32';
+  if (l.includes('16')) return 'Round of 16';
+  if (l.includes('quarter')) return 'Quarter-finals';
+  if (l.includes('3rd') || l.includes('third')) return '3rd Place';
+  if (l.includes('semi')) return 'Semi-finals';
+  if (l.includes('final')) return 'Final';
+  return 'Group Stage';
+}
+
+// Map a fixture date to a round label. The 3rd-place and semi-final date
+// ranges overlap, so when several stages match a date we pick the most
+// specific one (narrowest range) — that's the 3rd-place match on its day.
 // calendar = array of { label, start, end } collected from scoreboards.
 function roundLabelFor(iso, calendar) {
   const t = new Date(iso).getTime();
+  let best = null;
   for (const c of calendar) {
     if (t >= c.start && t <= c.end) {
-      const l = c.label.toLowerCase();
-      if (l.includes('16')) return 'Round of 16';
-      if (l.includes('quarter')) return 'Quarter-finals';
-      if (l.includes('semi')) return 'Semi-finals';
-      if (l.includes('3rd') || l.includes('third')) return '3rd Place';
-      if (l.includes('final')) return 'Final';
-      return 'Group Stage';
+      const span = c.end - c.start;
+      if (!best || span < best.span) best = { span, label: c.label };
     }
   }
-  return 'Group Stage';
+  return best ? labelFromCalendarLabel(best.label) : 'Group Stage';
 }
 
 function collectCalendar(scoreboard, into) {
@@ -323,24 +333,37 @@ async function main() {
     }
   }
 
+  // Ensure we always have the stage calendar (even on a run that fetched no
+  // new scoreboards), so round labels stay correct for every fixture.
+  if (!calendar.length) {
+    try {
+      const sb = await getJSON(`${BASE}/scoreboard?dates=${compactDate(WINDOW_START)}`);
+      collectCalendar(sb, calendar);
+    } catch (e) {
+      console.warn(`[fetch] calendar refresh failed: ${e.message}`);
+    }
+  }
+
   // Assemble the full fixture list: freshly-fetched dates win; everything else
   // is carried over from the previous file.
   const out = [];
   const usedFresh = new Set();
-  for (const [date, list] of fixturesByDate) {
+  for (const [, list] of fixturesByDate) {
     for (const f of list) {
-      // Re-stamp round once we have the full calendar.
-      f.round = roundLabelFor(f.date, calendar);
-      // Carry over already-computed player detail so we can decide on re-fetch.
       const old = prevById.get(f.id);
       if (old && Array.isArray(old.players)) f.players = old.players;
       out.push(f);
       usedFresh.add(f.id);
     }
-    void date;
   }
   for (const f of prev.fixtures || []) {
     if (!usedFresh.has(f.id)) out.push(f);
+  }
+
+  // Re-stamp every fixture's round from the current calendar (fixes labels on
+  // carried-over fixtures and absorbs any ESPN rescheduling).
+  if (calendar.length) {
+    for (const f of out) f.round = roundLabelFor(f.date, calendar);
   }
 
   if (!out.length) die('no fixtures available (and no previous data). Keeping old file.');

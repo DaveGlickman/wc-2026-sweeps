@@ -15,9 +15,10 @@ const FINISHED = new Set(['FT', 'AET', 'PEN', 'WO']);
 const LIVE = new Set(['1H', 'HT', '2H', 'ET', 'BT', 'P', 'INT', 'LIVE']);
 
 // Ordered stages for the "furthest team" tiebreaker and progression awards.
-const STAGE_ORDER = ['Group', 'R16', 'QF', 'SF', 'Final', 'Champions'];
+const STAGE_ORDER = ['Group', 'R32', 'R16', 'QF', 'SF', 'Final', 'Champions'];
 const STAGE_LABEL = {
   Group: 'Group stage',
+  R32: 'Round of 32',
   R16: 'Round of 16',
   QF: 'Quarter-final',
   SF: 'Semi-final',
@@ -41,10 +42,11 @@ async function getText(url) {
 
 function roundKey(round) {
   const r = (round || '').toLowerCase();
+  if (r.includes('round of 32') || r.includes('1/16')) return 'R32';
   if (r.includes('round of 16') || r.includes('1/8')) return 'R16';
   if (r.includes('quarter')) return 'QF';
-  if (r.includes('semi')) return 'SF';
   if (r.includes('3rd place') || r.includes('third place')) return null;
+  if (r.includes('semi')) return 'SF';
   if (r.includes('final')) return 'Final';
   return null; // group stage / other
 }
