@@ -23,12 +23,13 @@ browser never calls it directly; a server-side job does. Instead:
 
 ```
 config/            ← you edit these by hand (source of truth)
-  entrants.json      the roster: name + id + paid (paid-only gate)
+  entrants.json      the roster: name + id + paid (+ optional amount/datePaid, NEVER published)
   pots.json          Pot A (stronger 24) + Pot B (outsiders 24) team IDs
   allocations.json   each person → their 2 team IDs (draw, or synced from Sheet)
   picks.json         each person → their 2 player IDs (synced from Sheet)
   scoring.json       all point values + payout split
   motm.json          { fixtureId: playerId } Man of the Match map
+  preseason.json     pre-season banner: buy-in, pay-by deadline, cheeky copy (no personal data)
   backend.json       Apps Script web-app URL for the self-serve draw (no secret)
 backend/
   Code.gs            Google Apps Script web app (paste into the bound Sheet)
@@ -36,6 +37,7 @@ scripts/
   draw.js            deterministic, seeded draw → allocations.json + private/ files
   fetch.js           the data job (run by the Action)
   fetch-squads.js    builds public/data/players.json from ESPN squads
+  build-roster.js    writes public/data/roster.json — SAFE name+paid subset for the tracker
   sync-sheet.js      pulls token-free Sheet export → allocations.json + picks.json
   verify-picks.js    one-off pick-position validator
   test-scoring.js    sanity test for the leaderboard math (needs Node)
@@ -47,7 +49,7 @@ public/            ← served by GitHub Pages
   index.html, styles.css, app.js   the live leaderboard
   draw.html, draw.js               the self-serve reveal + picks page
   config/            mirror of /config, written by the Action (browser reads this)
-  data/              matches.json + players.json + last-updated.txt
+  data/              matches.json + players.json + roster.json + last-updated.txt
 .github/workflows/
   fetch.yml          cron data job: squads + sheet sync + match data (commits to main)
   pages.yml          deploys ./public to GitHub Pages on each push to main
@@ -59,9 +61,27 @@ scripts/deploy.sh    one-command repo create + push + enable Pages (needs gh aut
 > browser can read them same-origin. Edit the root `config/` files; changes go live on the
 > next Action run (≤30 min).
 
-> **Paid-only:** only people with `"paid": true` in `config/entrants.json` are included —
-> both in the draw and on the live leaderboard. Unpaid people never appear in either. The
-> rules panel shows the live paid-entrant count and the prize split.
+> **Paid-only:** only people with `"paid": true` in `config/entrants.json` are included in the
+> draw and counted in the leaderboard's paid total. The rules panel shows the live paid-entrant
+> count and the prize split.
+>
+> **Privacy:** `config/entrants.json` is the admin source of truth and may hold `amount` /
+> `datePaid` — it is **never** mirrored to `public/`. The browser reads only the safe
+> `public/data/roster.json` (name + paid), written by `scripts/build-roster.js`. Tokens, teams
+> and picks never reach the roster file.
+
+## Pre-season mode (before kickoff)
+
+Before any fixture is live or finished, the same page (same URL) shows a **sign-up tracker**
+instead of an empty points board: the buy-in, the pay-by countdown, a paid/total progress bar,
+and everyone's name with a **Paid / Not yet** badge (paid first). The moment a fixture goes
+live or finishes, it **auto-switches** to the full points leaderboard — no redeploy, no URL
+change. The switch is data-driven (`app.js` checks whether any fixture is live/finished), so
+nothing to flip by hand.
+
+Edit the banner copy, buy-in and deadline in `config/preseason.json`. The roster shown is
+`public/data/roster.json` (name + paid only), rebuilt from `config/entrants.json` on every
+Action run — add names there and flip `paid` to `true` as people pay.
 
 ## Setup
 

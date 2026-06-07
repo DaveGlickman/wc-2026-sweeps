@@ -1,0 +1,9 @@
+{
+  "_comment": "Pre-season banner settings, shown on the live page BEFORE any match has real data. The page auto-switches to the points leaderboard once a fixture goes live or finishes — same URL throughout. buyIn is a number; currency is the symbol shown before it. deadline is an ISO timestamp (UTC) used for the live countdown; deadlineLabel is the human string shown on the banner. headline/tagline are cheeky copy — edit freely. Safe to commit: contains no personal data.",
+  "buyIn": 1000,
+  "currency": "R",
+  "deadline": "2026-06-10T12:00:00Z",
+  "deadlineLabel": "Wed 10 Jun, 12 noon GMT",
+  "headline": "Who's brave enough?",
+  "tagline": "Get your buy-in down before the draw — no dosh, no teams, no glory."
+}

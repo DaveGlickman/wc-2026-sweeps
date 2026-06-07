@@ -175,14 +175,15 @@ function mergePeople(allocations, picks) {
   return Array.from(map.values());
 }
 
-// Paid-only gate. Returns a Set of paid entrant names to filter by, or null
-// when entrants.json is absent (then no gating, for backwards compatibility).
-// If the file exists but nobody is paid, returns an empty Set (empty board).
-function buildPaidSet(entrants) {
-  if (!entrants || !Array.isArray(entrants.people)) return null;
-  return new Set(
-    entrants.people.filter((p) => p && p.paid === true).map((p) => p.name)
-  );
+// Paid-only gate. Reads the SAFE public roster.json (name + paid only); falls
+// back to entrants.json only if a local mirror exists. Returns a Set of paid
+// names to filter by, or null when neither source is present (then no gating).
+// If a source exists but nobody is paid, returns an empty Set (empty board).
+function buildPaidSet(roster, entrants) {
+  const hasRoster = roster && Array.isArray(roster.entrants);
+  const hasEntrants = entrants && Array.isArray(entrants.people);
+  if (!hasRoster && !hasEntrants) return null;
+  return new Set(rosterPeople(roster, entrants).filter((p) => p.paid).map((p) => p.name));
 }
 
 function computeStandings(data) {
@@ -391,22 +392,128 @@ function formatStamp(iso) {
   });
 }
 
+async function setStamp(matches) {
+  let stamp = matches.generatedAt;
+  try { stamp = (await getText(`${DATA}/last-updated.txt`)).trim() || stamp; } catch { /* keep generatedAt */ }
+  $('#last-updated').textContent = stamp ? `Updated ${formatStamp(stamp)}` : 'Awaiting first data fetch';
+}
+
+// ---- Pre-season (before any match has real data) --------------------------
+
+// True until at least one fixture is live or finished. Drives the auto-switch
+// from the sign-up tracker to the points board — same page, same URL.
+function tournamentStarted(idx) {
+  return idx.fixtures.some((f) => f.finished || LIVE.has(f.status));
+}
+
+function formatMoney(currency, n) {
+  if (n == null || isNaN(n)) return '';
+  return `${currency || ''}${String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, ' ')}`;
+}
+
+// Roster of {name, paid}: prefer the safe roster.json, fall back to entrants.json.
+function rosterPeople(roster, entrants) {
+  if (roster && Array.isArray(roster.entrants)) {
+    return roster.entrants.map((p) => ({ name: p.name, paid: p.paid === true }));
+  }
+  if (entrants && Array.isArray(entrants.people)) {
+    return entrants.people.map((p) => ({ name: p.name, paid: p.paid === true }));
+  }
+  return [];
+}
+
+function renderCountdown(deadlineIso) {
+  const elc = $('#ps-countdown');
+  if (!elc) return;
+  const tick = () => {
+    const end = new Date(deadlineIso).getTime();
+    if (isNaN(end)) { elc.textContent = ''; return; }
+    const ms = end - Date.now();
+    if (ms <= 0) {
+      elc.textContent = 'Pay window closed — chasing stragglers';
+      elc.classList.add('over');
+      return;
+    }
+    const mins = Math.floor(ms / 60000);
+    const d = Math.floor(mins / 1440);
+    const h = Math.floor((mins % 1440) / 60);
+    const m = mins % 60;
+    const parts = [];
+    if (d) parts.push(`${d}d`);
+    if (d || h) parts.push(`${h}h`);
+    parts.push(`${m}m`);
+    elc.textContent = `${parts.join(' ')} left to pay`;
+  };
+  tick();
+  setInterval(tick, 60000);
+}
+
+function renderPreseason(data) {
+  const { roster, entrants, preseason } = data;
+  const ps = preseason || {};
+  const people = rosterPeople(roster, entrants);
+  const paid = people.filter((p) => p.paid).length;
+  const total = people.length;
+
+  if (ps.headline) $('#ps-headline').textContent = ps.headline;
+  if (ps.tagline) $('#ps-tagline').textContent = ps.tagline;
+  $('#ps-buyin').textContent = formatMoney(ps.currency, ps.buyIn) || 'TBC';
+  $('#ps-deadline').textContent = ps.deadlineLabel || 'TBC';
+  $('#ps-count').textContent = `${paid} / ${total}`;
+  $('#ps-progressbar').style.width = total ? `${Math.round((paid / total) * 100)}%` : '0%';
+  if (ps.deadline) renderCountdown(ps.deadline);
+
+  const list = $('#ps-roster');
+  list.innerHTML = '';
+  if (!total) {
+    const li = el('li', 'ps-foot', 'Roster being finalised — first names land here as they sign up.');
+    list.appendChild(li);
+  } else {
+    // Paid first, then alphabetical, so the board reads as a leaderboard of commitment.
+    const sorted = people.slice().sort((a, b) =>
+      (b.paid - a.paid) || a.name.localeCompare(b.name));
+    sorted.forEach((p, i) => {
+      const li = el('li', `ps-entry ${p.paid ? 'paid' : ''}`);
+      const left = el('div', 'ps-entry-name');
+      left.appendChild(el('span', 'ps-entry-num', `${i + 1}.`));
+      left.appendChild(document.createTextNode(p.name || '—'));
+      li.appendChild(left);
+      li.appendChild(el('span', `ps-badge ${p.paid ? 'paid' : 'unpaid'}`, p.paid ? 'Paid' : 'Not yet'));
+      list.appendChild(li);
+    });
+  }
+
+  $('#preseason-section').hidden = false;
+  return paid;
+}
+
 // ---- Boot -----------------------------------------------------------------
 
 async function main() {
   const status = $('#status');
   try {
-    const [scoring, allocations, picks, motm, matches, entrants] = await Promise.all([
+    const [scoring, allocations, picks, motm, matches, entrants, roster, preseason] = await Promise.all([
       getJSON(`${CONFIG}/scoring.json`),
       getJSON(`${CONFIG}/allocations.json`),
       getJSON(`${CONFIG}/picks.json`),
       getJSON(`${CONFIG}/motm.json`),
       getJSON(`${DATA}/matches.json`),
-      getJSON(`${CONFIG}/entrants.json`).catch(() => null)
+      getJSON(`${CONFIG}/entrants.json`).catch(() => null),
+      getJSON(`${DATA}/roster.json`).catch(() => null),
+      getJSON(`${CONFIG}/preseason.json`).catch(() => null)
     ]);
 
     const idx = buildIndex(matches);
-    const paidSet = buildPaidSet(entrants);
+    const paidSet = buildPaidSet(roster, entrants);
+
+    // Before kickoff: show the sign-up tracker, not an empty points board.
+    if (!tournamentStarted(idx)) {
+      const paidCount = renderPreseason({ roster, entrants, preseason });
+      renderRules(scoring, paidCount);
+      status.hidden = true;
+      setStamp(matches);
+      return;
+    }
 
     const standings = computeStandings({ scoring, allocations, picks, motm, idx, paidSet });
     const entrantCount = paidSet ? paidSet.size : standings.length;
@@ -421,9 +528,7 @@ async function main() {
       renderLeaderboard(standings, idx);
     }
 
-    let stamp = matches.generatedAt;
-    try { stamp = (await getText(`${DATA}/last-updated.txt`)).trim() || stamp; } catch { /* keep generatedAt */ }
-    $('#last-updated').textContent = stamp ? `Updated ${formatStamp(stamp)}` : 'Awaiting first data fetch';
+    setStamp(matches);
   } catch (err) {
     status.className = 'status error';
     status.textContent = `Could not load data: ${err.message}`;

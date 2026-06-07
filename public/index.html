@@ -3,18 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#0b132b" />
-  <title>World Cup 2026 Sweeps</title>
+  <meta name="theme-color" content="#15180e" />
+  <title>Shenans World Cup Sweeps 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@500;600;700&display=swap" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <h1>World Cup 2026 Sweeps</h1>
-    <p class="subtitle">Live leaderboard &middot; 48 teams &middot; 11 Jun – 19 Jul 2026</p>
+    <p class="brand-kicker">The Official House Rules</p>
+    <h1 class="brand-wordmark">SHENANS<span class="brand-dot">.</span></h1>
+    <p class="brand-sub">World Cup Sweeps 2026</p>
+    <p class="brand-tag">48 Teams &middot; 20 Reprobates &middot; One Liver Each</p>
   </header>
 
   <main>
     <section id="status" class="status" aria-live="polite">Loading…</section>
+
+    <!-- Pre-season: who's signed up + paid. Auto-hidden once matches go live. -->
+    <section id="preseason-section" hidden>
+      <div class="ps-hero">
+        <p class="ps-eyebrow">Skin in the game</p>
+        <h2 class="ps-headline" id="ps-headline">Who's brave enough?</h2>
+        <p class="ps-tagline" id="ps-tagline">Pay first — your personal link follows. No money, no entry.</p>
+        <div class="ps-meta">
+          <div class="ps-meta-item">
+            <span class="ps-meta-val" id="ps-buyin">R1 000</span>
+            <span class="ps-meta-lbl">buy-in</span>
+          </div>
+          <div class="ps-meta-item">
+            <span class="ps-meta-val" id="ps-deadline">Wed 10 Jun</span>
+            <span class="ps-meta-lbl">pay by</span>
+          </div>
+          <div class="ps-meta-item">
+            <span class="ps-meta-val" id="ps-count">0 / 0</span>
+            <span class="ps-meta-lbl">paid</span>
+          </div>
+        </div>
+        <div class="ps-progress" aria-hidden="true"><span class="ps-progress-bar" id="ps-progressbar"></span></div>
+        <p class="ps-countdown" id="ps-countdown"></p>
+      </div>
+      <ul id="ps-roster" class="ps-roster"></ul>
+      <p class="ps-foot" id="ps-foot">Not on the list yet? Get your shot in before the whistle.</p>
+    </section>
 
     <section id="leaderboard-section" hidden>
       <ol id="leaderboard" class="leaderboard"></ol>
@@ -29,6 +61,7 @@
   </main>
 
   <footer class="site-footer">
+    <span class="footer-hash">#SHENANS2026</span>
     <span id="last-updated">—</span>
     <span class="footer-sep">&middot;</span>
     <span>Data: ESPN</span>

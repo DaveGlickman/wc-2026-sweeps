@@ -43,6 +43,11 @@ jobs:
         # export and rewrites config/allocations.json + config/picks.json.
         run: node scripts/sync-sheet.js
 
+      - name: Build public roster (name + paid only)
+        # Emits public/data/roster.json — the SAFE subset for the pre-season
+        # sign-up tracker. Never includes tokens, teams, picks, amount or date.
+        run: node scripts/build-roster.js
+
       - name: Fetch data
         # Runs last so its config mirror (publishConfig) picks up anything the
         # sync step just wrote. ESPN's public API needs no key — nothing secret.
@@ -52,7 +57,7 @@ jobs:
         run: |
           git config user.name "wc-sweeps-bot"
           git config user.email "actions@github.com"
-          git add public/data/matches.json public/data/last-updated.txt public/data/players.json public/config config/allocations.json config/picks.json
+          git add public/data/matches.json public/data/last-updated.txt public/data/players.json public/data/roster.json public/config config/allocations.json config/picks.json
           if git diff --staged --quiet; then
             echo "No data changes to commit."
           else

@@ -1,7 +1,4 @@
 {
-  "_comment": "The roster of people. SOURCE OF TRUTH for who is in the sweep. Only entries with \"paid\": true are included in the draw (scripts/draw.js) AND on the live leaderboard — unpaid people never appear in either. Fields: name (must match picks.json exactly), id (unique slug, lowercase-no-spaces), paid (true|false). amount and datePaid are optional record-keeping. Edit this list, then run the draw.",
-  "people": [
-    { "name": "Example Person 1", "id": "example-1", "paid": true, "amount": 10, "datePaid": "2026-06-01" },
-    { "name": "Example Person 2", "id": "example-2", "paid": false }
-  ]
+  "_comment": "The roster of people. SOURCE OF TRUTH for who is in the sweep. Only entries with \"paid\": true are included in the draw (scripts/draw.js) AND on the live leaderboard — unpaid people never appear in either. The pre-season tracker shows EVERYONE here with a Paid / Not yet badge. Fields: name (must match picks.json exactly), id (unique slug, lowercase-no-spaces), paid (true|false). amount and datePaid are optional record-keeping and are NEVER published (only name + paid reach the public roster.json). Add a line per person as they sign up; flip paid to true once they've paid.",
+  "people": []
 }
