@@ -6,15 +6,20 @@ points accrue automatically from live match data. One shared URL, no login.
 
 ## How it works
 
-The free API tier is ~100 requests/day and the key must never live in client code, so
-**the browser never calls the API**. Instead:
+Match data comes from **ESPN's public soccer JSON API** — free, no key, no signup. The
+browser never calls it directly; a server-side job does. Instead:
 
-1. A **GitHub Action** runs on a cron (every ~30 min). It calls API-Football, builds a
-   compact `public/data/matches.json` (fixtures + statuses + per-player events), and commits
-   it. The API key is a GitHub Actions **secret** — never in the repo.
+1. A **GitHub Action** runs on a cron (every ~30 min). It reads ESPN's free API
+   (`site.api.espn.com`), builds a compact `public/data/matches.json` (fixtures + statuses +
+   per-player goals/assists/cards/line-ups), and commits it. No API key or secret is needed.
 2. The **static front-end** (GitHub Pages, served from `/public`) reads the committed JSON
    and computes the leaderboard in the browser. All point values come from `scoring.json`,
    so the rules can be tuned by editing one file with no code changes.
+
+> **Why ESPN, not API-Football?** API-Football's free tier does not cover season 2026
+> (it stops at 2024), and its browser-readable data needs a paid plan. ESPN's endpoints are
+> free and return everything the scoring needs — including goal *assisters*, which many free
+> feeds omit. IDs below are therefore **ESPN** team/player ids.
 
 ```
 config/            ← you edit these by hand (source of truth)
@@ -44,27 +49,22 @@ scripts/deploy.sh    one-command repo create + push + enable Pages (needs gh aut
 
 ## Setup
 
-1. **Get an API key.** Create a free account at <https://www.api-football.com> (API-Sports).
-   Confirm the current free-tier daily request limit on your dashboard. World Cup =
-   `league=1`, `season=2026`.
-2. **New GitHub repo.** Push this folder to it. Under **Settings → Secrets and variables →
-   Actions**, add a secret named `API_FOOTBALL_KEY` with your key.
-3. **Enable GitHub Pages.** Settings → Pages → **Source = "GitHub Actions"**.
-   (Branch-based Pages only serves the repo root or `/docs`, *not* `/public`, so this
-   project ships a Pages **deploy workflow** — `.github/workflows/pages.yml` — that
-   publishes `./public`. `scripts/deploy.sh` flips this setting for you via the API.)
+No API key or account is required — ESPN's data is free.
+
+1. **New GitHub repo + push + enable Pages.** Run `scripts/deploy.sh <repo-name> --public`
+   (needs `gh auth login` first). It creates the repo, pushes, and sets Pages **Source =
+   "GitHub Actions"**. (Branch-based Pages only serves the repo root or `/docs`, *not*
+   `/public`, so this project ships a Pages deploy workflow — `.github/workflows/pages.yml`.)
    Note the Pages URL it prints.
-4. **Run the draw offline**, then fill in:
+2. **Run the first data fetch.** Trigger it from the **Actions** tab ("Fetch World Cup
+   data" → Run workflow); it commits `public/data/matches.json` with the full schedule.
+3. **Run the draw offline**, then fill in (IDs are **ESPN** ids):
    - `config/allocations.json` — each person's name + their two team IDs (1 from Pot A,
-     1 from Pot B). Find team IDs from `public/data/matches.json` after the first Action run,
-     or via `GET /teams?league=1&season=2026`.
+     1 from Pot B). Find team IDs in `public/data/matches.json` after the first fetch.
    - `config/picks.json` — each person's two player IDs: index 0 = forward/attacker (Pot A),
      index 1 = midfielder/defender/goalkeeper (Pot B). Names must match `allocations.json`.
-   - Optionally run the validator: `API_FOOTBALL_KEY=xxx node scripts/verify-picks.js`
-     (checks each pick's position; exits non-zero on any problem).
-5. **Confirm the Action runs.** Trigger it manually from the **Actions** tab
-   ("Fetch World Cup data" → Run workflow), check it commits `public/data/matches.json`,
-   then share the Pages URL with the group.
+     Player IDs come from ESPN squad pages or appear in `matches.json` once a player features.
+4. **Share the Pages URL** with the group.
 
 ## During the tournament
 
