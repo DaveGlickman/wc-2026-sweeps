@@ -31,7 +31,10 @@ public/            ← served by GitHub Pages
   index.html, styles.css, app.js
   config/            mirror of /config, written by the Action (browser reads this)
   data/              matches.json + last-updated.txt, written by the Action
-.github/workflows/fetch.yml
+.github/workflows/
+  fetch.yml          cron data job (commits to main)
+  pages.yml          deploys ./public to GitHub Pages on each push to main
+scripts/deploy.sh    one-command repo create + push + enable Pages (needs gh auth)
 ```
 
 > **Why `public/config` exists:** Pages serves `/public`, but you edit `config/` at the repo
@@ -46,8 +49,11 @@ public/            ← served by GitHub Pages
    `league=1`, `season=2026`.
 2. **New GitHub repo.** Push this folder to it. Under **Settings → Secrets and variables →
    Actions**, add a secret named `API_FOOTBALL_KEY` with your key.
-3. **Enable GitHub Pages.** Settings → Pages → deploy from branch, root `/public`
-   (or publish `/public` to a `gh-pages` branch). Note the Pages URL.
+3. **Enable GitHub Pages.** Settings → Pages → **Source = "GitHub Actions"**.
+   (Branch-based Pages only serves the repo root or `/docs`, *not* `/public`, so this
+   project ships a Pages **deploy workflow** — `.github/workflows/pages.yml` — that
+   publishes `./public`. `scripts/deploy.sh` flips this setting for you via the API.)
+   Note the Pages URL it prints.
 4. **Run the draw offline**, then fill in:
    - `config/allocations.json` — each person's name + their two team IDs (1 from Pot A,
      1 from Pot B). Find team IDs from `public/data/matches.json` after the first Action run,
