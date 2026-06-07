@@ -25,22 +25,31 @@ browser never calls it directly; a server-side job does. Instead:
 config/            ← you edit these by hand (source of truth)
   entrants.json      the roster: name + id + paid (paid-only gate)
   pots.json          Pot A (stronger 24) + Pot B (outsiders 24) team IDs
-  allocations.json   each person → their 2 team IDs (written by the draw)
-  picks.json         each person → their 2 player IDs
+  allocations.json   each person → their 2 team IDs (draw, or synced from Sheet)
+  picks.json         each person → their 2 player IDs (synced from Sheet)
   scoring.json       all point values + payout split
   motm.json          { fixtureId: playerId } Man of the Match map
+  backend.json       Apps Script web-app URL for the self-serve draw (no secret)
+backend/
+  Code.gs            Google Apps Script web app (paste into the bound Sheet)
 scripts/
-  draw.js            deterministic, seeded draw → writes allocations.json
+  draw.js            deterministic, seeded draw → allocations.json + private/ files
   fetch.js           the data job (run by the Action)
+  fetch-squads.js    builds public/data/players.json from ESPN squads
+  sync-sheet.js      pulls token-free Sheet export → allocations.json + picks.json
   verify-picks.js    one-off pick-position validator
   test-scoring.js    sanity test for the leaderboard math (needs Node)
   serve.py           tiny local static server for previewing
+private/           ← gitignored; written by draw.js, NEVER committed
+  entrants-sheet.tsv rows to paste into the Sheet (includes tokens)
+  links.txt          one personal reveal link per person, to DM
 public/            ← served by GitHub Pages
-  index.html, styles.css, app.js
+  index.html, styles.css, app.js   the live leaderboard
+  draw.html, draw.js               the self-serve reveal + picks page
   config/            mirror of /config, written by the Action (browser reads this)
-  data/              matches.json + last-updated.txt, written by the Action
+  data/              matches.json + players.json + last-updated.txt
 .github/workflows/
-  fetch.yml          cron data job (commits to main)
+  fetch.yml          cron data job: squads + sheet sync + match data (commits to main)
   pages.yml          deploys ./public to GitHub Pages on each push to main
 scripts/deploy.sh    one-command repo create + push + enable Pages (needs gh auth)
 ```
@@ -96,6 +105,59 @@ Lottery** draw, entered as the seed string. After the draw, anyone with the repo
 `node scripts/draw.js --seed <that-seed>` and `git diff config/allocations.json`: an identical
 file proves the allocation was not hand-picked. (Run the draw *after* the agreed numbers are
 public so nobody can pre-compute a favourable seed.)
+
+## Self-serve draw & picks (optional, gamified)
+
+Instead of you collecting everyone's player picks by hand, each paid person opens their **own
+personal link**, watches two wheels *reveal* their pre-drawn teams, then picks their two
+players themselves. Zero manual data entry — the picks flow straight back into the static
+leaderboard JSON. It layers on top of the deterministic draw above; the wheels never roll the
+draw live, they only *reveal* the sealed result (a refresh always lands on the same teams).
+
+**How the integrity holds up:** the seeded `draw.js` is still the source of truth for teams.
+The repo is public, so per-person **tokens never touch it** — they live only in a private
+Google Sheet + Apps Script web app (free). The static page holds no tokens; it just asks the
+backend "what's the draw for *this* token?".
+
+```
+draw.js ──► private/entrants-sheet.tsv ──► paste into private Google Sheet
+        └─► private/links.txt (one URL per person, you DM these)
+
+person opens draw.html?t=<token>
+        └─► Apps Script getDraw  → sealed teams → wheels reveal them
+        └─► picks 2 players      → Apps Script submitPicks (one-shot lock)
+
+GitHub Action ──► Apps Script export (token-free) ──► config/allocations.json + picks.json
+              └─► fetch-squads.js ──► public/data/players.json (pick dropdowns)
+```
+
+### One-time backend setup (free Google account; ~5 min)
+
+You must do these account-bound steps yourself — they can't be scripted:
+
+1. **Squads first.** Run the data workflow once with **force_squads** ticked (Actions →
+   "Fetch World Cup data" → Run workflow). It commits `public/data/players.json`, which powers
+   the pick dropdowns and the backend's position check. (Squads populate close to the
+   tournament; re-run if a list is empty.)
+2. **Create a Google Sheet.** Add a tab named exactly **`Entrants`** with this header in row 1:
+   `name | id | token | teamA_id | teamB_id | submitted | pickFwd_id | pickOther_id`.
+3. **Run the draw with a base URL** so the links are ready to send:
+   `node scripts/draw.js --seed <seed> --base-url https://<user>.github.io/<repo>`.
+   It writes `private/entrants-sheet.tsv` (paste its rows under the header) and
+   `private/links.txt` (one personal link per person). The `private/` folder is gitignored —
+   never commit it.
+4. **Add the web app.** In the Sheet: Extensions → Apps Script, paste `backend/Code.gs`, set
+   `PLAYERS_JSON_URL` to your `…/data/players.json` URL, then Deploy → New deployment → Web
+   app, **Execute as: Me**, **Who has access: Anyone**. Copy the `/exec` URL.
+5. **Wire it up.** Paste that `/exec` URL into `config/backend.json` (`apiUrl`), commit, push.
+   The page goes live and the Action's sync step starts mirroring submitted picks into
+   `config/picks.json` automatically.
+6. **DM the links** from `private/links.txt`. Each person reveals their teams and picks once;
+   re-visiting shows their locked summary.
+
+> **Why the backend, not just the published Sheet?** Publishing the Sheet to the web would
+> expose the token column. Instead the Action calls a dedicated `export` endpoint that returns
+> rows **without** tokens, so nothing secret is ever committed to the public repo.
 
 ## During the tournament
 

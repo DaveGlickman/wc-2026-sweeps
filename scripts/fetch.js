@@ -49,7 +49,7 @@ const DATA_DIR = path.join(PUBLIC_DIR, 'data');
 const PUBLIC_CONFIG_DIR = path.join(PUBLIC_DIR, 'config');
 const MATCHES_FILE = path.join(DATA_DIR, 'matches.json');
 const TIMESTAMP_FILE = path.join(DATA_DIR, 'last-updated.txt');
-const CONFIG_FILES = ['scoring.json', 'allocations.json', 'picks.json', 'motm.json', 'entrants.json'];
+const CONFIG_FILES = ['scoring.json', 'allocations.json', 'picks.json', 'motm.json', 'entrants.json', 'pots.json', 'backend.json'];
 
 const UA = 'Mozilla/5.0 (wc-2026-sweeps data fetcher)';
 

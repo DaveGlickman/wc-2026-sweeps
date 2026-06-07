@@ -4,7 +4,12 @@ on:
   schedule:
     # Every 30 minutes. GitHub cron is UTC and best-effort (may run late under load).
     - cron: "*/30 * * * *"
-  workflow_dispatch: {} # allow manual runs from the Actions tab
+  workflow_dispatch:
+    inputs:
+      force_squads:
+        description: "Rebuild public/data/players.json from ESPN squads (one request per team)"
+        type: boolean
+        default: false
 
 # Prevent overlapping runs from racing on the same commit.
 concurrency:
@@ -26,15 +31,28 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Fetch squads (players.json)
+        # Skips itself when players.json already exists, unless forced. Run the
+        # workflow manually with "force_squads" ticked to (re)build it.
+        env:
+          WC_FORCE_SQUADS: ${{ github.event.inputs.force_squads == 'true' && '1' || '' }}
+        run: node scripts/fetch-squads.js
+
+      - name: Sync picks from the private Sheet
+        # No-op until config/backend.json has an apiUrl. Pulls the token-free
+        # export and rewrites config/allocations.json + config/picks.json.
+        run: node scripts/sync-sheet.js
+
       - name: Fetch data
-        # ESPN's public API needs no key — nothing secret here.
+        # Runs last so its config mirror (publishConfig) picks up anything the
+        # sync step just wrote. ESPN's public API needs no key — nothing secret.
         run: node scripts/fetch.js
 
       - name: Commit updated data
         run: |
           git config user.name "wc-sweeps-bot"
           git config user.email "actions@github.com"
-          git add public/data/matches.json public/data/last-updated.txt public/config
+          git add public/data/matches.json public/data/last-updated.txt public/data/players.json public/config config/allocations.json config/picks.json
           if git diff --staged --quiet; then
             echo "No data changes to commit."
           else

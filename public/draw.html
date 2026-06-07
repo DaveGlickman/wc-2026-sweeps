@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b132b" />
+  <title>Your Draw · World Cup 2026 Sweeps</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>World Cup 2026 Sweeps</h1>
+    <p class="subtitle">Your draw &amp; player picks</p>
+  </header>
+
+  <main>
+    <section id="status" class="status" aria-live="polite">Loading your draw…</section>
+
+    <!-- Sealed-team reveal -->
+    <section id="reveal-section" class="draw-card" hidden>
+      <p id="greeting" class="greeting"></p>
+      <p class="reveal-intro">Your two teams were drawn and sealed in advance. Spin to reveal them — they’ll be the same every time you open this page.</p>
+
+      <div class="wheels">
+        <div class="wheel-block" data-pot="A">
+          <h3 class="wheel-title">Pot A — your stronger side</h3>
+          <div class="wheel-stage">
+            <div class="wheel-pointer" aria-hidden="true">▼</div>
+            <div class="wheel" id="wheelA"></div>
+          </div>
+          <button class="btn spin-btn" id="spinA" type="button">Spin Pot A</button>
+          <div class="reveal-result" id="resultA" hidden></div>
+        </div>
+
+        <div class="wheel-block" data-pot="B">
+          <h3 class="wheel-title">Pot B — your outsider</h3>
+          <div class="wheel-stage">
+            <div class="wheel-pointer" aria-hidden="true">▼</div>
+            <div class="wheel" id="wheelB"></div>
+          </div>
+          <button class="btn spin-btn" id="spinB" type="button" disabled>Spin Pot B</button>
+          <div class="reveal-result" id="resultB" hidden></div>
+        </div>
+      </div>
+
+      <button class="btn primary next-btn" id="toPicks" type="button" hidden>Now pick your players →</button>
+    </section>
+
+    <!-- Player picks -->
+    <section id="picks-section" class="draw-card" hidden>
+      <h2 class="picks-head">Pick your two players</h2>
+      <p class="reveal-intro">Pick anyone in the tournament — they don’t have to be from your drawn teams. Picks lock the moment you submit and can’t be changed.</p>
+
+      <div class="pick-field">
+        <label for="searchFwd">Attacker <span class="pick-hint">(your Pot A pick)</span></label>
+        <div class="combo" id="comboFwd">
+          <input type="text" id="searchFwd" class="combo-input" placeholder="Search attackers…" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="listFwd" />
+          <ul class="combo-list" id="listFwd" role="listbox" hidden></ul>
+        </div>
+        <div class="combo-chosen" id="chosenFwd" hidden></div>
+      </div>
+
+      <div class="pick-field">
+        <label for="searchOther">Midfielder / Defender / Goalkeeper <span class="pick-hint">(your Pot B pick)</span></label>
+        <div class="combo" id="comboOther">
+          <input type="text" id="searchOther" class="combo-input" placeholder="Search mid / def / GK…" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="listOther" />
+          <ul class="combo-list" id="listOther" role="listbox" hidden></ul>
+        </div>
+        <div class="combo-chosen" id="chosenOther" hidden></div>
+      </div>
+
+      <label class="confirm-row">
+        <input type="checkbox" id="confirmChk" />
+        <span>I’m happy with these two picks. I understand they lock and can’t be changed.</span>
+      </label>
+
+      <p id="pickError" class="pick-error" hidden></p>
+      <button class="btn primary" id="submitBtn" type="button" disabled>Confirm &amp; submit picks</button>
+    </section>
+
+    <!-- Locked summary -->
+    <section id="locked-section" class="draw-card" hidden>
+      <div class="locked-badge">✓ Locked in</div>
+      <p id="lockedGreeting" class="greeting"></p>
+      <h3 class="detail-h">Your teams</h3>
+      <div class="locked-grid" id="lockedTeams"></div>
+      <h3 class="detail-h">Your players</h3>
+      <div class="locked-grid" id="lockedPlayers"></div>
+      <p class="reveal-intro">That’s you all set. Track everyone’s points on the <a id="boardLink" href="./index.html">live leaderboard</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="./index.html">Leaderboard</a>
+    <span class="footer-sep">&middot;</span>
+    <span>Data: ESPN</span>
+  </footer>
+
+  <script src="./draw.js"></script>
+</body>
+</html>

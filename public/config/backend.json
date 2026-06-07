@@ -1,0 +1,4 @@
+{
+  "_comment": "Apps Script web-app URL for the self-serve draw/picks backend. Paste the /exec URL from your deployment (Deploy -> New deployment -> Web app). It is safe to commit: security is by per-person token, not URL secrecy. The browser (public/draw.html) calls ?action=getDraw and ?action=submitPicks; the GitHub Action calls ?action=export. Leave blank to disable the draw page and sheet sync.",
+  "apiUrl": ""
+}

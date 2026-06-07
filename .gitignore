@@ -3,3 +3,6 @@
 
 # Claude Code local config (machine-specific)
 .claude/
+
+# Per-person draw secrets — tokens + personal links. NEVER commit (public repo).
+private/
