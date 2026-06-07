@@ -1,0 +1,8720 @@
+{
+  "generatedAt": "2026-06-07T15:48:29.980Z",
+  "players": [
+    {
+      "id": "407797",
+      "name": "Achraf Abada",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "341706",
+      "name": "Adil Boulbina",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Attacker"
+    },
+    {
+      "id": "150451",
+      "name": "Aïssa Mandi",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "259743",
+      "name": "Amine Gouiri",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Attacker"
+    },
+    {
+      "id": "341711",
+      "name": "Anis Hadj Moussa",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Attacker"
+    },
+    {
+      "id": "337306",
+      "name": "Farès Chaïbi",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "356536",
+      "name": "Farès Ghedjemis",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Attacker"
+    },
+    {
+      "id": "287078",
+      "name": "Hicham Boudaoui",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "241116",
+      "name": "Houssem Aouar",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "361212",
+      "name": "Ibrahim Maza",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "306033",
+      "name": "Jaouen Hadjam",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "225561",
+      "name": "Luca Zidane",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "324711",
+      "name": "Melvin Mastil",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "285539",
+      "name": "Mohamed Amine Tougai",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "315384",
+      "name": "Mohamed Amoura",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Attacker"
+    },
+    {
+      "id": "179187",
+      "name": "Nabil Bentaleb",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "346186",
+      "name": "Nadhir Benbouali",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Attacker"
+    },
+    {
+      "id": "299346",
+      "name": "Oussama Benbot",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "364590",
+      "name": "Rafik Belghali",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "290517",
+      "name": "Ramiz Zerrouki",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "220703",
+      "name": "Ramy Bensebaini",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "272512",
+      "name": "Rayan Aït-Nouri",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "163940",
+      "name": "Riyad Mahrez",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Attacker"
+    },
+    {
+      "id": "287572",
+      "name": "Samir Chergui",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "341720",
+      "name": "Yassine Titraoui",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "285547",
+      "name": "Zineddine Belaïd",
+      "team": "Algeria",
+      "teamId": "624",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "249299",
+      "name": "Alexis Mac Allister",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "96970",
+      "name": "Cristian Romero",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "158626",
+      "name": "Emiliano Martínez",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "285450",
+      "name": "Enzo Fernández",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "228393",
+      "name": "Exequiel Palacios",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "249663",
+      "name": "Facundo Medina",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "311743",
+      "name": "Flaco López",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Attacker"
+    },
+    {
+      "id": "167192",
+      "name": "Gerónimo Rulli",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "207343",
+      "name": "Giovani Lo Celso",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "323838",
+      "name": "Giuliano Simeone",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Attacker"
+    },
+    {
+      "id": "228262",
+      "name": "Gonzalo Montiel",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "177927",
+      "name": "Juan Musso",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "277206",
+      "name": "Julián Álvarez",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Attacker"
+    },
+    {
+      "id": "219713",
+      "name": "Lautaro Martínez",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Attacker"
+    },
+    {
+      "id": "153115",
+      "name": "Leandro Paredes",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "271555",
+      "name": "Leonardo Balerdi",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "45843",
+      "name": "Lionel Messi",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Attacker"
+    },
+    {
+      "id": "233937",
+      "name": "Lisandro Martínez",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "164826",
+      "name": "Nahuel Molina",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "337970",
+      "name": "Nico Paz",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Attacker"
+    },
+    {
+      "id": "76017",
+      "name": "Nicolás González",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Attacker"
+    },
+    {
+      "id": "119289",
+      "name": "Nicolás Otamendi",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "145190",
+      "name": "Nicolás Tagliafico",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "174466",
+      "name": "Rodrigo De Paul",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "277208",
+      "name": "Thiago Almada",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "320760",
+      "name": "Valentín Barco",
+      "team": "Argentina",
+      "teamId": "202",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "241031",
+      "name": "Aiden O'Neill",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "227289",
+      "name": "Ajdin Hrustic",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "332081",
+      "name": "Alessandro Circati",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "181707",
+      "name": "Awer Mabil",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "200414",
+      "name": "Aziz Behich",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "207350",
+      "name": "Cameron Burgess",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "276917",
+      "name": "Cameron Devlin",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "260643",
+      "name": "Connor Metcalfe",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "330259",
+      "name": "Cristian Volpato",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "207461",
+      "name": "Harry Souttar",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "178071",
+      "name": "Jackson Irvine",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "267053",
+      "name": "Jacob Italiano",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "172137",
+      "name": "Jason Geria",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "328541",
+      "name": "Jordan Bos",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "291697",
+      "name": "Kai Trewin",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "392320",
+      "name": "Lucas Herrington",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "140994",
+      "name": "Mathew Leckie",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Attacker"
+    },
+    {
+      "id": "141438",
+      "name": "Mathew Ryan",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "159502",
+      "name": "Milos Degenek",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "302688",
+      "name": "Mohamed Toure",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Attacker"
+    },
+    {
+      "id": "328535",
+      "name": "Nestory Irankunda",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Attacker"
+    },
+    {
+      "id": "318429",
+      "name": "Nishan Velupillay",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Attacker"
+    },
+    {
+      "id": "335240",
+      "name": "Patrick Beach",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "159494",
+      "name": "Paul Izzo",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "403528",
+      "name": "Paul Okon-Engstler",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "312261",
+      "name": "Tete Yengi",
+      "team": "Australia",
+      "teamId": "628",
+      "position": "Attacker"
+    },
+    {
+      "id": "203868",
+      "name": "Alessandro Schöpf",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "320939",
+      "name": "Alexander Prass",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "195082",
+      "name": "Alexander Schlager",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "294317",
+      "name": "Carney Chukwuemeka",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "313230",
+      "name": "David Affengruber",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "118444",
+      "name": "David Alaba",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "219304",
+      "name": "Florian Grillitsch",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "387869",
+      "name": "Florian Wiegele",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "250543",
+      "name": "Kevin Danso",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "169189",
+      "name": "Konrad Laimer",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "173907",
+      "name": "Marcel Sabitzer",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "232477",
+      "name": "Marco Friedl",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "98193",
+      "name": "Marko Arnautovic",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Attacker"
+    },
+    {
+      "id": "146804",
+      "name": "Michael Gregoritsch",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Attacker"
+    },
+    {
+      "id": "289942",
+      "name": "Michael Svoboda",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "305956",
+      "name": "Nicolas Seiwald",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "237966",
+      "name": "Patrick Pentz",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "300095",
+      "name": "Patrick Wimmer",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "333399",
+      "name": "Paul Wanner",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "219316",
+      "name": "Philipp Lienhart",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "239574",
+      "name": "Phillipp Mwene",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "238296",
+      "name": "Romano Schmid",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "259131",
+      "name": "Sasa Kalajdzic",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Attacker"
+    },
+    {
+      "id": "238906",
+      "name": "Stefan Posch",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "238886",
+      "name": "Xaver Schlager",
+      "team": "Austria",
+      "teamId": "474",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "271132",
+      "name": "Alexis Saelemaekers",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Attacker"
+    },
+    {
+      "id": "304799",
+      "name": "Amadou Onana",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "304222",
+      "name": "Arthur Theate",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "164895",
+      "name": "Axel Witsel",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "191222",
+      "name": "Brandon Mechele",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "296319",
+      "name": "Charles De Ketelaere",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Attacker"
+    },
+    {
+      "id": "340678",
+      "name": "Diego Moreira",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Attacker"
+    },
+    {
+      "id": "229443",
+      "name": "Dodi Lukébakio",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Attacker"
+    },
+    {
+      "id": "193849",
+      "name": "Hans Vanaken",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "283672",
+      "name": "Jérémy Doku",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Attacker"
+    },
+    {
+      "id": "363068",
+      "name": "Joaquin Seys",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "134947",
+      "name": "Kevin De Bruyne",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "309570",
+      "name": "Koni De Winter",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "174980",
+      "name": "Leandro Trossard",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Attacker"
+    },
+    {
+      "id": "359651",
+      "name": "Matias Fernandez-Pardo",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Attacker"
+    },
+    {
+      "id": "301327",
+      "name": "Maxim De Cuyper",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "332343",
+      "name": "Mike Penders",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "318577",
+      "name": "Nathan Ngoy",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "260027",
+      "name": "Nicolas Raskin",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "139437",
+      "name": "Romelu Lukaku",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Attacker"
+    },
+    {
+      "id": "301425",
+      "name": "Senne Lammens",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "134283",
+      "name": "Thibaut Courtois",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "166473",
+      "name": "Thomas Meunier",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "197163",
+      "name": "Timothy Castagne",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "193297",
+      "name": "Youri Tielemans",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "314473",
+      "name": "Zeno Debast",
+      "team": "Belgium",
+      "teamId": "459",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "308979",
+      "name": "Amar Dedic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "338199",
+      "name": "Amar Memic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "221961",
+      "name": "Amir Hadziahmetovic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "288932",
+      "name": "Armin Gigovic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "352660",
+      "name": "Benjamin Tahirovic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "246836",
+      "name": "Dennis Hadzikadunic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "225571",
+      "name": "Dzenis Burnic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "102337",
+      "name": "Edin Dzeko",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Attacker"
+    },
+    {
+      "id": "269136",
+      "name": "Ermedin Demirovic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Attacker"
+    },
+    {
+      "id": "414676",
+      "name": "Ermin Mahmic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "325410",
+      "name": "Esmir Bajraktarevic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Attacker"
+    },
+    {
+      "id": "184869",
+      "name": "Haris Tabakovic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Attacker"
+    },
+    {
+      "id": "306256",
+      "name": "Ivan Basic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "194767",
+      "name": "Ivan Sunjic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "305118",
+      "name": "Jovo Lukic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Attacker"
+    },
+    {
+      "id": "391034",
+      "name": "Kerim Alajbegovic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Attacker"
+    },
+    {
+      "id": "258757",
+      "name": "Martin Zlomislic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "401246",
+      "name": "Mladen Jurkas",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "387044",
+      "name": "Nidal Celik",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "257942",
+      "name": "Nihad Mujakic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "220538",
+      "name": "Nikola Katic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "79941",
+      "name": "Nikola Vasilj",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "322244",
+      "name": "Samed Bazdar",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Attacker"
+    },
+    {
+      "id": "170553",
+      "name": "Sead Kolasinac",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "275414",
+      "name": "Stjepan Radeljic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "318390",
+      "name": "Tarik Muharemovic",
+      "team": "Bosnia-Herzegovina",
+      "teamId": "452",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "125514",
+      "name": "Alex Sandro",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "196876",
+      "name": "Alisson Becker",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "258307",
+      "name": "Bremer",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "218522",
+      "name": "Bruno Guimarães",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "173666",
+      "name": "Casemiro",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "170369",
+      "name": "Danilo",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "306764",
+      "name": "Danilo Santos",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "186575",
+      "name": "Douglas Santos",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "176948",
+      "name": "Ederson",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "346612",
+      "name": "Endrick",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Attacker"
+    },
+    {
+      "id": "176287",
+      "name": "Fabinho",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "236322",
+      "name": "Gabriel Magalhães",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "269844",
+      "name": "Gabriel Martinelli",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Attacker"
+    },
+    {
+      "id": "301894",
+      "name": "Igor Thiago",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Attacker"
+    },
+    {
+      "id": "145405",
+      "name": "Léo Pereira",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "234715",
+      "name": "Lucas Paquetá",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "304215",
+      "name": "Luiz Henrique",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Attacker"
+    },
+    {
+      "id": "159047",
+      "name": "Marquinhos",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "259902",
+      "name": "Matheus Cunha",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Attacker"
+    },
+    {
+      "id": "132948",
+      "name": "Neymar",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Attacker"
+    },
+    {
+      "id": "231050",
+      "name": "Raphinha",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Attacker"
+    },
+    {
+      "id": "357719",
+      "name": "Rayan",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Attacker"
+    },
+    {
+      "id": "259835",
+      "name": "Roger Ibañez",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "252107",
+      "name": "Vinícius Júnior",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Attacker"
+    },
+    {
+      "id": "332354",
+      "name": "Wesley",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "198983",
+      "name": "Weverton",
+      "team": "Brazil",
+      "teamId": "205",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "240589",
+      "name": "Alfie Jones",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "340228",
+      "name": "Ali Ahmed",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "236721",
+      "name": "Alphonso Davies",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "205024",
+      "name": "Cyle Larin",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Attacker"
+    },
+    {
+      "id": "231059",
+      "name": "Dayne St. Clair",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "238712",
+      "name": "Derek Cornelius",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "325001",
+      "name": "Ismaël Koné",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "286214",
+      "name": "Jacob Shaffelburg",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Attacker"
+    },
+    {
+      "id": "236890",
+      "name": "Joel Waterman",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "273499",
+      "name": "Jonathan David",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Attacker"
+    },
+    {
+      "id": "184221",
+      "name": "Jonathan Osorio",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "271879",
+      "name": "Liam Millar",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Attacker"
+    },
+    {
+      "id": "365345",
+      "name": "Luc de Fougerolles",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "274296",
+      "name": "Mathieu Choinière",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "159382",
+      "name": "Maxime Crépeau",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "358975",
+      "name": "Moïse Bombito",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "311163",
+      "name": "Nathan Saliba",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "363538",
+      "name": "Niko Sigur",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "330618",
+      "name": "Owen Goodman",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "318522",
+      "name": "Promise David",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Attacker"
+    },
+    {
+      "id": "230626",
+      "name": "Richie Laryea",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "270505",
+      "name": "Stephen Eustáquio",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "284769",
+      "name": "Tajon Buchanan",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Attacker"
+    },
+    {
+      "id": "294039",
+      "name": "Tani Oluwaseyi",
+      "team": "Canada",
+      "teamId": "206",
+      "position": "Attacker"
+    },
+    {
+      "id": "265874",
+      "name": "CJ dos Santos",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "330211",
+      "name": "Dailon Livramento",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Attacker"
+    },
+    {
+      "id": "246442",
+      "name": "Deroy Duarte",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "214683",
+      "name": "Diney Borges",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "175012",
+      "name": "Garry Rodrigues",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Attacker"
+    },
+    {
+      "id": "310261",
+      "name": "Gilson Benchimol",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Attacker"
+    },
+    {
+      "id": "366092",
+      "name": "Hélio Varela",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Attacker"
+    },
+    {
+      "id": "227441",
+      "name": "Jamiro Monteiro",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "318631",
+      "name": "João Paulo",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "250059",
+      "name": "Jovane Cabral",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Attacker"
+    },
+    {
+      "id": "378479",
+      "name": "Kelvin Pires",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "327173",
+      "name": "Kevin Pina",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "222236",
+      "name": "Laros Duarte",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "271129",
+      "name": "Logan Costa",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "260758",
+      "name": "Márcio Rosa",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "224798",
+      "name": "Nuno da Costa",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Attacker"
+    },
+    {
+      "id": "257716",
+      "name": "Pico Lopes",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "135216",
+      "name": "Ryan Mendes",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Attacker"
+    },
+    {
+      "id": "332394",
+      "name": "Sidny Lopes Cabral",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "180113",
+      "name": "Steven Moreira",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "148146",
+      "name": "Stopira",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "304076",
+      "name": "Telmo Arcanjo",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "181330",
+      "name": "Vozinha",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "365810",
+      "name": "Wagner Pina",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "271675",
+      "name": "Willy Semedo",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Attacker"
+    },
+    {
+      "id": "101251",
+      "name": "Yannick Semedo",
+      "team": "Cape Verde",
+      "teamId": "2597",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "166323",
+      "name": "Álvaro Montero",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "330924",
+      "name": "Andrés Gómez",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Attacker"
+    },
+    {
+      "id": "185147",
+      "name": "Camilo Vargas",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "336809",
+      "name": "Cucho Hernández",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Attacker"
+    },
+    {
+      "id": "146679",
+      "name": "Daniel Muñoz",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "121842",
+      "name": "David Ospina",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "197105",
+      "name": "Davinson Sánchez",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "197401",
+      "name": "Deiver Machado",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "341736",
+      "name": "Gustavo Puerta",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "82816",
+      "name": "James Rodríguez",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "255295",
+      "name": "Jáminton Campaz",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "197399",
+      "name": "Jefferson Lerma",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "239566",
+      "name": "Jhon Arias",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "176058",
+      "name": "Jhon Córdoba",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Attacker"
+    },
+    {
+      "id": "227697",
+      "name": "Jhon Lucumí",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "173247",
+      "name": "Johan Mojica",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "208700",
+      "name": "Jorge Carrascal",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "177780",
+      "name": "Juan Fernando Quintero",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "94976",
+      "name": "Juan Portilla",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "307756",
+      "name": "Kevin Castaño",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "257390",
+      "name": "Luis Díaz",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Attacker"
+    },
+    {
+      "id": "272722",
+      "name": "Luis Suárez",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Attacker"
+    },
+    {
+      "id": "301520",
+      "name": "Richard Ríos",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "164756",
+      "name": "Santiago Arias",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "270229",
+      "name": "Willer Ditta",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "196901",
+      "name": "Yerry Mina",
+      "team": "Colombia",
+      "teamId": "208",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "175104",
+      "name": "Aaron Tshibola",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "250945",
+      "name": "Aaron Wan-Bissaka",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "165892",
+      "name": "Arthur Masuaku",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "229524",
+      "name": "Axel Tuanzebe",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "352285",
+      "name": "Brian Cipenga",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Attacker"
+    },
+    {
+      "id": "147193",
+      "name": "Cédric Bakambu",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Attacker"
+    },
+    {
+      "id": "174322",
+      "name": "Chancel Mbemba",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "235875",
+      "name": "Charles Pickel",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "260228",
+      "name": "Dylan Batubinsika",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "268986",
+      "name": "Edo Kayembe",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "299324",
+      "name": "Fiston Mayele",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Attacker"
+    },
+    {
+      "id": "130545",
+      "name": "Gaël Kakuta",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "291345",
+      "name": "Gedeon Kalulu",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "204329",
+      "name": "Joris Kayembe",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "211669",
+      "name": "Lionel M'Pasi",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "319371",
+      "name": "Matthieu Epolo",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "232492",
+      "name": "Meschack Elia",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Attacker"
+    },
+    {
+      "id": "291750",
+      "name": "Nathanaël Mbuku",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Attacker"
+    },
+    {
+      "id": "345988",
+      "name": "Ngal'ayel Mukau",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "340240",
+      "name": "Noah Sadiki",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "260932",
+      "name": "Samuel Moutoussamy",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "231161",
+      "name": "Simon Banza",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Attacker"
+    },
+    {
+      "id": "369201",
+      "name": "Steve Kapuadi",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "182337",
+      "name": "Théo Bongonda",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "282757",
+      "name": "Timothy Fayulu",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "224077",
+      "name": "Yoane Wissa",
+      "team": "Congo DR",
+      "teamId": "2850",
+      "position": "Attacker"
+    },
+    {
+      "id": "139520",
+      "name": "Andrej Kramaric",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Attacker"
+    },
+    {
+      "id": "207288",
+      "name": "Ante Budimir",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Attacker"
+    },
+    {
+      "id": "239411",
+      "name": "Dominik Kotarski",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "187946",
+      "name": "Dominik Livakovic",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "194766",
+      "name": "Duje Caleta-Car",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "310883",
+      "name": "Igor Matanovic",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Attacker"
+    },
+    {
+      "id": "103485",
+      "name": "Ivan Perisic",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Attacker"
+    },
+    {
+      "id": "277234",
+      "name": "Ivor Pandur",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "276329",
+      "name": "Josip Stanisic",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "305552",
+      "name": "Josip Sutalo",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "299910",
+      "name": "Josko Gvardiol",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "238929",
+      "name": "Kristijan Jakic",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "76762",
+      "name": "Luka Modric",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "306263",
+      "name": "Luka Sucic",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "364962",
+      "name": "Luka Vuskovic",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "324270",
+      "name": "Marco Pasalic",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Attacker"
+    },
+    {
+      "id": "255650",
+      "name": "Marin Pongracic",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "189668",
+      "name": "Mario Pasalic",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "311475",
+      "name": "Martin Baturina",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "216579",
+      "name": "Martin Erlic",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "154595",
+      "name": "Mateo Kovacic",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "228333",
+      "name": "Nikola Moro",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "206378",
+      "name": "Nikola Vlasic",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "277128",
+      "name": "Petar Musa",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Attacker"
+    },
+    {
+      "id": "341494",
+      "name": "Petar Sucic",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "338232",
+      "name": "Toni Fruk",
+      "team": "Croatia",
+      "teamId": "477",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "306553",
+      "name": "Ar'jany Martha",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "245918",
+      "name": "Armando Obispo",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "177058",
+      "name": "Brandley Kuwas",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Attacker"
+    },
+    {
+      "id": "335203",
+      "name": "Deveron Fonville",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "127444",
+      "name": "Eloy Room",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "178273",
+      "name": "Gervane Kastaneer",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Attacker"
+    },
+    {
+      "id": "273295",
+      "name": "Godfried Roemeratoe",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "301441",
+      "name": "Jearl Margaritha",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Attacker"
+    },
+    {
+      "id": "310925",
+      "name": "Jeremy Antonisse",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Attacker"
+    },
+    {
+      "id": "178433",
+      "name": "Joshua Brenet",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "216287",
+      "name": "Juninho Bacuna",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "167213",
+      "name": "Jürgen Locadia",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Attacker"
+    },
+    {
+      "id": "246281",
+      "name": "Juriën Gaari",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "188452",
+      "name": "Kenji Gorré",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Attacker"
+    },
+    {
+      "id": "262738",
+      "name": "Kevin Felida",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "138664",
+      "name": "Leandro Bacuna",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "317285",
+      "name": "Livano Comenencia",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "188411",
+      "name": "Riechedly Bazoer",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "270807",
+      "name": "Roshon van Eijma",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "224786",
+      "name": "Sherel Floranus",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "301456",
+      "name": "Shurandy Sambo",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "297299",
+      "name": "Sontje Hansen",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Attacker"
+    },
+    {
+      "id": "276218",
+      "name": "Tahith Chong",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "262109",
+      "name": "Trevor Doornbusch",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "359132",
+      "name": "Tyrese Noslin",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "297542",
+      "name": "Tyrick Bodak",
+      "team": "Curaçao",
+      "teamId": "11678",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "292169",
+      "name": "Adam Hlozek",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Attacker"
+    },
+    {
+      "id": "387865",
+      "name": "Alexandr Sojka",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "343937",
+      "name": "David Doudera",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "335996",
+      "name": "David Jurásek",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "290116",
+      "name": "David Zima",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "310027",
+      "name": "Denis Visinský",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "403974",
+      "name": "Hugo Sochurek",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "306008",
+      "name": "Jan Kuchta",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Attacker"
+    },
+    {
+      "id": "276659",
+      "name": "Jaroslav Zelený",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "199988",
+      "name": "Jindrich Stanek",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "151714",
+      "name": "Ladislav Krejcí",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303726",
+      "name": "Lukás Cerv",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "319267",
+      "name": "Lukás Hornícek",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "294618",
+      "name": "Lukás Provod",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "277313",
+      "name": "Matej Kovár",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "249525",
+      "name": "Michal Sadílek",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "343733",
+      "name": "Mojmír Chytil",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Attacker"
+    },
+    {
+      "id": "212330",
+      "name": "Patrik Schick",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Attacker"
+    },
+    {
+      "id": "305545",
+      "name": "Pavel Sulc",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "322510",
+      "name": "Robin Hranác",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "370744",
+      "name": "Stepán Chaloupek",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "257336",
+      "name": "Tomás Chorý",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Attacker"
+    },
+    {
+      "id": "280885",
+      "name": "Tomás Holes",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "230666",
+      "name": "Tomás Soucek",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "191209",
+      "name": "Vladimír Coufal",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "165637",
+      "name": "Vladimír Darida",
+      "team": "Czechia",
+      "teamId": "450",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "262111",
+      "name": "Alan Franco",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "319422",
+      "name": "Alan Minda",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Attacker"
+    },
+    {
+      "id": "256560",
+      "name": "Ángelo Preciado",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303328",
+      "name": "Anthony Valencia",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Attacker"
+    },
+    {
+      "id": "328742",
+      "name": "Denil Castillo",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "171771",
+      "name": "Enner Valencia",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Attacker"
+    },
+    {
+      "id": "251963",
+      "name": "Félix Torres",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "277352",
+      "name": "Gonzalo Plata",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Attacker"
+    },
+    {
+      "id": "131726",
+      "name": "Gonzalo Valle",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "207921",
+      "name": "Hernán Galíndez",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "286665",
+      "name": "Jackson Porozo",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "367725",
+      "name": "Jeremy Arévalo",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Attacker"
+    },
+    {
+      "id": "336589",
+      "name": "Joel Ordóñez",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "265926",
+      "name": "John Yeboah",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Attacker"
+    },
+    {
+      "id": "270829",
+      "name": "Jordy Alcivar",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "217079",
+      "name": "Jordy Caicedo",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Attacker"
+    },
+    {
+      "id": "358746",
+      "name": "Kendry Páez",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "281316",
+      "name": "Kevin Rodríguez",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Attacker"
+    },
+    {
+      "id": "289877",
+      "name": "Moisés Caicedo",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "269881",
+      "name": "Moisés Ramírez",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "318090",
+      "name": "Nilson Angulo",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Attacker"
+    },
+    {
+      "id": "297150",
+      "name": "Pedro Vite",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "214689",
+      "name": "Pervis Estupiñán",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "292062",
+      "name": "Piero Hincapié",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "287005",
+      "name": "Willian Pacho",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "315600",
+      "name": "Yaimar Medina",
+      "team": "Ecuador",
+      "teamId": "209",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "265176",
+      "name": "Ahmed Fatouh",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "299365",
+      "name": "Emam Ashour",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "276440",
+      "name": "Haissem Hassan",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Attacker"
+    },
+    {
+      "id": "285057",
+      "name": "Hamdy Fathy",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "399200",
+      "name": "Hamza Abdelkarim",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Attacker"
+    },
+    {
+      "id": "308926",
+      "name": "Hossam Abdelmaguid",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "299619",
+      "name": "Ibrahim Adel",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Attacker"
+    },
+    {
+      "id": "216119",
+      "name": "Karim Hafez",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "265426",
+      "name": "Mahdy Soliman",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "314444",
+      "name": "Mahmoud Saber",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "357112",
+      "name": "Marawan",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "236957",
+      "name": "Mohamed Abdelmoneim",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "420953",
+      "name": "Mohamed Alaa",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "205212",
+      "name": "Mohamed El Shenawy",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "119993",
+      "name": "Mohamed Hany",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "173896",
+      "name": "Mohamed Salah",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Attacker"
+    },
+    {
+      "id": "328932",
+      "name": "Mohanad Lashin",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "308915",
+      "name": "Mostafa Shoubir",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "378495",
+      "name": "Mostafa Zico",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "287177",
+      "name": "Nabil Donga",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303745",
+      "name": "Omar Marmoush",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Attacker"
+    },
+    {
+      "id": "187571",
+      "name": "Ramy Rabia",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "393565",
+      "name": "Tarek Alaa",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "157825",
+      "name": "Trézéguet",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Attacker"
+    },
+    {
+      "id": "265417",
+      "name": "Yasser Ibrahim",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "195154",
+      "name": "Zizo",
+      "team": "Egypt",
+      "teamId": "2620",
+      "position": "Attacker"
+    },
+    {
+      "id": "268782",
+      "name": "Anthony Gordon",
+      "team": "England",
+      "teamId": "448",
+      "position": "Attacker"
+    },
+    {
+      "id": "280555",
+      "name": "Bukayo Saka",
+      "team": "England",
+      "teamId": "448",
+      "position": "Attacker"
+    },
+    {
+      "id": "198138",
+      "name": "Dan Burn",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "234172",
+      "name": "Dean Henderson",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "238262",
+      "name": "Declan Rice",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "267711",
+      "name": "Djed Spence",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "251400",
+      "name": "Eberechi Eze",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "238472",
+      "name": "Elliot Anderson",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "231859",
+      "name": "Ezri Konsa",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "142200",
+      "name": "Harry Kane",
+      "team": "England",
+      "teamId": "448",
+      "position": "Attacker"
+    },
+    {
+      "id": "180639",
+      "name": "Ivan Toney",
+      "team": "England",
+      "teamId": "448",
+      "position": "Attacker"
+    },
+    {
+      "id": "307118",
+      "name": "James Trafford",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "298524",
+      "name": "Jarell Quansah",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "157974",
+      "name": "John Stones",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "127262",
+      "name": "Jordan Henderson",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "159443",
+      "name": "Jordan Pickford",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "291281",
+      "name": "Jude Bellingham",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "328466",
+      "name": "Kobbie Mainoo",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "265907",
+      "name": "Marc Guéhi",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "230945",
+      "name": "Marcus Rashford",
+      "team": "England",
+      "teamId": "448",
+      "position": "Attacker"
+    },
+    {
+      "id": "265653",
+      "name": "Morgan Rogers",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "328464",
+      "name": "Nico O'Reilly",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "293236",
+      "name": "Noni Madueke",
+      "team": "England",
+      "teamId": "448",
+      "position": "Attacker"
+    },
+    {
+      "id": "198825",
+      "name": "Ollie Watkins",
+      "team": "England",
+      "teamId": "448",
+      "position": "Attacker"
+    },
+    {
+      "id": "189007",
+      "name": "Reece James",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "299641",
+      "name": "Tino Livramento",
+      "team": "England",
+      "teamId": "448",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "176203",
+      "name": "Adrien Rabiot",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "265919",
+      "name": "Aurélien Tchouaméni",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "328238",
+      "name": "Bradley Barcola",
+      "team": "France",
+      "teamId": "478",
+      "position": "Attacker"
+    },
+    {
+      "id": "164126",
+      "name": "Brice Samba",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "222793",
+      "name": "Dayot Upamecano",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "336388",
+      "name": "Désiré Doué",
+      "team": "France",
+      "teamId": "478",
+      "position": "Attacker"
+    },
+    {
+      "id": "251634",
+      "name": "Ibrahima Konaté",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "241187",
+      "name": "Jean-Philippe Mateta",
+      "team": "France",
+      "teamId": "478",
+      "position": "Attacker"
+    },
+    {
+      "id": "231692",
+      "name": "Jules Koundé",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "231388",
+      "name": "Kylian Mbappé",
+      "team": "France",
+      "teamId": "478",
+      "position": "Attacker"
+    },
+    {
+      "id": "160115",
+      "name": "Lucas Digne",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "196200",
+      "name": "Lucas Hernández",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "329690",
+      "name": "Maghnes Akliouche",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "308947",
+      "name": "Malo Gusto",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "285226",
+      "name": "Manu Koné",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "217331",
+      "name": "Marcus Thuram",
+      "team": "France",
+      "teamId": "478",
+      "position": "Attacker"
+    },
+    {
+      "id": "265918",
+      "name": "Maxence Lacroix",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "286831",
+      "name": "Michael Olise",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "189026",
+      "name": "Mike Maignan",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "173556",
+      "name": "N'Golo Kanté",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "229744",
+      "name": "Ousmane Dembélé",
+      "team": "France",
+      "teamId": "478",
+      "position": "Attacker"
+    },
+    {
+      "id": "298008",
+      "name": "Rayan Cherki",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "344517",
+      "name": "Robin Risser",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "233621",
+      "name": "Theo Hernández",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "345581",
+      "name": "Warren Zaïre-Emery",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "277385",
+      "name": "William Saliba",
+      "team": "France",
+      "teamId": "478",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "359370",
+      "name": "Aleksandar Pavlovic",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "205750",
+      "name": "Alexander Nübel",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "290232",
+      "name": "Angelo Stiller",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "169438",
+      "name": "Antonio Rüdiger",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "249548",
+      "name": "David Raum",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "273300",
+      "name": "Deniz Undav",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Attacker"
+    },
+    {
+      "id": "281122",
+      "name": "Felix Nmecha",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303748",
+      "name": "Florian Wirtz",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303821",
+      "name": "Jamal Musiala",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "290811",
+      "name": "Jamie Leweling",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Attacker"
+    },
+    {
+      "id": "188052",
+      "name": "Jonathan Tah",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "190161",
+      "name": "Joshua Kimmich",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "231182",
+      "name": "Kai Havertz",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Attacker"
+    },
+    {
+      "id": "402841",
+      "name": "Lennart Karl",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "174550",
+      "name": "Leon Goretzka",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "202641",
+      "name": "Leroy Sané",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Attacker"
+    },
+    {
+      "id": "303444",
+      "name": "Malick Thiaw",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "84774",
+      "name": "Manuel Neuer",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "290639",
+      "name": "Maximilian Beier",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Attacker"
+    },
+    {
+      "id": "210818",
+      "name": "Nadiem Amiri",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "120829",
+      "name": "Nathaniel Brown",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "298349",
+      "name": "Nick Woltemade",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Attacker"
+    },
+    {
+      "id": "286828",
+      "name": "Nico Schlotterbeck",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "138213",
+      "name": "Oliver Baumann",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "132659",
+      "name": "Pascal Gross",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "220714",
+      "name": "Waldemar Anton",
+      "team": "Germany",
+      "teamId": "481",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "241139",
+      "name": "Abdul Mumin",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "174508",
+      "name": "Abdul Rahman Baba",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "305669",
+      "name": "Alidu Seidu",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "273292",
+      "name": "Antoine Semenyo",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Attacker"
+    },
+    {
+      "id": "326183",
+      "name": "Augustine Boakye",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "378501",
+      "name": "Benjamin Asare",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "240495",
+      "name": "Brandon Thomas-Asante",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Attacker"
+    },
+    {
+      "id": "387659",
+      "name": "Caleb Yirenkyi",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "360279",
+      "name": "Christopher Baah",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Attacker"
+    },
+    {
+      "id": "205737",
+      "name": "Derrick Luckassen",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "266057",
+      "name": "Elisha Owusu",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "333310",
+      "name": "Ernest Nuamah",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Attacker"
+    },
+    {
+      "id": "318680",
+      "name": "Fatawu Issahaku",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Attacker"
+    },
+    {
+      "id": "264484",
+      "name": "Gideon Mensah",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "214412",
+      "name": "Iñaki Williams",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Attacker"
+    },
+    {
+      "id": "261505",
+      "name": "Jerome Opoku",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "341627",
+      "name": "Jonas Adjetey",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "123518",
+      "name": "Jordan Ayew",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Attacker"
+    },
+    {
+      "id": "280808",
+      "name": "Joseph Anang",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303115",
+      "name": "Kamaldeen Sulemana",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Attacker"
+    },
+    {
+      "id": "357205",
+      "name": "Kojo Peprah Oppong",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "274697",
+      "name": "Kwasi Sibo",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "219562",
+      "name": "Lawrence Ati-Zigi",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "309638",
+      "name": "Marvin Senaya",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "387861",
+      "name": "Prince Adu",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Attacker"
+    },
+    {
+      "id": "189972",
+      "name": "Thomas Partey",
+      "team": "Ghana",
+      "teamId": "4469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "310715",
+      "name": "Alexandre Pierre",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "297177",
+      "name": "Carl-Fred Sainte",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "218703",
+      "name": "Carlens Arcus",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "333939",
+      "name": "Danley Jean Jacques",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "231098",
+      "name": "Derrick Etienne Jr.",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Attacker"
+    },
+    {
+      "id": "342631",
+      "name": "Dominique Simon",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "210778",
+      "name": "Duckens Nazon",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Attacker"
+    },
+    {
+      "id": "235401",
+      "name": "Duke Lacroix",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "250241",
+      "name": "Frantzdy Pierrot",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Attacker"
+    },
+    {
+      "id": "252521",
+      "name": "Hannes Delcroix",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "241032",
+      "name": "Jean-Kévin Duverne",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "240369",
+      "name": "Jean-Ricner Bellegarde",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "89090",
+      "name": "Johny Placide",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "304212",
+      "name": "Josué Casimir",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Attacker"
+    },
+    {
+      "id": "274131",
+      "name": "Josue Duverger",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "409965",
+      "name": "Keeto Thermoncy",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "301093",
+      "name": "Lenny Joseph",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Attacker"
+    },
+    {
+      "id": "268134",
+      "name": "Leverton Pierre",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "291608",
+      "name": "Louicius Don Deedson",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Attacker"
+    },
+    {
+      "id": "320212",
+      "name": "Martin Expérience",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "188106",
+      "name": "Ricardo Adé",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "307861",
+      "name": "Ruben Providence",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Attacker"
+    },
+    {
+      "id": "385479",
+      "name": "Wilguens Paugain",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "265915",
+      "name": "Wilson Isidor",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Attacker"
+    },
+    {
+      "id": "359946",
+      "name": "Woodensky Pierre",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "275007",
+      "name": "Yassine Fortune",
+      "team": "Haiti",
+      "teamId": "2654",
+      "position": "Attacker"
+    },
+    {
+      "id": "219617",
+      "name": "Ali Alipour",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Attacker"
+    },
+    {
+      "id": "302404",
+      "name": "Ali Nemati",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "214798",
+      "name": "Alireza Beiranvand",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "188055",
+      "name": "Alireza Jahanbakhsh",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "266729",
+      "name": "Amirhossein Hosseinzadeh",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Attacker"
+    },
+    {
+      "id": "372049",
+      "name": "Amirmohammad Razzaghinia",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "339178",
+      "name": "Arya Yousefi",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "401990",
+      "name": "Danial Iri",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "272489",
+      "name": "Dennis Dargahi",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Attacker"
+    },
+    {
+      "id": "203453",
+      "name": "Ehsan Hajsafi",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "185648",
+      "name": "Hossein Hosseini",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "243943",
+      "name": "Hossein Kanani",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "256581",
+      "name": "Mehdi Ghayedi",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Attacker"
+    },
+    {
+      "id": "219611",
+      "name": "Mehdi Taremi",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Attacker"
+    },
+    {
+      "id": "226301",
+      "name": "Mehdi Torabi",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "226302",
+      "name": "Milad Mohammadi",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "355158",
+      "name": "Mohammad Ghorbani",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "296999",
+      "name": "Mohammad Mohebbi",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "284219",
+      "name": "Payam Niazmand",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "218086",
+      "name": "Ramin Rezaeian",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "253376",
+      "name": "Roozbeh Cheshmi",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "194863",
+      "name": "Saeid Ezatolahi",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "317748",
+      "name": "Saleh Hardani",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "235519",
+      "name": "Saman Ghoddos",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "308077",
+      "name": "Shahriyar Moghanloo",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Attacker"
+    },
+    {
+      "id": "180674",
+      "name": "Shoja Khalilzadeh",
+      "team": "Iran",
+      "teamId": "469",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "285998",
+      "name": "Ahmed Basil",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "313976",
+      "name": "Ahmed Qasem",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Attacker"
+    },
+    {
+      "id": "378604",
+      "name": "Ahmed Yahya",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "287723",
+      "name": "Aimar Sher",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "378605",
+      "name": "Akam Hashim",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "330579",
+      "name": "Ali Al-Hamadi",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Attacker"
+    },
+    {
+      "id": "307750",
+      "name": "Ali Jasim",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Attacker"
+    },
+    {
+      "id": "274166",
+      "name": "Ali Yousif",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Attacker"
+    },
+    {
+      "id": "311149",
+      "name": "Amir Al-Ammari",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "244677",
+      "name": "Aymen Hussein",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Attacker"
+    },
+    {
+      "id": "235231",
+      "name": "Fahad Talib",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "218597",
+      "name": "Frans Putros",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "244679",
+      "name": "Hussein Ali",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "266496",
+      "name": "Ibrahim Bayesh",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "257421",
+      "name": "Jalal Hassan",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "274173",
+      "name": "Kevin Yakob",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "326032",
+      "name": "Marko Farji",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "345320",
+      "name": "Merchas Doski",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "269478",
+      "name": "Mohannad Ali",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Attacker"
+    },
+    {
+      "id": "331621",
+      "name": "Munaf Younus",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "371649",
+      "name": "Mustafa Saadoon",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "244675",
+      "name": "Rebin Ghareeb",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "321221",
+      "name": "Youssef Amyn",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Attacker"
+    },
+    {
+      "id": "384274",
+      "name": "Zaid Ismael",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "378968",
+      "name": "Zaid Tahseen",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "325549",
+      "name": "Zidane Iqbal",
+      "team": "Iraq",
+      "teamId": "4375",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "231282",
+      "name": "Alban Lafont",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "291630",
+      "name": "Amad",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Attacker"
+    },
+    {
+      "id": "309185",
+      "name": "Ange-Yoan Bonny",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Attacker"
+    },
+    {
+      "id": "359108",
+      "name": "Bazoumana Touré",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Attacker"
+    },
+    {
+      "id": "386989",
+      "name": "Christ Inao Oulaï",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "249072",
+      "name": "Christopher Operi",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "311118",
+      "name": "Elye Wahi",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Attacker"
+    },
+    {
+      "id": "308449",
+      "name": "Emmanuel Agbadou",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "242593",
+      "name": "Evan Ndicka",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "288924",
+      "name": "Evann Guessand",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Attacker"
+    },
+    {
+      "id": "194711",
+      "name": "Franck Kessié",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "250888",
+      "name": "Ghislain Konan",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "346636",
+      "name": "Guela Doué",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "213718",
+      "name": "Ibrahim Sangaré",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "193539",
+      "name": "Jean Michaël Seri",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "323997",
+      "name": "Mohamed Koné",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "210397",
+      "name": "Nicolas Pépé",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Attacker"
+    },
+    {
+      "id": "284822",
+      "name": "Odilon Kossounou",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "329483",
+      "name": "Oumar Diakité",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Attacker"
+    },
+    {
+      "id": "343964",
+      "name": "Ousmane Diomande",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "257055",
+      "name": "Parfait Guiagon",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "184118",
+      "name": "Seko Fofana",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "317404",
+      "name": "Simon Adingra",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Attacker"
+    },
+    {
+      "id": "286569",
+      "name": "Wilfried Singo",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "261595",
+      "name": "Yahia Fofana",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "402479",
+      "name": "Yan Diomande",
+      "team": "Ivory Coast",
+      "teamId": "4789",
+      "position": "Attacker"
+    },
+    {
+      "id": "253173",
+      "name": "Ao Tanaka",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "274277",
+      "name": "Ayase Ueda",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Attacker"
+    },
+    {
+      "id": "258270",
+      "name": "Ayumu Seko",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "219362",
+      "name": "Daichi Kamada",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "286347",
+      "name": "Daizen Maeda",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Attacker"
+    },
+    {
+      "id": "97111",
+      "name": "Hiroki Ito",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "333663",
+      "name": "Junnosuke Suzuki",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "219350",
+      "name": "Junya Ito",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Attacker"
+    },
+    {
+      "id": "357030",
+      "name": "Kaishu Sano",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "346208",
+      "name": "Keisuke Goto",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Attacker"
+    },
+    {
+      "id": "255723",
+      "name": "Keisuke Osako",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "265953",
+      "name": "Keito Nakamura",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Attacker"
+    },
+    {
+      "id": "362959",
+      "name": "Kento Shiogai",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Attacker"
+    },
+    {
+      "id": "238016",
+      "name": "Koki Ogawa",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Attacker"
+    },
+    {
+      "id": "238033",
+      "name": "Kou Itakura",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "219627",
+      "name": "Ritsu Doan",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "202728",
+      "name": "Shogo Taniguchi",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "256587",
+      "name": "Takefusa Kubo",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Attacker"
+    },
+    {
+      "id": "238004",
+      "name": "Takehiro Tomiyasu",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "312924",
+      "name": "Tomoki Hayakawa",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "276279",
+      "name": "Tsuyoshi Watanabe",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "152479",
+      "name": "Wataru Endo",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303031",
+      "name": "Yuito Suzuki",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "265965",
+      "name": "Yukinari Sugawara",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "119082",
+      "name": "Yuto Nagatomo",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "265958",
+      "name": "Zion Suzuki",
+      "team": "Japan",
+      "teamId": "627",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "293352",
+      "name": "Abdallah Al-Fakhouri",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "317819",
+      "name": "Abdallah Nasib",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "400062",
+      "name": "Ali Azaizeh",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Attacker"
+    },
+    {
+      "id": "320908",
+      "name": "Ali Olwan",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Attacker"
+    },
+    {
+      "id": "369409",
+      "name": "Amer Jamous",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "422263",
+      "name": "Anas Badawi",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "229021",
+      "name": "Ehsan Haddad",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "321503",
+      "name": "Husam Abu Dahab",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "369432",
+      "name": "Ibrahim Sabra",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Attacker"
+    },
+    {
+      "id": "320910",
+      "name": "Ibrahim Sadeh",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "229023",
+      "name": "Mahmoud Al-Mardi",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Attacker"
+    },
+    {
+      "id": "321484",
+      "name": "Mohammad Abu Hasheesh",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "286761",
+      "name": "Mohammad Abualnadi",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "321486",
+      "name": "Mohammad Al-Daoud",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "289004",
+      "name": "Mohammed Abu Zraiq",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Attacker"
+    },
+    {
+      "id": "317847",
+      "name": "Mohannad Abu Taha",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "257489",
+      "name": "Mousa Al-Tamari",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Attacker"
+    },
+    {
+      "id": "321515",
+      "name": "Nizar Al-Rashdan",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "295462",
+      "name": "Noor Al-Rawabdeh",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "321516",
+      "name": "Nour Bani Ateyah",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "392204",
+      "name": "Odeh Fakhoury",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Attacker"
+    },
+    {
+      "id": "244036",
+      "name": "Rajaei Ayed",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "374200",
+      "name": "Saed Al-Rosan",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "289005",
+      "name": "Saleem Obaid",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "274269",
+      "name": "Yazan Al-Arab",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "235212",
+      "name": "Yazeed Abulaila",
+      "team": "Jordan",
+      "teamId": "2917",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "229487",
+      "name": "Alexis Vega",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Attacker"
+    },
+    {
+      "id": "283827",
+      "name": "Álvaro Fidalgo",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "376110",
+      "name": "Armando González",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Attacker"
+    },
+    {
+      "id": "303577",
+      "name": "Brian Gutiérrez",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "236368",
+      "name": "Carlos Acevedo",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "265969",
+      "name": "César Huerta",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Attacker"
+    },
+    {
+      "id": "224323",
+      "name": "César Montes",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "241627",
+      "name": "Edson Álvarez",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "276942",
+      "name": "Erik Lira",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "389575",
+      "name": "Gilberto Mora",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "193566",
+      "name": "Guillermo Martínez",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Attacker"
+    },
+    {
+      "id": "137038",
+      "name": "Guillermo Ochoa",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "290414",
+      "name": "Israel Reyes",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "132098",
+      "name": "Jesús Gallardo",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "259975",
+      "name": "Johan Vásquez",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "178746",
+      "name": "Jorge Sánchez",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "233075",
+      "name": "Julián Quiñones",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Attacker"
+    },
+    {
+      "id": "104497",
+      "name": "Luis Chávez",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "242614",
+      "name": "Luis Romo",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "379193",
+      "name": "Mateo Chávez",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "318554",
+      "name": "Obed Vargas",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "207011",
+      "name": "Orbelín Pineda",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "167060",
+      "name": "Raúl Jiménez",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Attacker"
+    },
+    {
+      "id": "290899",
+      "name": "Raúl Rangel",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "194308",
+      "name": "Roberto Alvarado",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Attacker"
+    },
+    {
+      "id": "260775",
+      "name": "Santiago Gimenez",
+      "team": "Mexico",
+      "teamId": "203",
+      "position": "Attacker"
+    },
+    {
+      "id": "300912",
+      "name": "Abde Ezzalzouli",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Attacker"
+    },
+    {
+      "id": "240233",
+      "name": "Achraf Hakimi",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "297296",
+      "name": "Anass Salah-Eddine",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "269562",
+      "name": "Ayoub El Kaabi",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Attacker"
+    },
+    {
+      "id": "416636",
+      "name": "Ayoube Amaimouni-Echghouyab",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Attacker"
+    },
+    {
+      "id": "373927",
+      "name": "Ayyoub Bouaddi",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "291552",
+      "name": "Azzedine Ounahi",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "336595",
+      "name": "Bilal El Khannouss",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "246532",
+      "name": "Brahim Díaz",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "307870",
+      "name": "Chadi Riad",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "360062",
+      "name": "Chemsdine Talbi",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Attacker"
+    },
+    {
+      "id": "379012",
+      "name": "Gessime Yassine",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Attacker"
+    },
+    {
+      "id": "304572",
+      "name": "Ismael Saibari",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "230963",
+      "name": "Issa Diop",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "206232",
+      "name": "Munir El Kajoui",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "245243",
+      "name": "Nayef Aguerd",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "323807",
+      "name": "Neil El Aynaoui",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "239350",
+      "name": "Noussair Mazraoui",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "195240",
+      "name": "Reda Tagnaouti",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "328300",
+      "name": "Redouane Halal",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "378491",
+      "name": "Samir El Mourabet",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "195226",
+      "name": "Sofyan Amrabat",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "276139",
+      "name": "Soufiane Rahimi",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Attacker"
+    },
+    {
+      "id": "175149",
+      "name": "Yassine Bounou",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "393692",
+      "name": "Youssef Belammari",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "325024",
+      "name": "Zakaria El Ouahdi",
+      "team": "Morocco",
+      "teamId": "2869",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "291609",
+      "name": "Bart Verbruggen",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "282229",
+      "name": "Brian Brobbey",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Attacker"
+    },
+    {
+      "id": "249524",
+      "name": "Cody Gakpo",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Attacker"
+    },
+    {
+      "id": "284792",
+      "name": "Crysencio Summerville",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Attacker"
+    },
+    {
+      "id": "213248",
+      "name": "Denzel Dumfries",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "259481",
+      "name": "Donyell Malen",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Attacker"
+    },
+    {
+      "id": "219022",
+      "name": "Frenkie de Jong",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "240965",
+      "name": "Guus Til",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "282583",
+      "name": "Jan Paul van Hecke",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "353951",
+      "name": "Jorrel Hato",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "282716",
+      "name": "Jurriën Timber",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "245916",
+      "name": "Justin Kluivert",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Attacker"
+    },
+    {
+      "id": "177821",
+      "name": "Mark Flekken",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "146335",
+      "name": "Marten de Roon",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "282186",
+      "name": "Mats Wieffer",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "159255",
+      "name": "Memphis Depay",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Attacker"
+    },
+    {
+      "id": "296512",
+      "name": "Micky van de Ven",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "159248",
+      "name": "Nathan Aké",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "255344",
+      "name": "Noa Lang",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Attacker"
+    },
+    {
+      "id": "282230",
+      "name": "Quinten Timber",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "301449",
+      "name": "Robin Roefs",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "274632",
+      "name": "Ryan Gravenberch",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "258968",
+      "name": "Teun Koopmeiners",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "261328",
+      "name": "Tijjani Reijnders",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "157892",
+      "name": "Virgil van Dijk",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "177042",
+      "name": "Wout Weghorst",
+      "team": "Netherlands",
+      "teamId": "449",
+      "position": "Attacker"
+    },
+    {
+      "id": "297800",
+      "name": "Alex Paulsen",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "194736",
+      "name": "Alex Rufer",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "297802",
+      "name": "Ben Old",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Attacker"
+    },
+    {
+      "id": "277113",
+      "name": "Ben Waine",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Attacker"
+    },
+    {
+      "id": "282239",
+      "name": "Callan Elliot",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "228279",
+      "name": "Callum McCowatt",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "134190",
+      "name": "Chris Wood",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Attacker"
+    },
+    {
+      "id": "266555",
+      "name": "Elijah Just",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Attacker"
+    },
+    {
+      "id": "332367",
+      "name": "Finn Surman",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "254441",
+      "name": "Francis de Vries",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "297794",
+      "name": "Jesse Randall",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Attacker"
+    },
+    {
+      "id": "228294",
+      "name": "Joe Bell",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "175958",
+      "name": "Kosta Barbarouses",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Attacker"
+    },
+    {
+      "id": "351369",
+      "name": "Lachlan Bayliss",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "266554",
+      "name": "Liberato Cacace",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "297798",
+      "name": "Marko Stamenic",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "297803",
+      "name": "Matthew Garbett",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "168747",
+      "name": "Max Crocombe",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "101934",
+      "name": "Michael Boxall",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "228288",
+      "name": "Michael Woud",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "288469",
+      "name": "Nando Pijnaker",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "156146",
+      "name": "Ryan Thomas",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "228283",
+      "name": "Sarpreet Singh",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "159470",
+      "name": "Tim Payne",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "103819",
+      "name": "Tommy Smith",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "367427",
+      "name": "Tyler Bindon",
+      "team": "New Zealand",
+      "teamId": "2666",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "188230",
+      "name": "Alexander Sørloth",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Attacker"
+    },
+    {
+      "id": "313415",
+      "name": "Andreas Schjelderup",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Attacker"
+    },
+    {
+      "id": "319368",
+      "name": "Antonio Nusa",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "313361",
+      "name": "David Møller Wolfe",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "286433",
+      "name": "Egil Selvik",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "253989",
+      "name": "Erling Haaland",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Attacker"
+    },
+    {
+      "id": "238088",
+      "name": "Fredrik André Bjørkan",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "212900",
+      "name": "Fredrik Aursnes",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303281",
+      "name": "Henrik Falchener",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "235789",
+      "name": "Jens Petter Hauge",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "252747",
+      "name": "Jørgen Strand Larsen",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Attacker"
+    },
+    {
+      "id": "222991",
+      "name": "Julian Ryerson",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "284212",
+      "name": "Kristian Thorstvedt",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "206173",
+      "name": "Kristoffer Ajer",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "281736",
+      "name": "Leo Østigard",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "129285",
+      "name": "Marcus Holmgren Pedersen",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "203669",
+      "name": "Martin Ødegaard",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "202686",
+      "name": "Morten Thorsby",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "193610",
+      "name": "Ørjan Nyland",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "307111",
+      "name": "Oscar Bobb",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "205924",
+      "name": "Patrick Berg",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "218998",
+      "name": "Sander Berge",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "304258",
+      "name": "Sander Tangvik",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "366455",
+      "name": "Sondre Langas",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "307477",
+      "name": "Thelo Aasgaard",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "272867",
+      "name": "Torbjørn Heggem",
+      "team": "Norway",
+      "teamId": "464",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "219508",
+      "name": "Adalberto Carrasquilla",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "102167",
+      "name": "Alberto Quintero",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Attacker"
+    },
+    {
+      "id": "216420",
+      "name": "Amir",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "189775",
+      "name": "Andrés Andrade",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "116825",
+      "name": "Aníbal Godoy",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "340539",
+      "name": "Azarias Londoño",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Attacker"
+    },
+    {
+      "id": "285452",
+      "name": "Carlos Harvey",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "155913",
+      "name": "Cecilio Waterman",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Attacker"
+    },
+    {
+      "id": "260346",
+      "name": "César Blackman",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "328403",
+      "name": "César Samudio",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303538",
+      "name": "César Yanis",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Attacker"
+    },
+    {
+      "id": "176145",
+      "name": "Cristian",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "201919",
+      "name": "Édgar Yoel",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "328402",
+      "name": "Edgardo Fariña",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "138183",
+      "name": "Éric Davis",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "216418",
+      "name": "Fidel Escobar",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "195326",
+      "name": "Ismael Díaz",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Attacker"
+    },
+    {
+      "id": "291014",
+      "name": "Jiovany Ramos",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "271294",
+      "name": "Jorge Gutiérrez",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "286667",
+      "name": "José Córdoba",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "267996",
+      "name": "José Fajardo",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Attacker"
+    },
+    {
+      "id": "238763",
+      "name": "José Luis Rodríguez",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "124521",
+      "name": "Luis Mejía",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "191806",
+      "name": "Orlando Mosquera",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "137355",
+      "name": "Roderick Miller",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "288563",
+      "name": "Tomás Rodríguez",
+      "team": "Panama",
+      "teamId": "2659",
+      "position": "Attacker"
+    },
+    {
+      "id": "188160",
+      "name": "Alejandro Romero Gamarra",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "257754",
+      "name": "Alex Arce",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Attacker"
+    },
+    {
+      "id": "399687",
+      "name": "Alexandro Maidana",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "202501",
+      "name": "Andrés Cubas",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "192162",
+      "name": "Antonio Sanabria",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Attacker"
+    },
+    {
+      "id": "265977",
+      "name": "Braian Ojeda",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "301516",
+      "name": "Damián Bobadilla",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "192278",
+      "name": "Diego Gómez",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "199101",
+      "name": "Fabián Balbuena",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "208421",
+      "name": "Gabriel Ávalos",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Attacker"
+    },
+    {
+      "id": "190375",
+      "name": "Gastón Olveira",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "164262",
+      "name": "Gatito Fernández",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "154853",
+      "name": "Gustavo Caballero",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Attacker"
+    },
+    {
+      "id": "118395",
+      "name": "Gustavo Gómez",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "119413",
+      "name": "Gustavo Velázquez",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "287035",
+      "name": "Isidro Pitta",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Attacker"
+    },
+    {
+      "id": "227682",
+      "name": "José Canale",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "84295",
+      "name": "Juan Jose Cáceres",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "20975",
+      "name": "Julio Enciso",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "181657",
+      "name": "Júnior Alonso",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "297328",
+      "name": "Matías Galarza",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "289046",
+      "name": "Mauricio",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "48128",
+      "name": "Miguel Almirón",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Attacker"
+    },
+    {
+      "id": "215401",
+      "name": "Omar Alderete",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "301648",
+      "name": "Orlando Gil",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "301653",
+      "name": "Ramón Sosa",
+      "team": "Paraguay",
+      "teamId": "210",
+      "position": "Attacker"
+    },
+    {
+      "id": "199833",
+      "name": "Bernardo Silva",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "124091",
+      "name": "Bruno Fernandes",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "22774",
+      "name": "Cristiano Ronaldo",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Attacker"
+    },
+    {
+      "id": "238903",
+      "name": "Diogo Costa",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "238902",
+      "name": "Diogo Dalot",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "312659",
+      "name": "Francisco Conceição",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Attacker"
+    },
+    {
+      "id": "274159",
+      "name": "Francisco Trincão",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Attacker"
+    },
+    {
+      "id": "213141",
+      "name": "Gonçalo Guedes",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Attacker"
+    },
+    {
+      "id": "304106",
+      "name": "Gonçalo Inacio",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "288896",
+      "name": "Gonçalo Ramos",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Attacker"
+    },
+    {
+      "id": "176399",
+      "name": "João Cancelo",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "276350",
+      "name": "João Félix",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Attacker"
+    },
+    {
+      "id": "355061",
+      "name": "João Neves",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "181278",
+      "name": "José Sá",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303785",
+      "name": "Matheus Nunes",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "222670",
+      "name": "Nélson Semedo",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "290591",
+      "name": "Nuno Mendes",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "256115",
+      "name": "Pedro Neto",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Attacker"
+    },
+    {
+      "id": "258917",
+      "name": "Rafael Leão",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Attacker"
+    },
+    {
+      "id": "337011",
+      "name": "Renato Veiga",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "234878",
+      "name": "Rúben Dias",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "208128",
+      "name": "Rúben Neves",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "177898",
+      "name": "Rui Silva",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "183466",
+      "name": "Samú Costa",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "329691",
+      "name": "Tomás Lemos Araújo",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "288897",
+      "name": "Vitinha",
+      "team": "Portugal",
+      "teamId": "482",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "143613",
+      "name": "Abdulaziz Hatem",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "336120",
+      "name": "Ahmed Al-Ganehi",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Attacker"
+    },
+    {
+      "id": "263311",
+      "name": "Ahmed Alaaeldin",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Attacker"
+    },
+    {
+      "id": "268018",
+      "name": "Ahmed Fathy",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "219258",
+      "name": "Akram Afif",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Attacker"
+    },
+    {
+      "id": "384827",
+      "name": "Al-Hashmi Al-Hussain",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "219252",
+      "name": "Almoez",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Attacker"
+    },
+    {
+      "id": "219254",
+      "name": "Assim Madibo",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "346649",
+      "name": "Ayoub Al-Oui",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "205377",
+      "name": "Boualem Khoukhi",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "109204",
+      "name": "Edmílson Junior",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Attacker"
+    },
+    {
+      "id": "236586",
+      "name": "Hassan Al-Haydos",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Attacker"
+    },
+    {
+      "id": "272874",
+      "name": "Homam Ahmed",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "415148",
+      "name": "Issa Laye",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "310373",
+      "name": "Jassem Gaber",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "172245",
+      "name": "Karim Boudiaf",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "125617",
+      "name": "Lucas Mendes",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "310372",
+      "name": "Mahmud Abunada",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "270844",
+      "name": "Meshaal Barsham",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "309315",
+      "name": "Mohamed Manai",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "185984",
+      "name": "Mohammed Muntari",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Attacker"
+    },
+    {
+      "id": "101982",
+      "name": "Pedro Miguel",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "288537",
+      "name": "Salah Zakaria",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "219248",
+      "name": "Sultan Al-Brake",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "371967",
+      "name": "Tahsin Jamshid",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Attacker"
+    },
+    {
+      "id": "274164",
+      "name": "Yusuf Abdurisag",
+      "team": "Qatar",
+      "teamId": "4398",
+      "position": "Attacker"
+    },
+    {
+      "id": "256667",
+      "name": "Abdulelah Al-Amri",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "294239",
+      "name": "Abdullah Al-Hamdan",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Attacker"
+    },
+    {
+      "id": "271461",
+      "name": "Abdullah Al-Khaibari",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "171878",
+      "name": "Ahmed Al-Kassar",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "296602",
+      "name": "Aiman Yahya",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "357660",
+      "name": "Ala Al-Hajji",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "296972",
+      "name": "Ali Lajami",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "331920",
+      "name": "Ali Majrashi",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "283331",
+      "name": "Feras Al-Brikan",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Attacker"
+    },
+    {
+      "id": "256666",
+      "name": "Hassan Al-Tambakti",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "185636",
+      "name": "Hassan Kadish",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "371796",
+      "name": "Jehad Thakri",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "288570",
+      "name": "Khalid Al-Ghannam",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Attacker"
+    },
+    {
+      "id": "262468",
+      "name": "Mohamed Kanno",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "361692",
+      "name": "Mohammed Abu Al-Shamat",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "247018",
+      "name": "Mohammed Al-Owais",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "330543",
+      "name": "Moteb Al-Harbi",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "315523",
+      "name": "Musab Al-Juwayr",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "270417",
+      "name": "Nasser Al-Dawsari",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "302332",
+      "name": "Nawaf Al-Aqidi",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "331918",
+      "name": "Nawaf Boushal",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "177897",
+      "name": "Saleh Al-Shehri",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Attacker"
+    },
+    {
+      "id": "163850",
+      "name": "Salem Al-Dawsari",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "286011",
+      "name": "Saud Abdulhamid",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "287054",
+      "name": "Sultan Mandash",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Attacker"
+    },
+    {
+      "id": "306692",
+      "name": "Ziyad Al-Johani",
+      "team": "Saudi Arabia",
+      "teamId": "655",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "283940",
+      "name": "Aaron Hickey",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "104943",
+      "name": "Andrew Robertson",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "181299",
+      "name": "Angus Gunn",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "224305",
+      "name": "Anthony Ralston",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "332948",
+      "name": "Ben Gannon Doak",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Attacker"
+    },
+    {
+      "id": "213725",
+      "name": "Ché Adams",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Attacker"
+    },
+    {
+      "id": "17617",
+      "name": "Craig Gordon",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "231572",
+      "name": "Dominic Hyam",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "368045",
+      "name": "Findlay Curtis",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Attacker"
+    },
+    {
+      "id": "241325",
+      "name": "George Hirst",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Attacker"
+    },
+    {
+      "id": "146577",
+      "name": "Grant Hanley",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "207454",
+      "name": "Jack Hendry",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "162843",
+      "name": "John McGinn",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "181394",
+      "name": "John Souttar",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "141870",
+      "name": "Kenny McLean",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "214794",
+      "name": "Kieran Tierney",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "173306",
+      "name": "Lawrence Shankland",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Attacker"
+    },
+    {
+      "id": "202429",
+      "name": "Lewis Ferguson",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "16264",
+      "name": "Liam Kelly",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "207538",
+      "name": "Lyndon Dykes",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Attacker"
+    },
+    {
+      "id": "271191",
+      "name": "Nathan Patterson",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "251936",
+      "name": "Ross Stewart",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Attacker"
+    },
+    {
+      "id": "93435",
+      "name": "Ryan Christie",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "191450",
+      "name": "Scott McKenna",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "255850",
+      "name": "Scott McTominay",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "393138",
+      "name": "Tyler Fletcher",
+      "team": "Scotland",
+      "teamId": "580",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "251614",
+      "name": "Abdoulaye Seck",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "319161",
+      "name": "Antoine Mendy",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "364742",
+      "name": "Assane Diao",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Attacker"
+    },
+    {
+      "id": "313889",
+      "name": "Bamba Dieng",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Attacker"
+    },
+    {
+      "id": "409016",
+      "name": "Bara Sapoko Ndiaye",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "251924",
+      "name": "Cherif Ndiaye",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Attacker"
+    },
+    {
+      "id": "238362",
+      "name": "Édouard Mendy",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "359796",
+      "name": "El Hadji Malick Diouf",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "388522",
+      "name": "Ibrahim Mbaye",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Attacker"
+    },
+    {
+      "id": "144517",
+      "name": "Idrissa Gueye",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "268641",
+      "name": "Iliman Ndiaye",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Attacker"
+    },
+    {
+      "id": "268796",
+      "name": "Ismail Jakobs",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "241012",
+      "name": "Ismaïla Sarr",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Attacker"
+    },
+    {
+      "id": "150312",
+      "name": "Kalidou Koulibaly",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "253992",
+      "name": "Krépin Diatta",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "38721",
+      "name": "Lamine Camara",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "355433",
+      "name": "Mamadou Sarr",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "197631",
+      "name": "Mory Diaw",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "324991",
+      "name": "Mouhamadou Diarra",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "213181",
+      "name": "Moussa Niakhaté",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "308524",
+      "name": "Nicolas Jackson",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Attacker"
+    },
+    {
+      "id": "255889",
+      "name": "Pape Gueye",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "297337",
+      "name": "Pape Matar Sarr",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "294228",
+      "name": "Pathé Ciss",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "169797",
+      "name": "Sadio Mané",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Attacker"
+    },
+    {
+      "id": "241029",
+      "name": "Yehvann Diouf",
+      "team": "Senegal",
+      "teamId": "654",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "223818",
+      "name": "Aubrey Modiba",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "310593",
+      "name": "Bradley Cross",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303312",
+      "name": "Evidence Makgopa",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Attacker"
+    },
+    {
+      "id": "358744",
+      "name": "Ime Okon",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "291141",
+      "name": "Iqraam Rayners",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Attacker"
+    },
+    {
+      "id": "304736",
+      "name": "Jayden Adams",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "337134",
+      "name": "Kamogelo Sebelebele",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Attacker"
+    },
+    {
+      "id": "276767",
+      "name": "Khuliso Mudau",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "390448",
+      "name": "Khulumani Ndamane",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "264751",
+      "name": "Lyle Foster",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Attacker"
+    },
+    {
+      "id": "400594",
+      "name": "Mbekezeli Mbokazi",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "266125",
+      "name": "Nkosinathi Sibisi",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "351372",
+      "name": "Olwethu Makhanya",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "288771",
+      "name": "Oswin Appollis",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Attacker"
+    },
+    {
+      "id": "361211",
+      "name": "Relebohile Mofokeng",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Attacker"
+    },
+    {
+      "id": "186121",
+      "name": "Ricardo Goss",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "196230",
+      "name": "Ronwen Williams",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "366883",
+      "name": "Samukele Kabini",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "265713",
+      "name": "Sipho Chaine",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "228595",
+      "name": "Sphephelo Sithole",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "256691",
+      "name": "Teboho Mokoena",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "365623",
+      "name": "Thabang Matuludi",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "301321",
+      "name": "Thalente Mbatha",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "335450",
+      "name": "Thapelo Maseko",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Attacker"
+    },
+    {
+      "id": "157046",
+      "name": "Themba Zwane",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "313399",
+      "name": "Tshepang Moremi",
+      "team": "South Africa",
+      "teamId": "467",
+      "position": "Attacker"
+    },
+    {
+      "id": "362208",
+      "name": "Bae Jun-Ho",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303464",
+      "name": "Cho Gue-Sung",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Attacker"
+    },
+    {
+      "id": "3098209",
+      "name": "Cho Wi-Je",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "297791",
+      "name": "Eom Ji-Sung",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Attacker"
+    },
+    {
+      "id": "237224",
+      "name": "Hwang Hee-Chan",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Attacker"
+    },
+    {
+      "id": "280061",
+      "name": "Hwang In-Beom",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "304793",
+      "name": "Jens Castrop",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "230244",
+      "name": "Jo Hyeon-Woo",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "90721",
+      "name": "Kim Jin-Gyu",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "157688",
+      "name": "Kim Min-Jae",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "280060",
+      "name": "Kim Moon-Hwan",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "175921",
+      "name": "Kim Seung-Gyu",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "286268",
+      "name": "Kim Tae-Hyeon",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "271702",
+      "name": "Lee Dong-Gyeong",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "345769",
+      "name": "Lee Gi-Hyuk",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "297788",
+      "name": "Lee Han-Beom",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "134103",
+      "name": "Lee Jae-Sung",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "274197",
+      "name": "Lee Kang-In",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "297270",
+      "name": "Lee Tae-Seok",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "302434",
+      "name": "Oh Hyeon-Gyu",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Attacker"
+    },
+    {
+      "id": "256598",
+      "name": "Paik Seung-Ho",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "336178",
+      "name": "Park Jin-Seop",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "302793",
+      "name": "Seol Young-Woo",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "149945",
+      "name": "Son Heung-Min",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Attacker"
+    },
+    {
+      "id": "256724",
+      "name": "Song Bum-Keun",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "350711",
+      "name": "Yang Hyun-Jun",
+      "team": "South Korea",
+      "teamId": "451",
+      "position": "Attacker"
+    },
+    {
+      "id": "166396",
+      "name": "Alejandro Grimaldo",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "297373",
+      "name": "Álex Baena",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "159317",
+      "name": "Aymeric Laporte",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "214995",
+      "name": "Borja Iglesias",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Attacker"
+    },
+    {
+      "id": "227765",
+      "name": "Dani Olmo",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "196176",
+      "name": "David Raya",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "128714",
+      "name": "Eric García",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "214596",
+      "name": "Fabián Ruiz",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "265869",
+      "name": "Ferran Torres",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Attacker"
+    },
+    {
+      "id": "323702",
+      "name": "Gavi",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "297362",
+      "name": "Joan García",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "362150",
+      "name": "Lamine Yamal",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Attacker"
+    },
+    {
+      "id": "259910",
+      "name": "Marc Cucurella",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "332613",
+      "name": "Marc Pubill",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "206474",
+      "name": "Marcos Llorente",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "287266",
+      "name": "Martín Zubimendi",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "209581",
+      "name": "Mikel Merino",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "229018",
+      "name": "Mikel Oyarzabal",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Attacker"
+    },
+    {
+      "id": "312146",
+      "name": "Nico Williams",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Attacker"
+    },
+    {
+      "id": "368992",
+      "name": "Pau Cubarsí",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "250465",
+      "name": "Pedri",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "268533",
+      "name": "Pedro Porro",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "231828",
+      "name": "Rodri",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "222375",
+      "name": "Unai Simón",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "397545",
+      "name": "Víctor Muñoz",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Attacker"
+    },
+    {
+      "id": "297370",
+      "name": "Yéremy Pino",
+      "team": "Spain",
+      "teamId": "164",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "301370",
+      "name": "Alexander Bernhardsson",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Attacker"
+    },
+    {
+      "id": "235662",
+      "name": "Alexander Isak",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Attacker"
+    },
+    {
+      "id": "296622",
+      "name": "Anthony Elanga",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Attacker"
+    },
+    {
+      "id": "274522",
+      "name": "Benjamin Nygren",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Attacker"
+    },
+    {
+      "id": "334024",
+      "name": "Besfort Zeneli",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "195790",
+      "name": "Carl Starfelt",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "310709",
+      "name": "Daniel Svensson",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "357145",
+      "name": "Elliot Stroud",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "204115",
+      "name": "Eric Smith",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "250166",
+      "name": "Gabriel Gudmundsson",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "324930",
+      "name": "Gustaf Lagerbielke",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "238183",
+      "name": "Gustaf Nilsson",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Attacker"
+    },
+    {
+      "id": "312876",
+      "name": "Herman Johansson",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "290413",
+      "name": "Hjalmar Ekdal",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "312862",
+      "name": "Isak Hien",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "286810",
+      "name": "Jacob Widell Zetterström",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "237055",
+      "name": "Jesper Karlström",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "186004",
+      "name": "Ken Sema",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "133993",
+      "name": "Kristoffer Nordfeldt",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "356379",
+      "name": "Lucas Bergvall",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "220120",
+      "name": "Mattias Svanberg",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "314164",
+      "name": "Taha Ali",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "204679",
+      "name": "Victor Lindelöf",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "258906",
+      "name": "Viktor Gyökeres",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Attacker"
+    },
+    {
+      "id": "258902",
+      "name": "Viktor Johansson",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "304242",
+      "name": "Yasin Ayari",
+      "team": "Sweden",
+      "teamId": "466",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303973",
+      "name": "Ardon Jashari",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "319404",
+      "name": "Aurèle Amenda",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "202099",
+      "name": "Breel Embolo",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Attacker"
+    },
+    {
+      "id": "234153",
+      "name": "Cedric Itten",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Attacker"
+    },
+    {
+      "id": "238502",
+      "name": "Christian Fassnacht",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "275842",
+      "name": "Dan Ndoye",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Attacker"
+    },
+    {
+      "id": "222628",
+      "name": "Denis Zakaria",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "222446",
+      "name": "Djibril Sow",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "231697",
+      "name": "Eray Cömert",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "308908",
+      "name": "Fabian Rieder",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "149981",
+      "name": "Granit Xhaka",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "238544",
+      "name": "Gregor Kobel",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "386992",
+      "name": "Johan Manzambi",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "332574",
+      "name": "Luca Jaquez",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "214562",
+      "name": "Manuel Akanji",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "341948",
+      "name": "Marvin Keller",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "245623",
+      "name": "Michel Aebischer",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "243626",
+      "name": "Miro Muheim",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "212237",
+      "name": "Nico Elvedi",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "270641",
+      "name": "Noah Okafor",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Attacker"
+    },
+    {
+      "id": "152600",
+      "name": "Remo Freuler",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "136865",
+      "name": "Ricardo Rodríguez",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "259513",
+      "name": "Rubén Vargas",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "175905",
+      "name": "Silvan Widmer",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "199381",
+      "name": "Yvon Mvogo",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "320757",
+      "name": "Zeki Amdouni",
+      "team": "Switzerland",
+      "teamId": "475",
+      "position": "Attacker"
+    },
+    {
+      "id": "420888",
+      "name": "Abdelmouhib Chamakh",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "410358",
+      "name": "Adem Arous",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "265234",
+      "name": "Ali Abdi",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "296982",
+      "name": "Amine Ben Hamida",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "302944",
+      "name": "Anis Ben Slimane",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "265272",
+      "name": "Aymen Dahmen",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "240371",
+      "name": "Dylan Bronn",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "324510",
+      "name": "Elias Achouri",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "323950",
+      "name": "Elias Saad",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Attacker"
+    },
+    {
+      "id": "209595",
+      "name": "Ellyes Skhiri",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "265207",
+      "name": "Firas Chaouat",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Attacker"
+    },
+    {
+      "id": "299861",
+      "name": "Hadj Mahmoud",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "300007",
+      "name": "Hannibal Mejbri",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "396085",
+      "name": "Hazem Mastouri",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Attacker"
+    },
+    {
+      "id": "317473",
+      "name": "Ismaël Gharbi",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Attacker"
+    },
+    {
+      "id": "404769",
+      "name": "Khalil Ayari",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Attacker"
+    },
+    {
+      "id": "265099",
+      "name": "Montassar Talbi",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "273170",
+      "name": "Mortadha Ben Ouanes",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "345975",
+      "name": "Moutaz Neffati",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303848",
+      "name": "Omar Rekik",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "420890",
+      "name": "Raed Chikhaoui",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "159152",
+      "name": "Rani Khedira",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "405591",
+      "name": "Rayan Elloumi",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Attacker"
+    },
+    {
+      "id": "195253",
+      "name": "Sabri Ben Hessen",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303702",
+      "name": "Sebastian Tounekti",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Attacker"
+    },
+    {
+      "id": "240588",
+      "name": "Yan Valery",
+      "team": "Tunisia",
+      "teamId": "659",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "193149",
+      "name": "Abdülkerim Bardakci",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "274272",
+      "name": "Altay Bayindir",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "310452",
+      "name": "Arda Güler",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "322538",
+      "name": "Baris Alper Yilmaz",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Attacker"
+    },
+    {
+      "id": "230757",
+      "name": "Caglar Söyüncü",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "355369",
+      "name": "Can Uzun",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "350513",
+      "name": "Deniz Gül",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Attacker"
+    },
+    {
+      "id": "287678",
+      "name": "Eren Elmali",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "238318",
+      "name": "Ferdi Kadioglu",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "170785",
+      "name": "Hakan Çalhanoglu",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "211923",
+      "name": "Irfan Can Kahveci",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "305629",
+      "name": "Ismail Yüksek",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "159146",
+      "name": "Kaan Ayhan",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "366509",
+      "name": "Kenan Yildiz",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Attacker"
+    },
+    {
+      "id": "306789",
+      "name": "Kerem Aktürkoglu",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Attacker"
+    },
+    {
+      "id": "267178",
+      "name": "Merih Demiral",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "124880",
+      "name": "Mert Günok",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "266002",
+      "name": "Mert Müldür",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "322813",
+      "name": "Oguz Aydin",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Attacker"
+    },
+    {
+      "id": "272700",
+      "name": "Orkun Kökçü",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "266565",
+      "name": "Ozan Kabak",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "225563",
+      "name": "Salih Özcan",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "322807",
+      "name": "Samet Akaydin",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "222922",
+      "name": "Ugurcan Çakir",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "266575",
+      "name": "Yunus Akgün",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Attacker"
+    },
+    {
+      "id": "271873",
+      "name": "Zeki Çelik",
+      "team": "Türkiye",
+      "teamId": "465",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "212824",
+      "name": "Alejandro Zendejas",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Attacker"
+    },
+    {
+      "id": "248276",
+      "name": "Alex Freeman",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "222396",
+      "name": "Antonee Robinson",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "228619",
+      "name": "Auston Trusty",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "259653",
+      "name": "Brenden Aaronson",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303693",
+      "name": "Chris Brady",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "272585",
+      "name": "Chris Richards",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "225607",
+      "name": "Christian Pulisic",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "216617",
+      "name": "Cristian Roldan",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "282643",
+      "name": "Folarin Balogun",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Attacker"
+    },
+    {
+      "id": "290230",
+      "name": "Giovanni Reyna",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "220474",
+      "name": "Haji Wright",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Attacker"
+    },
+    {
+      "id": "272135",
+      "name": "Joe Scally",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "301416",
+      "name": "Malik Tillman",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "77072",
+      "name": "Mark McKenzie",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "303794",
+      "name": "Matt Turner",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "252974",
+      "name": "Matthew Freese",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "359542",
+      "name": "Max Arfsten",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "249768",
+      "name": "Miles Robinson",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "289120",
+      "name": "Ricardo Pepi",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Attacker"
+    },
+    {
+      "id": "295771",
+      "name": "Sebastian Berhalter",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "266291",
+      "name": "Sergiño Dest",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "146290",
+      "name": "Tim Ream",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "266027",
+      "name": "Timothy Weah",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Attacker"
+    },
+    {
+      "id": "222776",
+      "name": "Tyler Adams",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "256715",
+      "name": "Weston McKennie",
+      "team": "United States",
+      "teamId": "660",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "241466",
+      "name": "Agustín Canobbio",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Attacker"
+    },
+    {
+      "id": "144325",
+      "name": "Brian Rodríguez",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Attacker"
+    },
+    {
+      "id": "271788",
+      "name": "Darwin Núñez",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Attacker"
+    },
+    {
+      "id": "109962",
+      "name": "Emiliano Martínez",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "290538",
+      "name": "Facundo Pellistri",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "235818",
+      "name": "Federico Valverde",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "295847",
+      "name": "Federico Viñas",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Attacker"
+    },
+    {
+      "id": "108622",
+      "name": "Fernando Muslera",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "179767",
+      "name": "Giorgian de Arrascaeta",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "188368",
+      "name": "Guillermo",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "254007",
+      "name": "Joaquín Piquerez",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "188398",
+      "name": "José María Giménez",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "287497",
+      "name": "Juan Manuel Sanabria",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "241468",
+      "name": "Manuel Ugarte",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "234881",
+      "name": "Mathías Olivera",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "254032",
+      "name": "Matías Viña",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "287025",
+      "name": "Maxi Araújo",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "251889",
+      "name": "Nicolás de la Cruz",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "159042",
+      "name": "Rodrigo Aguirre",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Attacker"
+    },
+    {
+      "id": "215772",
+      "name": "Rodrigo Bentancur",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "287494",
+      "name": "Rodrigo Zalazar",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "270821",
+      "name": "Ronald Araújo",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "241225",
+      "name": "Santiago Bueno",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "203067",
+      "name": "Santiago Mele",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "285756",
+      "name": "Sebastián Cáceres",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "184206",
+      "name": "Sergio Rochet",
+      "team": "Uruguay",
+      "teamId": "212",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "317793",
+      "name": "Abbosbek Fayzullaev",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "362211",
+      "name": "Abdukodir Khusanov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "326928",
+      "name": "Abdulla Abdullaev",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "308612",
+      "name": "Abduvohid Nematov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "270461",
+      "name": "Akmal Mozgovoy",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "286596",
+      "name": "Avazbek Ulmasaliyev",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "253231",
+      "name": "Azizbek Amonov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Attacker"
+    },
+    {
+      "id": "268558",
+      "name": "Azizjon G'aniyev",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "376370",
+      "name": "Behruzjon Karimov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "219561",
+      "name": "Botirali Ergashev",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "195274",
+      "name": "Dostonbek Khamdamov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "216937",
+      "name": "Eldor Shomurodov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Attacker"
+    },
+    {
+      "id": "211537",
+      "name": "Farrukh Sayfiev",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "156663",
+      "name": "Igor Sergeev",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Attacker"
+    },
+    {
+      "id": "362329",
+      "name": "Jakhongir O'Rozov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "187939",
+      "name": "Jaloliddin Masharipov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "185631",
+      "name": "Jamshid Iskanderov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "274005",
+      "name": "Khojiakbar Alijonov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "195266",
+      "name": "Odiljon Xamrobekov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "288949",
+      "name": "Oston Urunov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "195281",
+      "name": "Otabek Shukurov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "195282",
+      "name": "Rustamjon Ashurmatov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "362333",
+      "name": "Sherzod Esanov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "321728",
+      "name": "Sherzod Nasrullaev",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "270463",
+      "name": "Umarbek Eshmurodov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    },
+    {
+      "id": "282145",
+      "name": "Utkir Yusupov",
+      "team": "Uzbekistan",
+      "teamId": "2570",
+      "position": "Mid/Def/GK"
+    }
+  ]
+}
