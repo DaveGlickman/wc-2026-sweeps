@@ -120,6 +120,19 @@ It includes **only paid entrants** (`config/entrants.json`), assigns each one ex
 Pot A and one Pot B team with no team used twice, writes `config/allocations.json`, and prints
 a readable summary. It works for any paid count up to the pot size (≤ 24 per pot).
 
+**Seeding & protected teams.** `config/pots.json` lists all 48 teams in **seeded order**
+(`seed` 1 = strongest; Pot A = seeds 1–24, Pot B = seeds 25–48). With fewer players than 24,
+the draw allocates **strongest-first**, so the teams left undrawn are always the *lowest* seeds
+in each pot — a strong team is never left unchosen. Any id in `pots.json` `alwaysInclude` is
+**force-kept**: if the seed cut would drop it, the draw swaps it in for the lowest-seeded
+otherwise-included team in that pot. **South Africa (467) is protected** and is therefore
+always allocated to a player, whatever the paid count. Which teams are *in* depends only on
+seeds + count (no randomness); the seed only decides *who gets which*.
+
+> **Team IDs are ESPN ids**, matched against `public/data/matches.json` for names and live
+> results (see the ESPN note up top) — not API-Football. All 48 resolve cleanly, including the
+> naming variants (Türkiye, Czechia, Congo DR, Côte d'Ivoire/Ivory Coast, Curaçao).
+
 **Anyone can verify the draw.** Agree a public seed in advance — e.g. a specific **National
 Lottery** draw, entered as the seed string. After the draw, anyone with the repo can re-run
 `node scripts/draw.js --seed <that-seed>` and `git diff config/allocations.json`: an identical

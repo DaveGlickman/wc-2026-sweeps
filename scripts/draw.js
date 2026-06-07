@@ -98,6 +98,43 @@ function shuffle(arr, rng) {
   return a;
 }
 
+// A team's seed (1 = strongest). Missing/invalid seeds rank last so they end up
+// in the undrawn surplus rather than displacing a properly-seeded strong team.
+function seedOf(t) {
+  const s = Number(t.seed);
+  return Number.isFinite(s) ? s : Number.MAX_SAFE_INTEGER;
+}
+
+// Pick the n teams from a pot that actually go into the draw.
+// Teams are ranked by seed, strongest first, and the top n are taken — so the
+// undrawn surplus is always the LOWEST seeds (PROTECT TOP SEEDS). Any id in
+// protectedIds is force-kept: if the seed cut would drop it, it is swapped in
+// for the lowest-seeded otherwise-selected team that isn't itself protected
+// (HARD REQUIREMENT, e.g. South Africa is never left undrawn). Deterministic:
+// no rng here, so WHICH teams are in depends only on seeds + count.
+function selectForDraw(pot, n, protectedIds, label) {
+  const ranked = pot.slice().sort((a, b) => seedOf(a) - seedOf(b));
+  const selected = ranked.slice(0, n);
+  const selectedIds = new Set(selected.map((t) => String(t.id)));
+  for (const pid of protectedIds) {
+    if (selectedIds.has(pid)) continue;
+    const team = ranked.find((t) => String(t.id) === pid);
+    if (!team) continue; // protected id isn't in this pot — ignore here
+    let swapped = false;
+    for (let i = selected.length - 1; i >= 0; i--) {
+      if (!protectedIds.includes(String(selected[i].id))) {
+        selectedIds.delete(String(selected[i].id));
+        selected[i] = team;
+        selectedIds.add(pid);
+        swapped = true;
+        break;
+      }
+    }
+    if (!swapped) die(`${label}: cannot keep protected team ${pid} — too few unprotected slots for ${n} players.`);
+  }
+  return selected;
+}
+
 // ---- args -----------------------------------------------------------------
 
 function parseFlag(argv, name) {
@@ -169,9 +206,15 @@ function main() {
   if (n > potA.length) die(`${n} paid entrants but Pot A only has ${potA.length} teams.`);
   if (n > potB.length) die(`${n} paid entrants but Pot B only has ${potB.length} teams.`);
 
+  const protectedIds = (pots.alwaysInclude || []).map(String);
+
   const rng = makeRng(seed);
-  const drawnA = shuffle(potA, rng);
-  const drawnB = shuffle(potB, rng);
+  // Two stages. 1) Deterministically (seeds only) decide WHICH teams are in the
+  // draw: the strongest n per pot, with protected teams force-kept. 2) Use the
+  // seeded rng to decide WHO gets which of those teams. Same seed + same paid
+  // count -> identical allocation, re-runnable to verify.
+  const drawnA = shuffle(selectForDraw(potA, n, protectedIds, 'potA'), rng);
+  const drawnB = shuffle(selectForDraw(potB, n, protectedIds, 'potB'), rng);
 
   const people = paid.map((entrant, i) => ({
     name: entrant.name,
