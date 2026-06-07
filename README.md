@@ -23,11 +23,14 @@ browser never calls it directly; a server-side job does. Instead:
 
 ```
 config/            ← you edit these by hand (source of truth)
-  allocations.json   each person → their 2 team IDs
+  entrants.json      the roster: name + id + paid (paid-only gate)
+  pots.json          Pot A (stronger 24) + Pot B (outsiders 24) team IDs
+  allocations.json   each person → their 2 team IDs (written by the draw)
   picks.json         each person → their 2 player IDs
   scoring.json       all point values + payout split
   motm.json          { fixtureId: playerId } Man of the Match map
 scripts/
+  draw.js            deterministic, seeded draw → writes allocations.json
   fetch.js           the data job (run by the Action)
   verify-picks.js    one-off pick-position validator
   test-scoring.js    sanity test for the leaderboard math (needs Node)
@@ -43,9 +46,13 @@ scripts/deploy.sh    one-command repo create + push + enable Pages (needs gh aut
 ```
 
 > **Why `public/config` exists:** Pages serves `/public`, but you edit `config/` at the repo
-> root. The fetch job mirrors the four config files into `public/config/` each run so the
+> root. The fetch job mirrors the config files into `public/config/` each run so the
 > browser can read them same-origin. Edit the root `config/` files; changes go live on the
 > next Action run (≤30 min).
+
+> **Paid-only:** only people with `"paid": true` in `config/entrants.json` are included —
+> both in the draw and on the live leaderboard. Unpaid people never appear in either. The
+> rules panel shows the live paid-entrant count and the prize split.
 
 ## Setup
 
@@ -58,13 +65,37 @@ No API key or account is required — ESPN's data is free.
    Note the Pages URL it prints.
 2. **Run the first data fetch.** Trigger it from the **Actions** tab ("Fetch World Cup
    data" → Run workflow); it commits `public/data/matches.json` with the full schedule.
-3. **Run the draw offline**, then fill in (IDs are **ESPN** ids):
-   - `config/allocations.json` — each person's name + their two team IDs (1 from Pot A,
-     1 from Pot B). Find team IDs in `public/data/matches.json` after the first fetch.
-   - `config/picks.json` — each person's two player IDs: index 0 = forward/attacker (Pot A),
-     index 1 = midfielder/defender/goalkeeper (Pot B). Names must match `allocations.json`.
-     Player IDs come from ESPN squad pages or appear in `matches.json` once a player features.
-4. **Share the Pages URL** with the group.
+3. **Fill the roster.** List everyone in `config/entrants.json` with `"paid": true|false`.
+   Check the pots in `config/pots.json` (a starter 24/24 split is provided from the real
+   ESPN team IDs in `matches.json` — review it and move teams between Pot A / Pot B to match
+   your seeding).
+4. **Run the draw** (see below). It reads the paid entrants + pots and writes
+   `config/allocations.json`.
+5. **Fill `config/picks.json`** — each person's two player IDs: index 0 = forward/attacker
+   (Pot A pick), index 1 = midfielder/defender/goalkeeper (Pot B pick). Names must match
+   `entrants.json` / `allocations.json`. Player IDs appear in `matches.json` once a player
+   features, or come from ESPN squad pages.
+6. **Commit, push, and share the Pages URL** with the group.
+
+## The draw
+
+The draw is **deterministic from a seed** — a seeded PRNG (cyrb128 → sfc32), never
+`Math.random()` — so the same seed and the same entrants/pots always produce a byte-identical
+`config/allocations.json`. Run it from the repo root (needs Node 18+):
+
+```
+node scripts/draw.js --seed 04-11-23-31-44-09
+```
+
+It includes **only paid entrants** (`config/entrants.json`), assigns each one exactly one
+Pot A and one Pot B team with no team used twice, writes `config/allocations.json`, and prints
+a readable summary. It works for any paid count up to the pot size (≤ 24 per pot).
+
+**Anyone can verify the draw.** Agree a public seed in advance — e.g. a specific **National
+Lottery** draw, entered as the seed string. After the draw, anyone with the repo can re-run
+`node scripts/draw.js --seed <that-seed>` and `git diff config/allocations.json`: an identical
+file proves the allocation was not hand-picked. (Run the draw *after* the agreed numbers are
+public so nobody can pre-compute a favourable seed.)
 
 ## During the tournament
 

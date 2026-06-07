@@ -175,10 +175,21 @@ function mergePeople(allocations, picks) {
   return Array.from(map.values());
 }
 
+// Paid-only gate. Returns a Set of paid entrant names to filter by, or null
+// when entrants.json is absent (then no gating, for backwards compatibility).
+// If the file exists but nobody is paid, returns an empty Set (empty board).
+function buildPaidSet(entrants) {
+  if (!entrants || !Array.isArray(entrants.people)) return null;
+  return new Set(
+    entrants.people.filter((p) => p && p.paid === true).map((p) => p.name)
+  );
+}
+
 function computeStandings(data) {
-  const { scoring, allocations, picks, motm, idx } = data;
+  const { scoring, allocations, picks, motm, idx, paidSet } = data;
   const motmMap = (motm && motm.motm) || {};
-  const people = mergePeople(allocations, picks);
+  let people = mergePeople(allocations, picks);
+  if (paidSet) people = people.filter((p) => paidSet.has(p.name));
 
   const standings = people.map((person) => {
     const teams = (person.teams || []).map((t) => {
@@ -323,9 +334,16 @@ function renderLeaderboard(standings, idx) {
   $('#leaderboard-section').hidden = false;
 }
 
-function renderRules(scoring) {
+function renderRules(scoring, entrantCount) {
   const wrap = $('#rules');
   wrap.innerHTML = '';
+
+  if (entrantCount != null) {
+    const head = el('p', 'entrants-note');
+    head.innerHTML =
+      `<strong>${entrantCount}</strong> paid ${entrantCount === 1 ? 'entrant' : 'entrants'} in the pot.`;
+    wrap.appendChild(head);
+  }
 
   const section = (title, pairs) => {
     wrap.appendChild(el('h4', null, title));
@@ -378,21 +396,26 @@ function formatStamp(iso) {
 async function main() {
   const status = $('#status');
   try {
-    const [scoring, allocations, picks, motm, matches] = await Promise.all([
+    const [scoring, allocations, picks, motm, matches, entrants] = await Promise.all([
       getJSON(`${CONFIG}/scoring.json`),
       getJSON(`${CONFIG}/allocations.json`),
       getJSON(`${CONFIG}/picks.json`),
       getJSON(`${CONFIG}/motm.json`),
-      getJSON(`${DATA}/matches.json`)
+      getJSON(`${DATA}/matches.json`),
+      getJSON(`${CONFIG}/entrants.json`).catch(() => null)
     ]);
 
     const idx = buildIndex(matches);
-    renderRules(scoring);
+    const paidSet = buildPaidSet(entrants);
 
-    const standings = computeStandings({ scoring, allocations, picks, motm, idx });
+    const standings = computeStandings({ scoring, allocations, picks, motm, idx, paidSet });
+    const entrantCount = paidSet ? paidSet.size : standings.length;
+    renderRules(scoring, entrantCount);
 
     if (!standings.length) {
-      status.textContent = 'No people configured yet. Add entries to config/allocations.json and config/picks.json.';
+      status.textContent = paidSet
+        ? 'No paid entrants yet. Mark people "paid": true in config/entrants.json and run the draw.'
+        : 'No people configured yet. Add entries to config/allocations.json and config/picks.json.';
     } else {
       status.hidden = true;
       renderLeaderboard(standings, idx);
