@@ -27,8 +27,7 @@ jobs:
           node-version: "20"
 
       - name: Fetch data
-        env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        # ESPN's public API needs no key — nothing secret here.
         run: node scripts/fetch.js
 
       - name: Commit updated data
