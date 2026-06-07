@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-06-07T10:26:04.823Z",
+  "generatedAt": "2026-06-07T10:30:43.845Z",
   "fixtures": [
     {
       "id": "760415",
@@ -1374,7 +1374,7 @@
     {
       "id": "760486",
       "date": "2026-06-28T19:00Z",
-      "round": "Group Stage",
+      "round": "Round of 32",
       "status": "NS",
       "finished": false,
       "homeTeam": {
@@ -1393,7 +1393,7 @@
     {
       "id": "760487",
       "date": "2026-06-29T17:00Z",
-      "round": "Group Stage",
+      "round": "Round of 32",
       "status": "NS",
       "finished": false,
       "homeTeam": {
@@ -1412,7 +1412,7 @@
     {
       "id": "760489",
       "date": "2026-06-29T20:30Z",
-      "round": "Group Stage",
+      "round": "Round of 32",
       "status": "NS",
       "finished": false,
       "homeTeam": {
@@ -1431,7 +1431,7 @@
     {
       "id": "760488",
       "date": "2026-06-30T01:00Z",
-      "round": "Group Stage",
+      "round": "Round of 32",
       "status": "NS",
       "finished": false,
       "homeTeam": {
@@ -1450,7 +1450,7 @@
     {
       "id": "760490",
       "date": "2026-06-30T17:00Z",
-      "round": "Group Stage",
+      "round": "Round of 32",
       "status": "NS",
       "finished": false,
       "homeTeam": {
@@ -1469,7 +1469,7 @@
     {
       "id": "760492",
       "date": "2026-06-30T21:00Z",
-      "round": "Group Stage",
+      "round": "Round of 32",
       "status": "NS",
       "finished": false,
       "homeTeam": {
@@ -1488,7 +1488,7 @@
     {
       "id": "760491",
       "date": "2026-07-01T01:00Z",
-      "round": "Group Stage",
+      "round": "Round of 32",
       "status": "NS",
       "finished": false,
       "homeTeam": {
@@ -1507,7 +1507,7 @@
     {
       "id": "760495",
       "date": "2026-07-01T16:00Z",
-      "round": "Group Stage",
+      "round": "Round of 32",
       "status": "NS",
       "finished": false,
       "homeTeam": {
@@ -1526,7 +1526,7 @@
     {
       "id": "760493",
       "date": "2026-07-01T20:00Z",
-      "round": "Group Stage",
+      "round": "Round of 32",
       "status": "NS",
       "finished": false,
       "homeTeam": {
@@ -1545,7 +1545,7 @@
     {
       "id": "760494",
       "date": "2026-07-02T00:00Z",
-      "round": "Group Stage",
+      "round": "Round of 32",
       "status": "NS",
       "finished": false,
       "homeTeam": {
@@ -1564,7 +1564,7 @@
     {
       "id": "760497",
       "date": "2026-07-02T19:00Z",
-      "round": "Group Stage",
+      "round": "Round of 32",
       "status": "NS",
       "finished": false,
       "homeTeam": {
@@ -1583,7 +1583,7 @@
     {
       "id": "760496",
       "date": "2026-07-02T23:00Z",
-      "round": "Group Stage",
+      "round": "Round of 32",
       "status": "NS",
       "finished": false,
       "homeTeam": {
@@ -1602,7 +1602,7 @@
     {
       "id": "760498",
       "date": "2026-07-03T03:00Z",
-      "round": "Group Stage",
+      "round": "Round of 32",
       "status": "NS",
       "finished": false,
       "homeTeam": {
@@ -1621,7 +1621,7 @@
     {
       "id": "760499",
       "date": "2026-07-03T18:00Z",
-      "round": "Group Stage",
+      "round": "Round of 32",
       "status": "NS",
       "finished": false,
       "homeTeam": {
@@ -1640,7 +1640,7 @@
     {
       "id": "760500",
       "date": "2026-07-03T22:00Z",
-      "round": "Group Stage",
+      "round": "Round of 32",
       "status": "NS",
       "finished": false,
       "homeTeam": {
@@ -1659,7 +1659,7 @@
     {
       "id": "760501",
       "date": "2026-07-04T01:30Z",
-      "round": "Group Stage",
+      "round": "Round of 32",
       "status": "NS",
       "finished": false,
       "homeTeam": {
@@ -1944,7 +1944,7 @@
     {
       "id": "760516",
       "date": "2026-07-18T21:00Z",
-      "round": "Semi-finals",
+      "round": "3rd Place",
       "status": "NS",
       "finished": false,
       "homeTeam": {
