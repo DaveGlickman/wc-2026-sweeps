@@ -5,6 +5,7 @@
     { "name": "RoDog", "id": "rodog", "paid": true },
     { "name": "Squeaker", "id": "squeaker", "paid": true },
     { "name": "Captain", "id": "captain", "paid": true },
-    { "name": "Gossy", "id": "gossy", "paid": true }
+    { "name": "Gossy", "id": "gossy", "paid": true },
+    { "name": "Pimmer", "id": "pimmer", "paid": true }
   ]
 }
