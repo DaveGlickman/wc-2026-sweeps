@@ -6,11 +6,11 @@
     "cleanSheet": 1
   },
   "teamProgression": {
-    "R16": 4,
-    "QF": 7,
-    "SF": 11,
-    "Final": 16,
-    "Champions": 25
+    "R16": 1,
+    "QF": 2,
+    "SF": 3,
+    "Final": 4,
+    "Champions": 5
   },
   "player": {
     "goal": 4,

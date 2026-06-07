@@ -111,7 +111,7 @@ public so nobody can pre-compute a favourable seed.)
 | | |
 |---|---|
 | **Team / match** | win +3, draw +1, loss 0, clean sheet +1 |
-| **Team progression** (once each) | R16 +4, QF +7, SF +11, Final +16, Champions +25 |
+| **Team progression** (once each) | R16 +1, QF +2, SF +3, Final +4, Champions +5 |
 | **Player / match** | goal +4, assist +2, MOTM +3, clean sheet +2 (DEF/GK only), yellow −1, red −3, own goal −2 |
 
 A person's total = both teams + both players. **Tiebreakers:** total points → combined goals
