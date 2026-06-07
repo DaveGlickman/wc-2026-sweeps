@@ -1,6 +1,1983 @@
 {
-  "league": 1,
+  "league": "fifa.world",
   "season": 2026,
-  "generatedAt": null,
-  "fixtures": []
+  "generatedAt": "2026-06-07T10:26:04.823Z",
+  "fixtures": [
+    {
+      "id": "760415",
+      "date": "2026-06-11T19:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "203",
+        "name": "Mexico",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "467",
+        "name": "South Africa",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760414",
+      "date": "2026-06-12T02:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "451",
+        "name": "South Korea",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "450",
+        "name": "Czechia",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760416",
+      "date": "2026-06-12T19:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "206",
+        "name": "Canada",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760417",
+      "date": "2026-06-13T01:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "660",
+        "name": "United States",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "210",
+        "name": "Paraguay",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760420",
+      "date": "2026-06-13T19:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "4398",
+        "name": "Qatar",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "475",
+        "name": "Switzerland",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760419",
+      "date": "2026-06-13T22:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "205",
+        "name": "Brazil",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "2869",
+        "name": "Morocco",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760418",
+      "date": "2026-06-14T01:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "2654",
+        "name": "Haiti",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "580",
+        "name": "Scotland",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760421",
+      "date": "2026-06-14T04:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "628",
+        "name": "Australia",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "465",
+        "name": "Türkiye",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760422",
+      "date": "2026-06-14T17:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "481",
+        "name": "Germany",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "11678",
+        "name": "Curaçao",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760425",
+      "date": "2026-06-14T20:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "449",
+        "name": "Netherlands",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "627",
+        "name": "Japan",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760423",
+      "date": "2026-06-14T23:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "4789",
+        "name": "Ivory Coast",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "209",
+        "name": "Ecuador",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760424",
+      "date": "2026-06-15T02:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "466",
+        "name": "Sweden",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "659",
+        "name": "Tunisia",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760428",
+      "date": "2026-06-15T16:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "164",
+        "name": "Spain",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "2597",
+        "name": "Cape Verde",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760426",
+      "date": "2026-06-15T19:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "459",
+        "name": "Belgium",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "2620",
+        "name": "Egypt",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760429",
+      "date": "2026-06-15T22:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "655",
+        "name": "Saudi Arabia",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "212",
+        "name": "Uruguay",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760427",
+      "date": "2026-06-16T01:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "469",
+        "name": "Iran",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "2666",
+        "name": "New Zealand",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760432",
+      "date": "2026-06-16T19:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "478",
+        "name": "France",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "654",
+        "name": "Senegal",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760430",
+      "date": "2026-06-16T22:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "4375",
+        "name": "Iraq",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "464",
+        "name": "Norway",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760433",
+      "date": "2026-06-17T01:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "202",
+        "name": "Argentina",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "624",
+        "name": "Algeria",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760431",
+      "date": "2026-06-17T04:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "474",
+        "name": "Austria",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "2917",
+        "name": "Jordan",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760435",
+      "date": "2026-06-17T17:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "482",
+        "name": "Portugal",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "2850",
+        "name": "Congo DR",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760437",
+      "date": "2026-06-17T20:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "448",
+        "name": "England",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "477",
+        "name": "Croatia",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760434",
+      "date": "2026-06-17T23:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "4469",
+        "name": "Ghana",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "2659",
+        "name": "Panama",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760436",
+      "date": "2026-06-18T02:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "2570",
+        "name": "Uzbekistan",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "208",
+        "name": "Colombia",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760438",
+      "date": "2026-06-18T16:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "450",
+        "name": "Czechia",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "467",
+        "name": "South Africa",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760439",
+      "date": "2026-06-18T19:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "475",
+        "name": "Switzerland",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760440",
+      "date": "2026-06-18T22:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "206",
+        "name": "Canada",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "4398",
+        "name": "Qatar",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760441",
+      "date": "2026-06-19T01:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "203",
+        "name": "Mexico",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "451",
+        "name": "South Korea",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760442",
+      "date": "2026-06-19T19:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "660",
+        "name": "United States",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "628",
+        "name": "Australia",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760445",
+      "date": "2026-06-19T22:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "580",
+        "name": "Scotland",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "2869",
+        "name": "Morocco",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760444",
+      "date": "2026-06-20T00:30Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "205",
+        "name": "Brazil",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "2654",
+        "name": "Haiti",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760443",
+      "date": "2026-06-20T03:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "465",
+        "name": "Türkiye",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "210",
+        "name": "Paraguay",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760447",
+      "date": "2026-06-20T17:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "449",
+        "name": "Netherlands",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "466",
+        "name": "Sweden",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760448",
+      "date": "2026-06-20T20:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "481",
+        "name": "Germany",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "4789",
+        "name": "Ivory Coast",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760446",
+      "date": "2026-06-21T00:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "209",
+        "name": "Ecuador",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "11678",
+        "name": "Curaçao",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760449",
+      "date": "2026-06-21T04:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "659",
+        "name": "Tunisia",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "627",
+        "name": "Japan",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760453",
+      "date": "2026-06-21T16:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "164",
+        "name": "Spain",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "655",
+        "name": "Saudi Arabia",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760451",
+      "date": "2026-06-21T19:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "459",
+        "name": "Belgium",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "469",
+        "name": "Iran",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760450",
+      "date": "2026-06-21T22:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "212",
+        "name": "Uruguay",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "2597",
+        "name": "Cape Verde",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760452",
+      "date": "2026-06-22T01:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "2666",
+        "name": "New Zealand",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "2620",
+        "name": "Egypt",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760456",
+      "date": "2026-06-22T17:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "202",
+        "name": "Argentina",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "474",
+        "name": "Austria",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760457",
+      "date": "2026-06-22T21:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "478",
+        "name": "France",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "4375",
+        "name": "Iraq",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760454",
+      "date": "2026-06-23T00:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "464",
+        "name": "Norway",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "654",
+        "name": "Senegal",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760455",
+      "date": "2026-06-23T03:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "2917",
+        "name": "Jordan",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "624",
+        "name": "Algeria",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760461",
+      "date": "2026-06-23T17:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "482",
+        "name": "Portugal",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "2570",
+        "name": "Uzbekistan",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760458",
+      "date": "2026-06-23T20:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "448",
+        "name": "England",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "4469",
+        "name": "Ghana",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760460",
+      "date": "2026-06-23T23:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "2659",
+        "name": "Panama",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "477",
+        "name": "Croatia",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760459",
+      "date": "2026-06-24T02:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "208",
+        "name": "Colombia",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "2850",
+        "name": "Congo DR",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760462",
+      "date": "2026-06-24T19:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "452",
+        "name": "Bosnia-Herzegovina",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "4398",
+        "name": "Qatar",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760463",
+      "date": "2026-06-24T19:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "475",
+        "name": "Switzerland",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "206",
+        "name": "Canada",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760464",
+      "date": "2026-06-24T22:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "2869",
+        "name": "Morocco",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "2654",
+        "name": "Haiti",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760465",
+      "date": "2026-06-24T22:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "580",
+        "name": "Scotland",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "205",
+        "name": "Brazil",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760467",
+      "date": "2026-06-25T01:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "450",
+        "name": "Czechia",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "203",
+        "name": "Mexico",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760466",
+      "date": "2026-06-25T01:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "467",
+        "name": "South Africa",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "451",
+        "name": "South Korea",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760473",
+      "date": "2026-06-25T20:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "11678",
+        "name": "Curaçao",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "4789",
+        "name": "Ivory Coast",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760468",
+      "date": "2026-06-25T20:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "209",
+        "name": "Ecuador",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "481",
+        "name": "Germany",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760471",
+      "date": "2026-06-25T23:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "627",
+        "name": "Japan",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "466",
+        "name": "Sweden",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760472",
+      "date": "2026-06-25T23:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "659",
+        "name": "Tunisia",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "449",
+        "name": "Netherlands",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760469",
+      "date": "2026-06-26T02:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "210",
+        "name": "Paraguay",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "628",
+        "name": "Australia",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760470",
+      "date": "2026-06-26T02:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "465",
+        "name": "Türkiye",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "660",
+        "name": "United States",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760475",
+      "date": "2026-06-26T19:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "464",
+        "name": "Norway",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "478",
+        "name": "France",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760474",
+      "date": "2026-06-26T19:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "654",
+        "name": "Senegal",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "4375",
+        "name": "Iraq",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760478",
+      "date": "2026-06-27T00:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "2597",
+        "name": "Cape Verde",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "655",
+        "name": "Saudi Arabia",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760479",
+      "date": "2026-06-27T00:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "212",
+        "name": "Uruguay",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "164",
+        "name": "Spain",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760476",
+      "date": "2026-06-27T03:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "2620",
+        "name": "Egypt",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "469",
+        "name": "Iran",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760477",
+      "date": "2026-06-27T03:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "2666",
+        "name": "New Zealand",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "459",
+        "name": "Belgium",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760480",
+      "date": "2026-06-27T21:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "477",
+        "name": "Croatia",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "4469",
+        "name": "Ghana",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760485",
+      "date": "2026-06-27T21:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "2659",
+        "name": "Panama",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "448",
+        "name": "England",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760481",
+      "date": "2026-06-27T23:30Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "208",
+        "name": "Colombia",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "482",
+        "name": "Portugal",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760482",
+      "date": "2026-06-27T23:30Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "2850",
+        "name": "Congo DR",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "2570",
+        "name": "Uzbekistan",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760484",
+      "date": "2026-06-28T02:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "624",
+        "name": "Algeria",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "474",
+        "name": "Austria",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760483",
+      "date": "2026-06-28T02:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "2917",
+        "name": "Jordan",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "202",
+        "name": "Argentina",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760486",
+      "date": "2026-06-28T19:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "5926",
+        "name": "Group A 2nd Place",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "5924",
+        "name": "Group B 2nd Place",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760487",
+      "date": "2026-06-29T17:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "5927",
+        "name": "Group C Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "5934",
+        "name": "Group F 2nd Place",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760489",
+      "date": "2026-06-29T20:30Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "5931",
+        "name": "Group E Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131541",
+        "name": "Third Place Group A/B/C/D/F",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760488",
+      "date": "2026-06-30T01:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "5933",
+        "name": "Group F Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "5930",
+        "name": "Group C 2nd Place",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760490",
+      "date": "2026-06-30T17:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "5932",
+        "name": "Group E 2nd Place",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131501",
+        "name": "Group I 2nd Place",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760492",
+      "date": "2026-06-30T21:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "131505",
+        "name": "Group I Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131544",
+        "name": "Third Place Group C/D/F/G/H",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760491",
+      "date": "2026-07-01T01:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "5923",
+        "name": "Group A Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131545",
+        "name": "Third Place Group C/E/F/H/I",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760495",
+      "date": "2026-07-01T16:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "131508",
+        "name": "Group L Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131548",
+        "name": "Third Place Group E/H/I/J/K",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760493",
+      "date": "2026-07-01T20:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "5935",
+        "name": "Group G Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131542",
+        "name": "Third Place Group A/E/H/I/J",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760494",
+      "date": "2026-07-02T00:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "5929",
+        "name": "Group D Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131543",
+        "name": "Third Place Group B/E/F/I/J",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760497",
+      "date": "2026-07-02T19:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "5937",
+        "name": "Group H Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131502",
+        "name": "Group J 2nd Place",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760496",
+      "date": "2026-07-02T23:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "131503",
+        "name": "Group K 2nd Place",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131504",
+        "name": "Group L 2nd Place",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760498",
+      "date": "2026-07-03T03:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "5925",
+        "name": "Group B Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131547",
+        "name": "Third Place Group E/F/G/I/J",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760499",
+      "date": "2026-07-03T18:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "5928",
+        "name": "Group D 2nd Place",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "5936",
+        "name": "Group G 2nd Place",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760500",
+      "date": "2026-07-03T22:00Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "131506",
+        "name": "Group J Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "5938",
+        "name": "Group H 2nd Place",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760501",
+      "date": "2026-07-04T01:30Z",
+      "round": "Group Stage",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "131507",
+        "name": "Group K Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131546",
+        "name": "Third Place Group D/E/I/J/L",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760502",
+      "date": "2026-07-04T17:00Z",
+      "round": "Round of 16",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "131525",
+        "name": "Round of 32 1 Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131527",
+        "name": "Round of 32 3 Winner",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760503",
+      "date": "2026-07-04T21:00Z",
+      "round": "Round of 16",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "131526",
+        "name": "Round of 32 2 Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131529",
+        "name": "Round of 32 5 Winner",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760504",
+      "date": "2026-07-05T20:00Z",
+      "round": "Round of 16",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "131528",
+        "name": "Round of 32 4 Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131530",
+        "name": "Round of 32 6 Winner",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760505",
+      "date": "2026-07-06T00:00Z",
+      "round": "Round of 16",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "131531",
+        "name": "Round of 32 7 Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131532",
+        "name": "Round of 32 8 Winner",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760506",
+      "date": "2026-07-06T19:00Z",
+      "round": "Round of 16",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "131535",
+        "name": "Round of 32 11 Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131536",
+        "name": "Round of 32 12 Winner",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760507",
+      "date": "2026-07-07T00:00Z",
+      "round": "Round of 16",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "131533",
+        "name": "Round of 32 9 Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131534",
+        "name": "Round of 32 10 Winner",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760509",
+      "date": "2026-07-07T16:00Z",
+      "round": "Round of 16",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "131538",
+        "name": "Round of 32 14 Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131540",
+        "name": "Round of 32 16 Winner",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760508",
+      "date": "2026-07-07T20:00Z",
+      "round": "Round of 16",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "131537",
+        "name": "Round of 32 13 Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "131539",
+        "name": "Round of 32 15 Winner",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760510",
+      "date": "2026-07-09T20:00Z",
+      "round": "Quarter-finals",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "19282",
+        "name": "Round of 16 1 Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "19283",
+        "name": "Round of 16 2 Winner",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760511",
+      "date": "2026-07-10T19:00Z",
+      "round": "Quarter-finals",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "19278",
+        "name": "Round of 16 5 Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "19279",
+        "name": "Round of 16 6 Winner",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760512",
+      "date": "2026-07-11T21:00Z",
+      "round": "Quarter-finals",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "19284",
+        "name": "Round of 16 3 Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "19285",
+        "name": "Round of 16 4 Winner",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760513",
+      "date": "2026-07-12T01:00Z",
+      "round": "Quarter-finals",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "19280",
+        "name": "Round of 16 7 Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "19281",
+        "name": "Round of 16 8 Winner",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760514",
+      "date": "2026-07-14T19:00Z",
+      "round": "Semi-finals",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "17631",
+        "name": "Quarterfinal 1 Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "17629",
+        "name": "Quarterfinal 2 Winner",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760515",
+      "date": "2026-07-15T19:00Z",
+      "round": "Semi-finals",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "17630",
+        "name": "Quarterfinal 3 Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "17632",
+        "name": "Quarterfinal 4 Winner",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760516",
+      "date": "2026-07-18T21:00Z",
+      "round": "Semi-finals",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "5958",
+        "name": "Semifinal 1 Loser",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "5959",
+        "name": "Semifinal 2 Loser",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    },
+    {
+      "id": "760517",
+      "date": "2026-07-19T19:00Z",
+      "round": "Final",
+      "status": "NS",
+      "finished": false,
+      "homeTeam": {
+        "id": "5960",
+        "name": "Semifinal 1 Winner",
+        "goals": null
+      },
+      "awayTeam": {
+        "id": "5961",
+        "name": "Semifinal 2 Winner",
+        "goals": null
+      },
+      "winnerTeamId": null,
+      "players": []
+    }
+  ]
 }
