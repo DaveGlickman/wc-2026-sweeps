@@ -100,6 +100,37 @@ function textOn(hex) {
   return lum > 0.6 ? '#0b1020' : '#ffffff';
 }
 
+function seedOf(t) {
+  const s = Number(t.seed);
+  return Number.isFinite(s) ? s : Number.MAX_SAFE_INTEGER;
+}
+
+// The teams shown on a wheel: the top-N seeds, where N = paid-entrant count, so
+// a 12-player sweep spins a tidy 12-slice wheel instead of all 24. Mirrors the
+// backend's selectForDraw — protected teams (South Africa) are swapped in for the
+// lowest unprotected slot if the seed cut would have dropped them, so the drawn
+// team is always present on its wheel.
+function selectForWheel(pot, n, protectedIds) {
+  if (!n || n >= pot.length) return pot.slice();
+  const ranked = pot.slice().sort((a, b) => seedOf(a) - seedOf(b));
+  const selected = ranked.slice(0, n);
+  const ids = new Set(selected.map((t) => String(t.id)));
+  for (const pid of protectedIds) {
+    if (ids.has(pid)) continue;
+    const team = ranked.find((t) => String(t.id) === pid);
+    if (!team) continue;
+    for (let i = selected.length - 1; i >= 0; i--) {
+      if (!protectedIds.includes(String(selected[i].id))) {
+        ids.delete(String(selected[i].id));
+        selected[i] = team;
+        ids.add(pid);
+        break;
+      }
+    }
+  }
+  return selected;
+}
+
 function buildWheel(el, pot) {
   const n = pot.length;
   const slice = 360 / n;
@@ -280,12 +311,13 @@ async function main() {
     return;
   }
 
-  let backend, pots, playersDoc;
+  let backend, pots, playersDoc, roster;
   try {
-    [backend, pots, playersDoc] = await Promise.all([
+    [backend, pots, playersDoc, roster] = await Promise.all([
       getJSON(`${CONFIG}/backend.json`).catch(() => ({})),
       getJSON(`${CONFIG}/pots.json`).catch(() => ({ potA: [], potB: [] })),
-      getJSON(`${DATA}/players.json`).catch(() => ({ players: [] }))
+      getJSON(`${DATA}/players.json`).catch(() => ({ players: [] })),
+      getJSON(`${DATA}/roster.json`).catch(() => ({ entrants: [] }))
     ]);
   } catch (e) {
     fail(`Could not load the draw: ${e.message}`);
@@ -298,8 +330,13 @@ async function main() {
     return;
   }
 
-  const potA = (pots.potA || []).map((t) => ({ id: String(t.id), name: t.name || null }));
-  const potB = (pots.potB || []).map((t) => ({ id: String(t.id), name: t.name || null }));
+  const potA = (pots.potA || []).map((t) => ({ id: String(t.id), name: t.name || null, seed: t.seed }));
+  const potB = (pots.potB || []).map((t) => ({ id: String(t.id), name: t.name || null, seed: t.seed }));
+  const protectedIds = (pots.alwaysInclude || []).map(String);
+  // Scale each wheel to the number of paid entrants: the top-N seeds only.
+  const paidCount = (roster.entrants || []).filter((p) => p.paid).length;
+  const wheelA = selectForWheel(potA, paidCount, protectedIds);
+  const wheelB = selectForWheel(potB, paidCount, protectedIds);
   const allPlayers = (playersDoc.players || []).map((p) => ({ ...p, id: String(p.id) }));
   const playersById = new Map(allPlayers.map((p) => [p.id, p]));
   const attackers = allPlayers.filter((p) => p.position === 'Attacker');
@@ -334,8 +371,8 @@ async function main() {
   // ---- reveal flow ----
   hide($('#status'));
   $('#greeting').textContent = `${draw.name}, here’s your draw.`;
-  buildWheel($('#wheelA'), potA);
-  buildWheel($('#wheelB'), potB);
+  buildWheel($('#wheelA'), wheelA);
+  buildWheel($('#wheelB'), wheelB);
   show($('#reveal-section'));
 
   const spinA = $('#spinA');
@@ -349,7 +386,7 @@ async function main() {
   spinA.addEventListener('click', async () => {
     spinA.disabled = true;
     spinA.textContent = 'Spinning…';
-    await spinWheel($('#wheelA'), potA, draw.teamA_id);
+    await spinWheel($('#wheelA'), wheelA, draw.teamA_id);
     const r = $('#resultA');
     r.textContent = `🎉 ${teamAName}`;
     show(r);
@@ -362,7 +399,7 @@ async function main() {
   spinB.addEventListener('click', async () => {
     spinB.disabled = true;
     spinB.textContent = 'Spinning…';
-    await spinWheel($('#wheelB'), potB, draw.teamB_id);
+    await spinWheel($('#wheelB'), wheelB, draw.teamB_id);
     const r = $('#resultB');
     r.textContent = `🎉 ${teamBName}`;
     show(r);

@@ -30,8 +30,27 @@
         <div class="wheel-block" data-pot="A">
           <h3 class="wheel-title">Pot A — your stronger side</h3>
           <div class="wheel-stage">
-            <div class="wheel-pointer" aria-hidden="true">▼</div>
+            <div class="wheel-pointer" aria-hidden="true"></div>
             <div class="wheel" id="wheelA"></div>
+            <div class="wheel-hub" aria-hidden="true">
+              <svg viewBox="0 0 48 48" width="100%" height="100%" role="img">
+                <defs>
+                  <linearGradient id="trophyGoldA" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#ffe9a8" />
+                    <stop offset="0.5" stop-color="#ffc94d" />
+                    <stop offset="1" stop-color="#c9881f" />
+                  </linearGradient>
+                </defs>
+                <g stroke="#7a5410" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round">
+                  <ellipse cx="24" cy="41" rx="8.5" ry="2.1" fill="url(#trophyGoldA)" />
+                  <ellipse cx="24" cy="38" rx="9.5" ry="2.4" fill="url(#trophyGoldA)" />
+                  <path d="M20.5 19 C20 27 17 33 19 37 H29 C31 33 28 27 27.5 19 Z" fill="url(#trophyGoldA)" />
+                  <circle cx="24" cy="11.5" r="7" fill="url(#trophyGoldA)" />
+                  <ellipse cx="24" cy="11.5" rx="2.9" ry="7" fill="none" stroke-width="0.55" />
+                  <path d="M17.2 11.5 H30.8" fill="none" stroke-width="0.55" />
+                </g>
+              </svg>
+            </div>
           </div>
           <button class="btn spin-btn" id="spinA" type="button">Spin Pot A</button>
           <div class="reveal-result" id="resultA" hidden></div>
@@ -40,8 +59,27 @@
         <div class="wheel-block" data-pot="B">
           <h3 class="wheel-title">Pot B — your outsider</h3>
           <div class="wheel-stage">
-            <div class="wheel-pointer" aria-hidden="true">▼</div>
+            <div class="wheel-pointer" aria-hidden="true"></div>
             <div class="wheel" id="wheelB"></div>
+            <div class="wheel-hub" aria-hidden="true">
+              <svg viewBox="0 0 48 48" width="100%" height="100%" role="img">
+                <defs>
+                  <linearGradient id="trophyGoldB" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0" stop-color="#ffe9a8" />
+                    <stop offset="0.5" stop-color="#ffc94d" />
+                    <stop offset="1" stop-color="#c9881f" />
+                  </linearGradient>
+                </defs>
+                <g stroke="#7a5410" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round">
+                  <ellipse cx="24" cy="41" rx="8.5" ry="2.1" fill="url(#trophyGoldB)" />
+                  <ellipse cx="24" cy="38" rx="9.5" ry="2.4" fill="url(#trophyGoldB)" />
+                  <path d="M20.5 19 C20 27 17 33 19 37 H29 C31 33 28 27 27.5 19 Z" fill="url(#trophyGoldB)" />
+                  <circle cx="24" cy="11.5" r="7" fill="url(#trophyGoldB)" />
+                  <ellipse cx="24" cy="11.5" rx="2.9" ry="7" fill="none" stroke-width="0.55" />
+                  <path d="M17.2 11.5 H30.8" fill="none" stroke-width="0.55" />
+                </g>
+              </svg>
+            </div>
           </div>
           <button class="btn spin-btn" id="spinB" type="button" disabled>Spin Pot B</button>
           <div class="reveal-result" id="resultB" hidden></div>
