@@ -11,6 +11,7 @@
     { "name": "Cousin", "id": "cousin", "paid": true, "amount": 1000, "datePaid": "2026-06-07" },
     { "name": "Googs", "id": "googs", "paid": true, "amount": 1000, "datePaid": "2026-06-07" },
     { "name": "Doc", "id": "doc", "paid": true, "amount": 1000, "datePaid": "2026-06-07" },
-    { "name": "Sammal", "id": "sammal", "paid": true, "amount": 1000, "datePaid": "2026-06-07" }
+    { "name": "Sammal", "id": "sammal", "paid": true, "amount": 1000, "datePaid": "2026-06-07" },
+    { "name": "Ogi", "id": "ogi", "paid": true, "amount": 1000, "datePaid": "2026-06-07" }
   ]
 }
