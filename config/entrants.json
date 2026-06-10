@@ -13,6 +13,8 @@
     { "name": "Doc", "id": "doc", "paid": true, "amount": 1000, "datePaid": "2026-06-07" },
     { "name": "Sammal", "id": "sammal", "paid": true, "amount": 1000, "datePaid": "2026-06-07" },
     { "name": "Ogi", "id": "ogi", "paid": true, "amount": 1000, "datePaid": "2026-06-07" },
-    { "name": "Zonkey", "id": "zonkey", "paid": true, "amount": 1000, "datePaid": "2026-06-07" }
+    { "name": "Zonkey", "id": "zonkey", "paid": true, "amount": 1000, "datePaid": "2026-06-07" },
+    { "name": "Gersh", "id": "gersh", "paid": true, "amount": 1000, "datePaid": "2026-06-10" },
+    { "name": "Laser", "id": "laser", "paid": true, "amount": 1000, "datePaid": "2026-06-10" }
   ]
 }
