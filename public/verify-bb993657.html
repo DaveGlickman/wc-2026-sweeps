@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shenans WC 2026 — Draw Verifier</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+         max-width: 760px; margin: 0 auto; padding: 24px; line-height: 1.5; }
+  h1 { font-size: 1.4rem; margin-bottom: .2rem; }
+  p.sub { margin-top: 0; opacity: .75; }
+  .seedbox { display: flex; gap: 8px; flex-wrap: wrap; margin: 18px 0; }
+  input { flex: 1 1 260px; font-size: 1.1rem; padding: 10px 12px; border-radius: 8px;
+          border: 1px solid #8888; font-family: ui-monospace, Menlo, Consolas, monospace; }
+  button { font-size: 1rem; padding: 10px 16px; border-radius: 8px; border: 0;
+           background: #1a7f37; color: #fff; cursor: pointer; }
+  button.secondary { background: #555; }
+  table { border-collapse: collapse; width: 100%; margin-top: 14px; }
+  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid #8883; }
+  th { font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; opacity: .7; }
+  td.pa { font-weight: 600; }
+  .note { background: #1a7f3714; border: 1px solid #1a7f3744; border-radius: 8px;
+          padding: 12px 14px; margin: 16px 0; font-size: .92rem; }
+  .official { outline: 2px solid #1a7f37; }
+  code { font-family: ui-monospace, Menlo, Consolas, monospace; background: #8882;
+         padding: 1px 5px; border-radius: 4px; }
+  footer { margin-top: 28px; font-size: .82rem; opacity: .7; }
+</style>
+</head>
+<body>
+<h1>Shenans World Cup 2026 — Draw Verifier</h1>
+<p class="sub">Type the seed word and press <b>Run draw</b>. The same word always gives the same teams — on any computer, every time. Change one letter and watch everything scramble. That's the proof nobody hand-picked the teams.</p>
+
+<div class="seedbox">
+  <input id="seed" value="#zonkerindiedonker" spellcheck="false" autocomplete="off">
+  <button id="run">Run draw</button>
+  <button id="reset" class="secondary">Official seed</button>
+</div>
+
+<div id="status" class="note"></div>
+
+<table id="out">
+  <thead><tr><th>Player</th><th>Pot A team</th><th>Pot B team</th></tr></thead>
+  <tbody></tbody>
+</table>
+
+<footer>
+  This page runs the <b>identical</b> public-domain maths used by the official draw script
+  (<code>cyrb128</code> → <code>sfc32</code> → Fisher–Yates shuffle). No internet needed — view
+  Source to read every line. The agreed seed for this draw is <code>#zonkerindiedonker</code>.
+</footer>
+
+<script>
+// ====================================================================
+//  EXACT port of scripts/draw.js — same algorithm, same data.
+//  Anyone can read this and confirm there is no hidden randomness:
+//  the ONLY input that changes the result is the seed word.
+// ====================================================================
+
+// Paid entrants, sorted by id then name (as the draw script sorts them).
+var PAID = [
+  {name:"Captain",  id:"captain"},
+  {name:"Cousin",   id:"cousin"},
+  {name:"Doc",      id:"doc"},
+  {name:"Gersh",    id:"gersh"},
+  {name:"Glix",     id:"glix"},
+  {name:"Googs",    id:"googs"},
+  {name:"Gossy",    id:"gossy"},
+  {name:"Laser",    id:"laser"},
+  {name:"Ogi",      id:"ogi"},
+  {name:"Pimmer",   id:"pimmer"},
+  {name:"RoDog",    id:"rodog"},
+  {name:"Sammal",   id:"sammal"},
+  {name:"Squeaker", id:"squeaker"},
+  {name:"Yates",    id:"yates"},
+  {name:"Zonkey",   id:"zonkey"}
+];
+
+var ALWAYS_INCLUDE = ["467"]; // South Africa — never left undrawn.
+
+var POT_A = [
+  {seed:1,id:"478",name:"France"},{seed:2,id:"164",name:"Spain"},
+  {seed:3,id:"202",name:"Argentina"},{seed:4,id:"448",name:"England"},
+  {seed:5,id:"482",name:"Portugal"},{seed:6,id:"205",name:"Brazil"},
+  {seed:7,id:"449",name:"Netherlands"},{seed:8,id:"2869",name:"Morocco"},
+  {seed:9,id:"459",name:"Belgium"},{seed:10,id:"481",name:"Germany"},
+  {seed:11,id:"477",name:"Croatia"},{seed:12,id:"208",name:"Colombia"},
+  {seed:13,id:"654",name:"Senegal"},{seed:14,id:"203",name:"Mexico"},
+  {seed:15,id:"660",name:"United States"},{seed:16,id:"212",name:"Uruguay"},
+  {seed:17,id:"627",name:"Japan"},{seed:18,id:"469",name:"Iran"},
+  {seed:19,id:"451",name:"South Korea"},{seed:20,id:"475",name:"Switzerland"},
+  {seed:21,id:"209",name:"Ecuador"},{seed:22,id:"474",name:"Austria"},
+  {seed:23,id:"628",name:"Australia"},{seed:24,id:"465",name:"Türkiye"}
+];
+
+var POT_B = [
+  {seed:25,id:"464",name:"Norway"},{seed:26,id:"466",name:"Sweden"},
+  {seed:27,id:"2620",name:"Egypt"},{seed:28,id:"206",name:"Canada"},
+  {seed:29,id:"210",name:"Paraguay"},{seed:30,id:"624",name:"Algeria"},
+  {seed:31,id:"4789",name:"Ivory Coast"},{seed:32,id:"580",name:"Scotland"},
+  {seed:33,id:"450",name:"Czechia"},{seed:34,id:"659",name:"Tunisia"},
+  {seed:35,id:"2659",name:"Panama"},{seed:36,id:"452",name:"Bosnia-Herzegovina"},
+  {seed:37,id:"655",name:"Saudi Arabia"},{seed:38,id:"4469",name:"Ghana"},
+  {seed:39,id:"2850",name:"Congo DR"},{seed:40,id:"467",name:"South Africa"},
+  {seed:41,id:"4375",name:"Iraq"},{seed:42,id:"4398",name:"Qatar"},
+  {seed:43,id:"2570",name:"Uzbekistan"},{seed:44,id:"2597",name:"Cape Verde"},
+  {seed:45,id:"2917",name:"Jordan"},{seed:46,id:"11678",name:"Curaçao"},
+  {seed:47,id:"2654",name:"Haiti"},{seed:48,id:"2666",name:"New Zealand"}
+];
+
+// ---- seeded PRNG (identical to draw.js) ----
+function cyrb128(str){
+  var h1=1779033703,h2=3144134277,h3=1013904242,h4=2773480762;
+  for(var i=0,k;i<str.length;i++){
+    k=str.charCodeAt(i);
+    h1=h2^Math.imul(h1^k,597399067);
+    h2=h3^Math.imul(h2^k,2869860233);
+    h3=h4^Math.imul(h3^k,951274213);
+    h4=h1^Math.imul(h4^k,2716044179);
+  }
+  h1=Math.imul(h3^(h1>>>18),597399067);
+  h2=Math.imul(h4^(h2>>>22),2869860233);
+  h3=Math.imul(h1^(h3>>>17),951274213);
+  h4=Math.imul(h2^(h4>>>19),2716044179);
+  h1^=(h2^h3^h4);h2^=h1;h3^=h1;h4^=h1;
+  return [h1>>>0,h2>>>0,h3>>>0,h4>>>0];
+}
+function sfc32(a,b,c,d){
+  return function(){
+    a>>>=0;b>>>=0;c>>>=0;d>>>=0;
+    var t=(a+b)|0;
+    a=b^(b>>>9);
+    b=(c+(c<<3))|0;
+    c=(c<<21)|(c>>>11);
+    d=(d+1)|0;
+    t=(t+d)|0;
+    c=(c+t)|0;
+    return (t>>>0)/4294967296;
+  };
+}
+function makeRng(seed){var s=cyrb128(seed);return sfc32(s[0],s[1],s[2],s[3]);}
+function shuffle(arr,rng){
+  var a=arr.slice();
+  for(var i=a.length-1;i>0;i--){
+    var j=Math.floor(rng()*(i+1));
+    var tmp=a[i];a[i]=a[j];a[j]=tmp;
+  }
+  return a;
+}
+function seedOf(t){var s=Number(t.seed);return isFinite(s)?s:Number.MAX_SAFE_INTEGER;}
+function selectForDraw(pot,n,protectedIds){
+  var ranked=pot.slice().sort(function(a,b){return seedOf(a)-seedOf(b);});
+  var selected=ranked.slice(0,n);
+  var selectedIds={}; selected.forEach(function(t){selectedIds[String(t.id)]=true;});
+  protectedIds.forEach(function(pid){
+    if(selectedIds[pid])return;
+    var team=ranked.filter(function(t){return String(t.id)===pid;})[0];
+    if(!team)return;
+    for(var i=selected.length-1;i>=0;i--){
+      if(protectedIds.indexOf(String(selected[i].id))===-1){
+        delete selectedIds[String(selected[i].id)];
+        selected[i]=team; selectedIds[pid]=true; break;
+      }
+    }
+  });
+  return selected;
+}
+
+function runDraw(seed){
+  var n=PAID.length;
+  var rng=makeRng(seed);
+  var drawnA=shuffle(selectForDraw(POT_A,n,ALWAYS_INCLUDE),rng);
+  var drawnB=shuffle(selectForDraw(POT_B,n,ALWAYS_INCLUDE),rng);
+  return PAID.map(function(p,i){
+    return {name:p.name, a:drawnA[i].name, b:drawnB[i].name};
+  });
+}
+
+// ---- UI ----
+var OFFICIAL="#zonkerindiedonker";
+function render(){
+  var seed=document.getElementById('seed').value;
+  var rows=runDraw(seed);
+  var tb=document.querySelector('#out tbody');
+  tb.innerHTML='';
+  rows.forEach(function(r){
+    var tr=document.createElement('tr');
+    tr.innerHTML='<td>'+r.name+'</td><td class="pa">'+r.a+'</td><td>'+r.b+'</td>';
+    tb.appendChild(tr);
+  });
+  var s=document.getElementById('status');
+  var table=document.getElementById('out');
+  if(seed===OFFICIAL){
+    s.textContent='✅ This is the OFFICIAL draw — seed "'+OFFICIAL+'". These teams match the sweep exactly.';
+    table.classList.add('official');
+  }else{
+    s.textContent='↻ Seed "'+seed+'" — a different word gives a totally different draw. Put the official word back to reproduce the real result.';
+    table.classList.remove('official');
+  }
+}
+document.getElementById('run').addEventListener('click',render);
+document.getElementById('seed').addEventListener('keydown',function(e){if(e.key==='Enter')render();});
+document.getElementById('reset').addEventListener('click',function(){
+  document.getElementById('seed').value=OFFICIAL; render();
+});
+render();
+</script>
+</body>
+</html>
