@@ -77,11 +77,41 @@
       ]
     },
     {
+      "name": "Googs",
+      "players": [
+        {
+          "id": "45843",
+          "name": "Lionel Messi",
+          "position": "F"
+        },
+        {
+          "id": "233937",
+          "name": "Lisandro Martínez",
+          "position": "M"
+        }
+      ]
+    },
+    {
       "name": "Gossy",
       "players": [
         {
           "id": "142200",
           "name": "Harry Kane",
+          "position": "F"
+        },
+        {
+          "id": "124091",
+          "name": "Bruno Fernandes",
+          "position": "M"
+        }
+      ]
+    },
+    {
+      "name": "Laser",
+      "players": [
+        {
+          "id": "231388",
+          "name": "Kylian Mbappé",
           "position": "F"
         },
         {
