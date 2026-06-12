@@ -1,0 +1,20 @@
+{
+  "_note": "Peanut = a penalty/forfeit owed. Everyone starts at 1 (the entry peanut). Drops to 0 when they've had it; can go up/down as penalties are dished out. Hidden on the board when 0. Maintained by hand — edit a name's number and push.",
+  "counts": {
+    "Captain": 1,
+    "Cousin": 1,
+    "Doc": 1,
+    "Gersh": 1,
+    "Glix": 1,
+    "Googs": 1,
+    "Gossy": 1,
+    "Laser": 1,
+    "Ogi": 1,
+    "Pimmer": 1,
+    "RoDog": 1,
+    "Sammal": 1,
+    "Squeaker": 1,
+    "Yates": 1,
+    "Zonkey": 1
+  }
+}

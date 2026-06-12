@@ -197,12 +197,31 @@ main {
 }
 
 .person { min-width: 0; }
+.name-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
 .person .name {
   font-weight: 650;
   font-size: 1.02rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  min-width: 0;
+}
+.peanut-badge {
+  flex: none;
+  font-size: 0.8rem;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--peanut);
+  background: color-mix(in srgb, var(--peanut) 16%, transparent);
+  border: 1px solid color-mix(in srgb, var(--peanut) 45%, transparent);
+  border-radius: 999px;
+  padding: 2px 7px;
+  white-space: nowrap;
 }
 .person .breakdown {
   font-size: 0.74rem;

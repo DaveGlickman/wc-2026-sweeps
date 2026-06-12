@@ -295,7 +295,16 @@ function renderPlayer(player) {
 
 function fmt(n) { return (n > 0 ? '+' : '') + n; }
 
-function renderLeaderboard(standings, idx) {
+// Peanuts owed for a person: count of penalties/forfeits outstanding. Accepts
+// either a flat {name: n} map or a {counts: {name: n}} wrapper. Missing -> 0.
+function peanutCount(peanuts, name) {
+  if (!peanuts) return 0;
+  const src = peanuts.counts && typeof peanuts.counts === 'object' ? peanuts.counts : peanuts;
+  const n = Number(src[name]);
+  return Number.isFinite(n) && n > 0 ? Math.round(n) : 0;
+}
+
+function renderLeaderboard(standings, idx, peanuts) {
   const list = $('#leaderboard');
   list.innerHTML = '';
 
@@ -306,7 +315,15 @@ function renderLeaderboard(standings, idx) {
     head.appendChild(el('div', 'rank', row.rank));
 
     const person = el('div', 'person');
-    person.appendChild(el('div', 'name', row.name));
+    const nameRow = el('div', 'name-row');
+    nameRow.appendChild(el('span', 'name', row.name));
+    const owed = peanutCount(peanuts, row.name);
+    if (owed > 0) {
+      const peanut = el('span', 'peanut-badge', `🥜${owed > 1 ? '×' + owed : ''}`);
+      peanut.title = `${owed} peanut${owed > 1 ? 's' : ''} owed`;
+      nameRow.appendChild(peanut);
+    }
+    person.appendChild(nameRow);
     person.appendChild(el('div', 'breakdown',
       `team ${row.teamPts} · player ${row.playerPts}`));
     head.appendChild(person);
@@ -502,6 +519,7 @@ async function main() {
       getJSON(`${DATA}/roster.json`).catch(() => null),
       getJSON(`${CONFIG}/preseason.json`).catch(() => null)
     ]);
+    const peanuts = await getJSON(`${CONFIG}/peanuts.json`).catch(() => null);
 
     const idx = buildIndex(matches);
     const paidSet = buildPaidSet(roster, entrants);
@@ -525,7 +543,7 @@ async function main() {
         : 'No people configured yet. Add entries to config/allocations.json and config/picks.json.';
     } else {
       status.hidden = true;
-      renderLeaderboard(standings, idx);
+      renderLeaderboard(standings, idx, peanuts);
     }
 
     setStamp(matches);
