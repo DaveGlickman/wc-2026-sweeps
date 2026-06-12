@@ -10,6 +10,13 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  # A workflow's GITHUB_TOKEN push does NOT trigger other workflows, so the
+  # fetch.yml data-refresh commits never reached this deploy on their own —
+  # the live site froze on the last human push. Redeploy whenever fetch.yml
+  # finishes so fresh matches.json actually goes live.
+  workflow_run:
+    workflows: ["Fetch World Cup data"]
+    types: [completed]
   workflow_dispatch: {}
 
 permissions:
