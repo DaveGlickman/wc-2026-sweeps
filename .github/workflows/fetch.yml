@@ -2,8 +2,13 @@ name: Fetch World Cup data
 
 on:
   schedule:
-    # Every 30 minutes. GitHub cron is UTC and best-effort (may run late under load).
-    - cron: "*/30 * * * *"
+    # Every 10 minutes, offset to :03/:13/:23/... GitHub cron is UTC and
+    # best-effort: scheduled runs get throttled/dropped under load, worst of all
+    # at the top of the hour (:00) and the common :15/:30/:45 marks. Offsetting
+    # off those busy minutes — and firing 6x/hour instead of 2 — means results
+    # land within ~10 min without anyone lifting a finger. writeIfChanged keeps
+    # no-op runs from creating commits, so extra runs don't spam deploys.
+    - cron: "3,13,23,33,43,53 * * * *"
   workflow_dispatch:
     inputs:
       force_squads:
