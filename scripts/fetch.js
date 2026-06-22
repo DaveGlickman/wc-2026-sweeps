@@ -51,7 +51,7 @@ const MATCHES_FILE = path.join(DATA_DIR, 'matches.json');
 const TIMESTAMP_FILE = path.join(DATA_DIR, 'last-updated.txt');
 // NOTE: entrants.json is deliberately NOT mirrored — it holds amount/datePaid.
 // The public site reads name+paid only via public/data/roster.json (build-roster.js).
-const CONFIG_FILES = ['scoring.json', 'allocations.json', 'picks.json', 'motm.json', 'pots.json', 'backend.json', 'preseason.json', 'peanuts.json'];
+const CONFIG_FILES = ['scoring.json', 'allocations.json', 'picks.json', 'motm.json', 'pots.json', 'backend.json', 'preseason.json', 'peanuts-manual.json'];
 
 const UA = 'Mozilla/5.0 (wc-2026-sweeps data fetcher)';
 

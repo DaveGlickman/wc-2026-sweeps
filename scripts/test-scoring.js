@@ -76,6 +76,6 @@ assert.strictEqual(p1.playerPts, 5, 'P1 player total');
 
 assert.strictEqual(p1.total, 13, 'P1 grand total');
 assert.strictEqual(p1.playerGoals, 1, 'P1 combined player goals');
-assert.strictEqual(p1.furthestRank, 1, 'P1 furthest stage rank = R16 (index 1)');
+assert.strictEqual(p1.furthestRank, 2, 'P1 furthest stage rank = R16 (index 2 in STAGE_ORDER Group,R32,R16,...)');
 
 console.log('All scoring assertions passed. P1 total =', p1.total);

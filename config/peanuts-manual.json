@@ -1,0 +1,23 @@
+{
+  "_note": "Manual inputs for the AUTO peanut engine. The board computes peanuts on its own from match data (Entry, Red card, Shock, Boredom); this file only holds the bits the data feed can't give us. Outstanding shown on the board = max(0, earned + adjust - done). Maintained via scripts/peanut.sh — you shouldn't need to hand-edit.",
+  "_missedPenaltiesNote": "Keyed by ESPN player id -> how many penalties that player has missed. Each miss = +1 peanut to EVERY owner who picked that player (like motm.json, the feed has no penalty field). 45843 = Lionel Messi.",
+  "missedPenalties": {
+    "45843": 1
+  },
+  "_doneNote": "Keyed by person name -> how many peanuts they've physically done (drunk the tequila). Bump it by one each time someone has theirs.",
+  "done": {
+    "Captain": 1,
+    "Glix": 1,
+    "Squeaker": 1,
+    "Gossy": 1,
+    "Gersh": 1,
+    "Ogi": 1,
+    "Pimmer": 1,
+    "Zonkey": 1,
+    "Yates": 1,
+    "Googs": 1,
+    "Laser": 1
+  },
+  "_adjustNote": "Keyed by person name -> manual +/- tweak for anything the rules don't cover.",
+  "adjust": {}
+}

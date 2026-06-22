@@ -186,9 +186,78 @@ function buildPaidSet(roster, entrants) {
   return new Set(rosterPeople(roster, entrants).filter((p) => p.paid).map((p) => p.name));
 }
 
+// ---- Peanuts (auto forfeit tally) ----------------------------------------
+//
+// A peanut = one tequila/forfeit. Earned automatically from match data:
+//   Entry       +1 once any team you own has kicked off
+//   Red card    +1 per red on a player you picked
+//   Shock       +1 when a Pot A team you own loses to a Pot B team
+//   Boredom     +1 per team you own that finishes 0-0 in normal time
+//   Missed pen  +1 per penalty missed by a player you picked (manual feed)
+// Outstanding shown on the board = max(0, earned + adjust - done).
+function computePeanutsFor(person, idx, potA, potB, manual) {
+  const teamIds = (person.teams || []).map((t) => t.id);
+  const playerIds = (person.players || []).map((p) => p.id);
+  const missed = (manual && manual.missedPenalties) || {};
+  const done = (manual && manual.done) || {};
+  const adjust = (manual && manual.adjust) || {};
+
+  const src = { entry: 0, red: 0, shock: 0, boredom: 0, missedPen: 0 };
+
+  // Entry: any team you own has kicked off (live or finished).
+  const kickedOff = idx.fixtures.some((f) =>
+    (f.finished || LIVE.has(f.status)) &&
+    ((f.homeTeam && teamIds.includes(f.homeTeam.id)) ||
+     (f.awayTeam && teamIds.includes(f.awayTeam.id))));
+  if (kickedOff) src.entry += 1;
+
+  for (const f of idx.fixtures) {
+    // Red cards on your picked players (live or finished — a red is a red).
+    for (const p of (f.players || [])) {
+      if (p.red && playerIds.includes(p.id)) src.red += p.red;
+    }
+
+    if (!f.finished) continue;
+    const homeId = f.homeTeam && f.homeTeam.id;
+    const awayId = f.awayTeam && f.awayTeam.id;
+    const hg = f.homeTeam && f.homeTeam.goals;
+    const ag = f.awayTeam && f.awayTeam.goals;
+    if (hg == null || ag == null) continue;
+
+    // Boredom: a team you own finished 0-0.
+    if (hg === 0 && ag === 0) {
+      if (teamIds.includes(homeId)) src.boredom += 1;
+      if (teamIds.includes(awayId)) src.boredom += 1;
+    }
+
+    // Shock: a Pot A team you own lost to a Pot B team.
+    if (hg !== ag) {
+      const loserId = hg > ag ? awayId : homeId;
+      const winnerId = hg > ag ? homeId : awayId;
+      if (teamIds.includes(loserId) && potA.has(loserId) && potB.has(winnerId)) {
+        src.shock += 1;
+      }
+    }
+  }
+
+  // Missed penalties (manual) by your picked players.
+  for (const pid of playerIds) {
+    const n = Number(missed[pid]);
+    if (Number.isFinite(n) && n > 0) src.missedPen += n;
+  }
+
+  const earned = src.entry + src.red + src.shock + src.boredom + src.missedPen;
+  const adj = Number(adjust[person.name]) || 0;
+  const doneN = Number(done[person.name]) || 0;
+  const outstanding = Math.max(0, earned + adj - doneN);
+  return { outstanding, earned, done: doneN, adjust: adj, src };
+}
+
 function computeStandings(data) {
-  const { scoring, allocations, picks, motm, idx, paidSet } = data;
+  const { scoring, allocations, picks, motm, idx, paidSet, pots, peanutsManual } = data;
   const motmMap = (motm && motm.motm) || {};
+  const potA = new Set(((pots && pots.potA) || []).map((t) => t.id));
+  const potB = new Set(((pots && pots.potB) || []).map((t) => t.id));
   let people = mergePeople(allocations, picks);
   if (paidSet) people = people.filter((p) => paidSet.has(p.name));
 
@@ -217,7 +286,8 @@ function computeStandings(data) {
       playerPts,
       total: teamPts + playerPts,
       playerGoals,
-      furthestRank
+      furthestRank,
+      peanuts: computePeanutsFor(person, idx, potA, potB, peanutsManual)
     };
   });
 
@@ -295,16 +365,27 @@ function renderPlayer(player) {
 
 function fmt(n) { return (n > 0 ? '+' : '') + n; }
 
-// Peanuts owed for a person: count of penalties/forfeits outstanding. Accepts
-// either a flat {name: n} map or a {counts: {name: n}} wrapper. Missing -> 0.
-function peanutCount(peanuts, name) {
-  if (!peanuts) return 0;
-  const src = peanuts.counts && typeof peanuts.counts === 'object' ? peanuts.counts : peanuts;
-  const n = Number(src[name]);
-  return Number.isFinite(n) && n > 0 ? Math.round(n) : 0;
+// Per-source labels for the peanut breakdown, in display order.
+const PEANUT_SOURCES = [
+  ['entry', 'Entry'],
+  ['red', 'Red card'],
+  ['shock', 'Shock'],
+  ['boredom', 'Boredom'],
+  ['missedPen', 'Missed pen']
+];
+
+function peanutBreakdownText(pn) {
+  const parts = [];
+  for (const [key, label] of PEANUT_SOURCES) {
+    if (pn.src[key]) parts.push(`${label} ${pn.src[key]}`);
+  }
+  if (pn.adjust) parts.push(`Adjust ${pn.adjust > 0 ? '+' : ''}${pn.adjust}`);
+  if (pn.done) parts.push(`done ${pn.done}`);
+  if (!parts.length) return 'No peanuts.';
+  return `${parts.join(' · ')} → ${pn.outstanding} owed`;
 }
 
-function renderLeaderboard(standings, idx, peanuts) {
+function renderLeaderboard(standings, idx) {
   const list = $('#leaderboard');
   list.innerHTML = '';
 
@@ -317,7 +398,7 @@ function renderLeaderboard(standings, idx, peanuts) {
     const person = el('div', 'person');
     const nameRow = el('div', 'name-row');
     nameRow.appendChild(el('span', 'name', row.name));
-    const owed = peanutCount(peanuts, row.name);
+    const owed = (row.peanuts && row.peanuts.outstanding) || 0;
     if (owed > 0) {
       const peanut = el('span', 'peanut-badge', `🥜${owed > 1 ? '×' + owed : ''}`);
       peanut.title = `${owed} peanut${owed > 1 ? 's' : ''} owed`;
@@ -341,6 +422,9 @@ function renderLeaderboard(standings, idx, peanuts) {
     detail.appendChild(el('h3', null, 'Players'));
     if (row.players.length) row.players.forEach((p) => detail.appendChild(renderPlayer(p)));
     else detail.appendChild(el('div', 'e-sub', 'No players picked.'));
+
+    detail.appendChild(el('h3', null, 'Peanuts 🥜'));
+    detail.appendChild(el('div', 'e-sub', peanutBreakdownText(row.peanuts || { src: {}, outstanding: 0 })));
 
     head.addEventListener('click', () => li.classList.toggle('open'));
 
@@ -509,7 +593,7 @@ function renderPreseason(data) {
 async function main() {
   const status = $('#status');
   try {
-    const [scoring, allocations, picks, motm, matches, entrants, roster, preseason] = await Promise.all([
+    const [scoring, allocations, picks, motm, matches, entrants, roster, preseason, pots, peanutsManual] = await Promise.all([
       getJSON(`${CONFIG}/scoring.json`),
       getJSON(`${CONFIG}/allocations.json`),
       getJSON(`${CONFIG}/picks.json`),
@@ -517,9 +601,10 @@ async function main() {
       getJSON(`${DATA}/matches.json`),
       getJSON(`${CONFIG}/entrants.json`).catch(() => null),
       getJSON(`${DATA}/roster.json`).catch(() => null),
-      getJSON(`${CONFIG}/preseason.json`).catch(() => null)
+      getJSON(`${CONFIG}/preseason.json`).catch(() => null),
+      getJSON(`${CONFIG}/pots.json`).catch(() => null),
+      getJSON(`${CONFIG}/peanuts-manual.json`).catch(() => null)
     ]);
-    const peanuts = await getJSON(`${CONFIG}/peanuts.json`).catch(() => null);
 
     const idx = buildIndex(matches);
     const paidSet = buildPaidSet(roster, entrants);
@@ -533,7 +618,7 @@ async function main() {
       return;
     }
 
-    const standings = computeStandings({ scoring, allocations, picks, motm, idx, paidSet });
+    const standings = computeStandings({ scoring, allocations, picks, motm, idx, paidSet, pots, peanutsManual });
     const entrantCount = paidSet ? paidSet.size : standings.length;
     renderRules(scoring, entrantCount);
 
@@ -543,7 +628,7 @@ async function main() {
         : 'No people configured yet. Add entries to config/allocations.json and config/picks.json.';
     } else {
       status.hidden = true;
-      renderLeaderboard(standings, idx, peanuts);
+      renderLeaderboard(standings, idx);
     }
 
     setStamp(matches);
@@ -558,5 +643,5 @@ if (typeof document !== 'undefined') main();
 
 // Exposed for the Node test harness (scripts/test-scoring.js); no effect in the browser.
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { computeStandings, buildIndex, scoreTeam, scorePlayer, roundKey };
+  module.exports = { computeStandings, buildIndex, scoreTeam, scorePlayer, roundKey, computePeanutsFor };
 }
