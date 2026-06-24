@@ -124,22 +124,26 @@ function scoreTeam(teamId, idx, scoring) {
 
 // ---- Player scoring -------------------------------------------------------
 
-function scorePlayer(playerId, scoring, idx, motm) {
+function scorePlayer(playerId, scoring, idx, motm, manualStats) {
   const s = scoring.player;
+  const overrides = (manualStats && manualStats.overrides) || {};
   let goals = 0, assists = 0, yellow = 0, red = 0, ownGoals = 0, cleanSheets = 0, motmCount = 0;
   let liveName = null;
 
   for (const f of idx.fixtures) {
     const entry = (f.players || []).find((p) => p.id === playerId);
-    if (entry) {
-      liveName = liveName || entry.name;
-      goals += entry.goals || 0;
-      assists += entry.assists || 0;
-      yellow += entry.yellow || 0;
-      red += entry.red || 0;
-      ownGoals += entry.ownGoals || 0;
+    const ov = overrides[String(f.id)] && overrides[String(f.id)][playerId];
+    if (entry || ov) {
+      liveName = liveName || (entry && entry.name);
+      // Floor each stat at any manual override so an incomplete feed can be
+      // topped up; max() means a later ESPN backfill won't double-count.
+      goals += Math.max((entry && entry.goals) || 0, (ov && ov.goals) || 0);
+      assists += Math.max((entry && entry.assists) || 0, (ov && ov.assists) || 0);
+      yellow += Math.max((entry && entry.yellow) || 0, (ov && ov.yellow) || 0);
+      red += Math.max((entry && entry.red) || 0, (ov && ov.red) || 0);
+      ownGoals += Math.max((entry && entry.ownGoals) || 0, (ov && ov.ownGoals) || 0);
 
-      if (f.finished && isDefensive(entry.position) && (entry.minutes || 0) > 0) {
+      if (entry && f.finished && isDefensive(entry.position) && (entry.minutes || 0) > 0) {
         const conceded = (f.homeTeam.id === entry.teamId)
           ? f.awayTeam.goals
           : f.homeTeam.goals;
@@ -254,7 +258,7 @@ function computePeanutsFor(person, idx, potA, potB, manual) {
 }
 
 function computeStandings(data) {
-  const { scoring, allocations, picks, motm, idx, paidSet, pots, peanutsManual } = data;
+  const { scoring, allocations, picks, motm, idx, paidSet, pots, peanutsManual, statsManual } = data;
   const motmMap = (motm && motm.motm) || {};
   const potA = new Set(((pots && pots.potA) || []).map((t) => t.id));
   const potB = new Set(((pots && pots.potB) || []).map((t) => t.id));
@@ -268,7 +272,7 @@ function computeStandings(data) {
       return r;
     });
     const players = (person.players || []).map((p) => {
-      const r = scorePlayer(p.id, scoring, idx, motmMap);
+      const r = scorePlayer(p.id, scoring, idx, motmMap, statsManual);
       r.hint = p.name;
       return r;
     });
@@ -593,7 +597,7 @@ function renderPreseason(data) {
 async function main() {
   const status = $('#status');
   try {
-    const [scoring, allocations, picks, motm, matches, entrants, roster, preseason, pots, peanutsManual] = await Promise.all([
+    const [scoring, allocations, picks, motm, matches, entrants, roster, preseason, pots, peanutsManual, statsManual] = await Promise.all([
       getJSON(`${CONFIG}/scoring.json`),
       getJSON(`${CONFIG}/allocations.json`),
       getJSON(`${CONFIG}/picks.json`),
@@ -603,7 +607,8 @@ async function main() {
       getJSON(`${DATA}/roster.json`).catch(() => null),
       getJSON(`${CONFIG}/preseason.json`).catch(() => null),
       getJSON(`${CONFIG}/pots.json`).catch(() => null),
-      getJSON(`${CONFIG}/peanuts-manual.json`).catch(() => null)
+      getJSON(`${CONFIG}/peanuts-manual.json`).catch(() => null),
+      getJSON(`${CONFIG}/stats-manual.json`).catch(() => null)
     ]);
 
     const idx = buildIndex(matches);
@@ -618,7 +623,7 @@ async function main() {
       return;
     }
 
-    const standings = computeStandings({ scoring, allocations, picks, motm, idx, paidSet, pots, peanutsManual });
+    const standings = computeStandings({ scoring, allocations, picks, motm, idx, paidSet, pots, peanutsManual, statsManual });
     const entrantCount = paidSet ? paidSet.size : standings.length;
     renderRules(scoring, entrantCount);
 

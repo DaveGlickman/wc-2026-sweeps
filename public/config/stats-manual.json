@@ -1,0 +1,8 @@
+{
+  "_note": "Manual player-stat overrides for when ESPN's box score is incomplete. Keyed by matchId -> playerId -> { goals, assists, yellow, red, ownGoals }. Semantics are a FLOOR, not a sum: the board uses max(feed value, override) per stat, so if ESPN later backfills the same stat it won't double-count. Use only the stats you need; omit the rest. matchId/playerId are ESPN ids (strings) matching public/data/matches.json. 760461 = Portugal 5-0 Uzbekistan; 124091 = Bruno Fernandes.",
+  "overrides": {
+    "760461": {
+      "124091": { "assists": 1 }
+    }
+  }
+}
