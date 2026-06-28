@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-06-28T19:57:53.446Z",
+  "generatedAt": "2026-06-28T23:48:12.806Z",
   "fixtures": [
     {
       "id": "760415",
@@ -45763,8 +45763,8 @@
       "id": "760486",
       "date": "2026-06-28T19:00Z",
       "round": "Round of 32",
-      "status": "HT",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "homeTeam": {
         "id": "467",
         "name": "South Africa",
@@ -45773,9 +45773,9 @@
       "awayTeam": {
         "id": "206",
         "name": "Canada",
-        "goals": 0
+        "goals": 1
       },
-      "winnerTeamId": null,
+      "winnerTeamId": "206",
       "players": [
         {
           "id": "196230",
