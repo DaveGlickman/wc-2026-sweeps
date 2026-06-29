@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-06-28T23:48:12.806Z",
+  "generatedAt": "2026-06-29T14:39:10.712Z",
   "fixtures": [
     {
       "id": "760415",
@@ -46443,13 +46443,13 @@
       "status": "NS",
       "finished": false,
       "homeTeam": {
-        "id": "5932",
-        "name": "Group E 2nd Place",
+        "id": "4789",
+        "name": "Ivory Coast",
         "goals": null
       },
       "awayTeam": {
-        "id": "131501",
-        "name": "Group I 2nd Place",
+        "id": "464",
+        "name": "Norway",
         "goals": null
       },
       "winnerTeamId": null,
@@ -46462,13 +46462,13 @@
       "status": "NS",
       "finished": false,
       "homeTeam": {
-        "id": "131505",
-        "name": "Group I Winner",
+        "id": "478",
+        "name": "France",
         "goals": null
       },
       "awayTeam": {
-        "id": "131544",
-        "name": "Third Place Group C/D/F/G/H",
+        "id": "466",
+        "name": "Sweden",
         "goals": null
       },
       "winnerTeamId": null,
@@ -46481,13 +46481,13 @@
       "status": "NS",
       "finished": false,
       "homeTeam": {
-        "id": "5923",
-        "name": "Group A Winner",
+        "id": "203",
+        "name": "Mexico",
         "goals": null
       },
       "awayTeam": {
-        "id": "131545",
-        "name": "Third Place Group C/E/F/H/I",
+        "id": "209",
+        "name": "Ecuador",
         "goals": null
       },
       "winnerTeamId": null,
