@@ -24,10 +24,16 @@ permissions:
   pages: write
   id-token: write
 
-# Allow one concurrent deployment; let an in-progress run finish.
+# Deploys fire often here — every data refresh (up to 6x/hour via fetch.yml's
+# workflow_run) plus every human push. GitHub Pages allows only ONE live
+# deployment per environment, so two overlapping runs race and the superseded
+# one dies with "Deployment failed, try again later" (and emails a failure).
+# cancel-in-progress:true makes the newest deploy cancel any in-flight one
+# instead of racing it — we only ever want the latest data live, and a
+# cancellation (unlike a failure) sends no email.
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   deploy:
