@@ -16,7 +16,8 @@
     "Zonkey": 1,
     "Yates": 1,
     "Googs": 2,
-    "Laser": 1
+    "Laser": 1,
+    "Doc": 1
   },
   "_adjustNote": "Keyed by person name -> manual +/- tweak for anything the rules don't cover.",
   "adjust": {}
