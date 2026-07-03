@@ -116,9 +116,11 @@ function main() {
 
   const m = loadManual();
   if (cmd === 'done' || cmd === 'undo') {
-    const name = resolveName(a || die('usage: done|undo <Name>'));
+    const name = resolveName(a || die('usage: done|undo <Name> [count]'));
+    const step = b === undefined ? 1 : Number(b);
+    if (!Number.isInteger(step) || step < 1) die(`count must be a whole number >= 1, got: ${b}`);
     const cur = Number(m.done[name]) || 0;
-    const next = Math.max(0, cur + (cmd === 'done' ? 1 : -1));
+    const next = Math.max(0, cur + (cmd === 'done' ? step : -step));
     if (next === 0) delete m.done[name]; else m.done[name] = next;
     console.log(`${name}: done ${cur} -> ${next}`);
   } else if (cmd === 'miss' || cmd === 'unmiss') {

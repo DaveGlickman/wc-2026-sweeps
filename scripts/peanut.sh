@@ -6,8 +6,8 @@
 # who's physically done their peanut, manual missed penalties, and any fudge.
 #
 # Usage:
-#   scripts/peanut.sh done  <Name>          # someone had their tequila  (done +1)
-#   scripts/peanut.sh undo  <Name>          # took it back                (done -1)
+#   scripts/peanut.sh done  <Name> [count]  # someone had their tequila  (done +count, default 1)
+#   scripts/peanut.sh undo  <Name> [count]  # took it back                (done -count, default 1)
 #   scripts/peanut.sh miss  <PlayerOrId>    # a picked player missed a pen (+1 each owner)
 #   scripts/peanut.sh unmiss <PlayerOrId>   # undo a missed penalty
 #   scripts/peanut.sh adjust <Name> <+/-n>  # manual tweak for anything else
