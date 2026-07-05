@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-04T23:46:11.444Z",
+  "generatedAt": "2026-07-05T08:04:17.255Z",
   "fixtures": [
     {
       "id": "760415",
@@ -645,7 +645,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760414",
@@ -1289,7 +1290,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760416",
@@ -1933,7 +1935,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760417",
@@ -2267,7 +2270,7 @@
         },
         {
           "id": "301648",
-          "name": "Orlando Gil",
+          "name": "Orlando Gill",
           "teamId": "210",
           "position": "G",
           "minutes": 90,
@@ -2577,7 +2580,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760420",
@@ -2734,7 +2738,7 @@
           "name": "Hassan Al-Haydos",
           "teamId": "4398",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -3082,12 +3086,12 @@
           "name": "Miro Muheim",
           "teamId": "475",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
           "red": 0,
-          "ownGoals": 0
+          "ownGoals": 1
         },
         {
           "id": "175905",
@@ -3214,14 +3218,15 @@
           "name": "Ardon Jashari",
           "teamId": "475",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760419",
@@ -3853,7 +3858,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760418",
@@ -4497,7 +4503,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760421",
@@ -5141,7 +5148,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760422",
@@ -5785,7 +5793,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760425",
@@ -5823,7 +5832,7 @@
           "teamId": "449",
           "position": "D",
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -5849,7 +5858,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -5896,7 +5905,7 @@
           "position": "M",
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 2,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -5931,9 +5940,9 @@
           "teamId": "449",
           "position": "F",
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -5978,7 +5987,7 @@
           "name": "Teun Koopmeiners",
           "teamId": "449",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -6014,7 +6023,7 @@
           "name": "Quinten Timber",
           "teamId": "449",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -6026,7 +6035,7 @@
           "name": "Nathan Aké",
           "teamId": "449",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -6062,10 +6071,10 @@
           "name": "Memphis Depay",
           "teamId": "449",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -6110,7 +6119,7 @@
           "name": "Brian Brobbey",
           "teamId": "449",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -6171,7 +6180,7 @@
           "teamId": "627",
           "position": "M",
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -6195,7 +6204,7 @@
           "teamId": "627",
           "position": "M",
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -6244,7 +6253,7 @@
           "position": "F",
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -6254,7 +6263,7 @@
           "name": "Junya Ito",
           "teamId": "627",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -6266,9 +6275,9 @@
           "name": "Koki Ogawa",
           "teamId": "627",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -6290,7 +6299,7 @@
           "name": "Kento Shiogai",
           "teamId": "627",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -6410,7 +6419,7 @@
           "name": "Yukinari Sugawara",
           "teamId": "627",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -6422,14 +6431,15 @@
           "name": "Takehiro Tomiyasu",
           "teamId": "627",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760423",
@@ -7073,7 +7083,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760424",
@@ -7717,7 +7728,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760428",
@@ -7817,7 +7829,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -7934,7 +7946,7 @@
           "name": "Dani Olmo",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -7946,7 +7958,7 @@
           "name": "Nico Williams",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -8258,7 +8270,7 @@
           "name": "Telmo Arcanjo",
           "teamId": "2597",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -8318,7 +8330,7 @@
           "name": "João Paulo",
           "teamId": "2597",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -8361,7 +8373,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760426",
@@ -8993,7 +9006,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760429",
@@ -9210,7 +9224,7 @@
           "name": "Ali Lajami",
           "teamId": "655",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -9222,7 +9236,7 @@
           "name": "Abdullah Al-Hamdan",
           "teamId": "655",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -9234,7 +9248,7 @@
           "name": "Nasser Al-Dawsari",
           "teamId": "655",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -9270,7 +9284,7 @@
           "name": "Ala Al-Hajji",
           "teamId": "655",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -9282,7 +9296,7 @@
           "name": "Nawaf Boushal",
           "teamId": "655",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -9439,7 +9453,7 @@
           "teamId": "212",
           "position": "M",
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -9462,7 +9476,7 @@
           "name": "Nicolás de la Cruz",
           "teamId": "212",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -9498,7 +9512,7 @@
           "name": "Rodrigo Aguirre",
           "teamId": "212",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -9582,7 +9596,7 @@
           "name": "Brian Rodríguez",
           "teamId": "212",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -9613,7 +9627,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760427",
@@ -10245,7 +10260,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760432",
@@ -10889,7 +10905,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760430",
@@ -11039,7 +11056,7 @@
           "assists": 0,
           "yellow": 0,
           "red": 0,
-          "ownGoals": 0
+          "ownGoals": 1
         },
         {
           "id": "218597",
@@ -11533,7 +11550,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760433",
@@ -12177,7 +12195,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760431",
@@ -12821,7 +12840,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760435",
@@ -12915,7 +12935,7 @@
         },
         {
           "id": "288897",
-          "name": "Vitinha ",
+          "name": "Vitinha",
           "teamId": "482",
           "position": "M",
           "minutes": 90,
@@ -13465,7 +13485,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760437",
@@ -13576,7 +13597,7 @@
           "position": "M",
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -13622,7 +13643,7 @@
           "name": "Morgan Rogers",
           "teamId": "448",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -13706,7 +13727,7 @@
           "name": "Djed Spence",
           "teamId": "448",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -13742,7 +13763,7 @@
           "name": "Marc Guéhi",
           "teamId": "448",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -13766,8 +13787,8 @@
           "name": "Marcus Rashford",
           "teamId": "448",
           "position": null,
-          "minutes": 0,
-          "goals": 0,
+          "minutes": 90,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -13778,9 +13799,9 @@
           "name": "Bukayo Saka",
           "teamId": "448",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -13922,7 +13943,7 @@
           "name": "Nikola Vlasic",
           "teamId": "477",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -13994,7 +14015,7 @@
           "name": "Igor Matanovic",
           "teamId": "477",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -14006,7 +14027,7 @@
           "name": "Andrej Kramaric",
           "teamId": "477",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -14078,7 +14099,7 @@
           "name": "Marco Pasalic",
           "teamId": "477",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -14097,7 +14118,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760434",
@@ -14190,6 +14212,18 @@
           "ownGoals": 0
         },
         {
+          "id": "303115",
+          "name": "Kamaldeen Sulemana",
+          "teamId": "4469",
+          "position": "M",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellow": 0,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
           "id": "387659",
           "name": "Caleb Yirenkyi",
           "teamId": "4469",
@@ -14198,30 +14232,6 @@
           "goals": 1,
           "assists": 0,
           "yellow": 1,
-          "red": 0,
-          "ownGoals": 0
-        },
-        {
-          "id": "273292",
-          "name": "Antoine Semenyo",
-          "teamId": "4469",
-          "position": "M",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 0,
-          "yellow": 0,
-          "red": 0,
-          "ownGoals": 0
-        },
-        {
-          "id": "333310",
-          "name": "Ernest Nuamah",
-          "teamId": "4469",
-          "position": "M",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 0,
-          "yellow": 0,
           "red": 0,
           "ownGoals": 0
         },
@@ -14238,8 +14248,20 @@
           "ownGoals": 0
         },
         {
-          "id": "303115",
-          "name": "Kamaldeen Sulemana",
+          "id": "273292",
+          "name": "Antoine Semenyo",
+          "teamId": "4469",
+          "position": "F",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellow": 0,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
+          "id": "333310",
+          "name": "Ernest Nuamah",
           "teamId": "4469",
           "position": "F",
           "minutes": 90,
@@ -14729,7 +14751,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760436",
@@ -15373,7 +15396,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760438",
@@ -15981,7 +16005,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760439",
@@ -16001,138 +16026,6 @@
       },
       "winnerTeamId": "475",
       "players": [
-        {
-          "id": "238544",
-          "name": "Gregor Kobel",
-          "teamId": "475",
-          "position": "G",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 0,
-          "yellow": 0,
-          "red": 0,
-          "ownGoals": 0
-        },
-        {
-          "id": "214562",
-          "name": "Manuel Akanji",
-          "teamId": "475",
-          "position": "D",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 0,
-          "yellow": 0,
-          "red": 0,
-          "ownGoals": 0
-        },
-        {
-          "id": "212237",
-          "name": "Nico Elvedi",
-          "teamId": "475",
-          "position": "D",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 0,
-          "yellow": 0,
-          "red": 0,
-          "ownGoals": 0
-        },
-        {
-          "id": "136865",
-          "name": "Ricardo Rodríguez",
-          "teamId": "475",
-          "position": "D",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 0,
-          "yellow": 0,
-          "red": 0,
-          "ownGoals": 0
-        },
-        {
-          "id": "175905",
-          "name": "Silvan Widmer",
-          "teamId": "475",
-          "position": "D",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 0,
-          "yellow": 0,
-          "red": 0,
-          "ownGoals": 0
-        },
-        {
-          "id": "149981",
-          "name": "Granit Xhaka",
-          "teamId": "475",
-          "position": "M",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 0,
-          "yellow": 0,
-          "red": 0,
-          "ownGoals": 0
-        },
-        {
-          "id": "152600",
-          "name": "Remo Freuler",
-          "teamId": "475",
-          "position": "M",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 0,
-          "yellow": 0,
-          "red": 0,
-          "ownGoals": 0
-        },
-        {
-          "id": "245623",
-          "name": "Michel Aebischer",
-          "teamId": "475",
-          "position": "M",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 0,
-          "yellow": 0,
-          "red": 0,
-          "ownGoals": 0
-        },
-        {
-          "id": "202099",
-          "name": "Breel Embolo",
-          "teamId": "475",
-          "position": "F",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 0,
-          "yellow": 0,
-          "red": 0,
-          "ownGoals": 0
-        },
-        {
-          "id": "275842",
-          "name": "Dan Ndoye",
-          "teamId": "475",
-          "position": "F",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 0,
-          "yellow": 0,
-          "red": 0,
-          "ownGoals": 0
-        },
-        {
-          "id": "308908",
-          "name": "Fabian Rieder",
-          "teamId": "475",
-          "position": "F",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 0,
-          "yellow": 0,
-          "red": 0,
-          "ownGoals": 0
-        },
         {
           "id": "199381",
           "name": "Yvon Mvogo",
@@ -16162,7 +16055,7 @@
           "name": "Djibril Sow",
           "teamId": "475",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -16174,7 +16067,7 @@
           "name": "Luca Jaquez",
           "teamId": "475",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -16258,7 +16151,7 @@
           "name": "Cedric Itten",
           "teamId": "475",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -16270,9 +16163,9 @@
           "name": "Rubén Vargas",
           "teamId": "475",
           "position": null,
-          "minutes": 0,
-          "goals": 0,
-          "assists": 0,
+          "minutes": 90,
+          "goals": 1,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -16282,8 +16175,8 @@
           "name": "Johan Manzambi",
           "teamId": "475",
           "position": null,
-          "minutes": 0,
-          "goals": 0,
+          "minutes": 90,
+          "goals": 2,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -16297,6 +16190,138 @@
           "minutes": 0,
           "goals": 0,
           "assists": 0,
+          "yellow": 0,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
+          "id": "238544",
+          "name": "Gregor Kobel",
+          "teamId": "475",
+          "position": "G",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellow": 0,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
+          "id": "214562",
+          "name": "Manuel Akanji",
+          "teamId": "475",
+          "position": "D",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellow": 0,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
+          "id": "212237",
+          "name": "Nico Elvedi",
+          "teamId": "475",
+          "position": "D",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellow": 1,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
+          "id": "136865",
+          "name": "Ricardo Rodríguez",
+          "teamId": "475",
+          "position": "D",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellow": 0,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
+          "id": "175905",
+          "name": "Silvan Widmer",
+          "teamId": "475",
+          "position": "D",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellow": 0,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
+          "id": "275842",
+          "name": "Dan Ndoye",
+          "teamId": "475",
+          "position": "M",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellow": 0,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
+          "id": "149981",
+          "name": "Granit Xhaka",
+          "teamId": "475",
+          "position": "M",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "yellow": 0,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
+          "id": "308908",
+          "name": "Fabian Rieder",
+          "teamId": "475",
+          "position": "M",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellow": 0,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
+          "id": "152600",
+          "name": "Remo Freuler",
+          "teamId": "475",
+          "position": "M",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellow": 0,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
+          "id": "245623",
+          "name": "Michel Aebischer",
+          "teamId": "475",
+          "position": "M",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellow": 0,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
+          "id": "202099",
+          "name": "Breel Embolo",
+          "teamId": "475",
+          "position": "F",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -16322,7 +16347,7 @@
           "goals": 0,
           "assists": 0,
           "yellow": 0,
-          "red": 0,
+          "red": 1,
           "ownGoals": 0
         },
         {
@@ -16357,7 +16382,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -16417,7 +16442,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -16438,8 +16463,8 @@
           "name": "Ermin Mahmic",
           "teamId": "452",
           "position": null,
-          "minutes": 0,
-          "goals": 0,
+          "minutes": 90,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -16510,7 +16535,7 @@
           "name": "Ivan Basic",
           "teamId": "452",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -16522,7 +16547,7 @@
           "name": "Amir Hadziahmetovic",
           "teamId": "452",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -16546,7 +16571,7 @@
           "name": "Jovo Lukic",
           "teamId": "452",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -16594,7 +16619,7 @@
           "name": "Esmir Bajraktarevic",
           "teamId": "452",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -16613,7 +16638,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760440",
@@ -17245,7 +17271,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760441",
@@ -17877,7 +17904,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760442",
@@ -18509,7 +18537,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760445",
@@ -18573,7 +18602,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -18582,18 +18611,6 @@
           "name": "Nathan Patterson",
           "teamId": "580",
           "position": "D",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 0,
-          "yellow": 0,
-          "red": 0,
-          "ownGoals": 0
-        },
-        {
-          "id": "255850",
-          "name": "Scott McTominay",
-          "teamId": "580",
-          "position": "M",
           "minutes": 90,
           "goals": 0,
           "assists": 0,
@@ -18626,18 +18643,6 @@
           "ownGoals": 0
         },
         {
-          "id": "213725",
-          "name": "Ché Adams",
-          "teamId": "580",
-          "position": "F",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 0,
-          "yellow": 0,
-          "red": 0,
-          "ownGoals": 0
-        },
-        {
           "id": "214794",
           "name": "Kieran Tierney",
           "teamId": "580",
@@ -18662,6 +18667,30 @@
           "ownGoals": 0
         },
         {
+          "id": "213725",
+          "name": "Ché Adams",
+          "teamId": "580",
+          "position": "F",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellow": 0,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
+          "id": "255850",
+          "name": "Scott McTominay",
+          "teamId": "580",
+          "position": "F",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "yellow": 0,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
           "id": "283940",
           "name": "Aaron Hickey",
           "teamId": "580",
@@ -18678,7 +18707,7 @@
           "name": "Anthony Ralston",
           "teamId": "580",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -18726,7 +18755,7 @@
           "name": "Kenny McLean",
           "teamId": "580",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -18762,7 +18791,7 @@
           "name": "Ben Gannon-Doak",
           "teamId": "580",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -18786,7 +18815,7 @@
           "name": "Ross Stewart",
           "teamId": "580",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -18798,7 +18827,7 @@
           "name": "Lyndon Dykes",
           "teamId": "580",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -18873,7 +18902,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -18990,7 +19019,7 @@
           "name": "Ayoube Amaimouni",
           "teamId": "2869",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -19050,7 +19079,7 @@
           "name": "Chemsdine Talbi",
           "teamId": "2869",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -19086,7 +19115,7 @@
           "name": "Samir El Mourabet",
           "teamId": "2869",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -19146,14 +19175,15 @@
           "name": "Soufiane Rahimi",
           "teamId": "2869",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760444",
@@ -19295,7 +19325,7 @@
         },
         {
           "id": "231050",
-          "name": "Raphinha ",
+          "name": "Raphinha",
           "teamId": "205",
           "position": "F",
           "minutes": 90,
@@ -19427,7 +19457,7 @@
         },
         {
           "id": "176948",
-          "name": "Ederson ",
+          "name": "Ederson",
           "teamId": "205",
           "position": null,
           "minutes": 0,
@@ -19785,7 +19815,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760443",
@@ -20119,7 +20150,7 @@
         },
         {
           "id": "301648",
-          "name": "Orlando Gil",
+          "name": "Orlando Gill",
           "teamId": "210",
           "position": "G",
           "minutes": 90,
@@ -20429,7 +20460,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760447",
@@ -21061,7 +21093,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760448",
@@ -21172,7 +21205,7 @@
           "position": "M",
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -21230,8 +21263,8 @@
           "name": "Deniz Undav",
           "teamId": "481",
           "position": null,
-          "minutes": 0,
-          "goals": 0,
+          "minutes": 90,
+          "goals": 2,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -21254,9 +21287,9 @@
           "name": "Nadiem Amiri",
           "teamId": "481",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -21278,7 +21311,7 @@
           "name": "Jamie Leweling",
           "teamId": "481",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -21314,7 +21347,7 @@
           "name": "Leon Goretzka",
           "teamId": "481",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -21326,7 +21359,7 @@
           "name": "Antonio Rüdiger",
           "teamId": "481",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -21542,7 +21575,7 @@
           "name": "Nicolas Pépé",
           "teamId": "4789",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -21554,7 +21587,7 @@
           "name": "Guela Doué",
           "teamId": "4789",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -21614,7 +21647,7 @@
           "name": "Simon Adingra",
           "teamId": "4789",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -21638,7 +21671,7 @@
           "name": "Seko Fofana",
           "teamId": "4789",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -21698,14 +21731,15 @@
           "name": "Evann Guessand",
           "teamId": "4789",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760446",
@@ -22349,7 +22383,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760449",
@@ -22969,7 +23004,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760453",
@@ -23051,7 +23087,7 @@
         },
         {
           "id": "231828",
-          "name": "Rodri ",
+          "name": "Rodri",
           "teamId": "164",
           "position": "M",
           "minutes": 90,
@@ -23063,7 +23099,7 @@
         },
         {
           "id": "250465",
-          "name": "Pedri ",
+          "name": "Pedri",
           "teamId": "164",
           "position": "M",
           "minutes": 90,
@@ -23126,7 +23162,7 @@
           "name": "Ferran Torres",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -23138,7 +23174,7 @@
           "name": "Mikel Merino",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -23183,7 +23219,7 @@
         },
         {
           "id": "323702",
-          "name": "Gavi ",
+          "name": "Gavi",
           "teamId": "164",
           "position": null,
           "minutes": 0,
@@ -23234,7 +23270,7 @@
           "name": "Fabián Ruiz",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -23270,7 +23306,7 @@
           "name": "Yéremy Pino",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -23294,7 +23330,7 @@
           "name": "Nico Williams",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -23335,7 +23371,7 @@
           "assists": 0,
           "yellow": 0,
           "red": 0,
-          "ownGoals": 0
+          "ownGoals": 1
         },
         {
           "id": "256667",
@@ -23405,7 +23441,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -23438,7 +23474,7 @@
           "name": "Abdullah Al-Hamdan",
           "teamId": "655",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -23474,7 +23510,7 @@
           "name": "Ala Al-Hajji",
           "teamId": "655",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -23510,7 +23546,7 @@
           "name": "Mohammed Abu Al-Shamat",
           "teamId": "655",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -23570,7 +23606,7 @@
           "name": "Khalid Al-Ghannam",
           "teamId": "655",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -23606,14 +23642,15 @@
           "name": "Mohamed Kanno",
           "teamId": "655",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760451",
@@ -24233,7 +24270,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760450",
@@ -24853,7 +24891,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760452",
@@ -25497,7 +25536,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760456",
@@ -26141,7 +26181,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760457",
@@ -26228,7 +26269,7 @@
           "position": "M",
           "minutes": 90,
           "goals": 0,
-          "assists": 1,
+          "assists": 2,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -26263,7 +26304,7 @@
           "teamId": "478",
           "position": "F",
           "minutes": 90,
-          "goals": 1,
+          "goals": 2,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -26287,8 +26328,8 @@
           "teamId": "478",
           "position": "M",
           "minutes": 90,
-          "goals": 0,
-          "assists": 0,
+          "goals": 1,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -26310,7 +26351,7 @@
           "name": "Malo Gusto",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -26334,7 +26375,7 @@
           "name": "Rayan Cherki",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -26346,7 +26387,7 @@
           "name": "Désiré Doué",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -26442,7 +26483,7 @@
           "name": "Marcus Thuram",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -26454,7 +26495,7 @@
           "name": "Maghnes Akliouche",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -26634,7 +26675,7 @@
           "name": "Marko Farji",
           "teamId": "4375",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -26682,7 +26723,7 @@
           "name": "Rebin Sulaka",
           "teamId": "4375",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -26706,7 +26747,7 @@
           "name": "Youssef Amyn",
           "teamId": "4375",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -26718,7 +26759,7 @@
           "name": "Aimar Sher",
           "teamId": "4375",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -26785,7 +26826,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760454",
@@ -27429,7 +27471,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760455",
@@ -28061,7 +28104,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760461",
@@ -28101,7 +28145,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -28148,14 +28192,14 @@
           "position": "M",
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
         },
         {
           "id": "288897",
-          "name": "Vitinha ",
+          "name": "Vitinha",
           "teamId": "482",
           "position": "M",
           "minutes": 90,
@@ -28183,7 +28227,7 @@
           "teamId": "482",
           "position": "F",
           "minutes": 90,
-          "goals": 1,
+          "goals": 2,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -28230,7 +28274,7 @@
           "name": "Nélson Semedo",
           "teamId": "482",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -28242,7 +28286,7 @@
           "name": "Bernardo Silva",
           "teamId": "482",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -28254,7 +28298,7 @@
           "name": "Francisco Trincão",
           "teamId": "482",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -28290,8 +28334,8 @@
           "name": "Rafael Leão",
           "teamId": "482",
           "position": null,
-          "minutes": 0,
-          "goals": 0,
+          "minutes": 90,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -28374,7 +28418,7 @@
           "name": "Francisco Conceição",
           "teamId": "482",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -28403,7 +28447,7 @@
           "assists": 0,
           "yellow": 0,
           "red": 0,
-          "ownGoals": 0
+          "ownGoals": 1
         },
         {
           "id": "326928",
@@ -28519,7 +28563,7 @@
           "teamId": "2570",
           "position": "F",
           "minutes": 90,
-          "goals": 2,
+          "goals": 0,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -28542,7 +28586,7 @@
           "name": "Khojiakbar Alijonov",
           "teamId": "2570",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -28566,7 +28610,7 @@
           "name": "Igor Sergeev",
           "teamId": "2570",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -28590,7 +28634,7 @@
           "name": "Ruslanbek Jiyanov",
           "teamId": "2570",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -28626,7 +28670,7 @@
           "name": "Akmal Mozgovoy",
           "teamId": "2570",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -28698,14 +28742,15 @@
           "name": "Sherzod Esanov",
           "teamId": "2570",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760458",
@@ -29349,7 +29394,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760460",
@@ -29993,7 +30039,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760459",
@@ -30637,7 +30684,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760462",
@@ -31245,7 +31293,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760463",
@@ -31853,7 +31902,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760464",
@@ -31883,7 +31933,7 @@
           "assists": 0,
           "yellow": 0,
           "red": 0,
-          "ownGoals": 0
+          "ownGoals": 1
         },
         {
           "id": "307870",
@@ -31892,7 +31942,7 @@
           "position": "D",
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -31927,8 +31977,8 @@
           "teamId": "2869",
           "position": "D",
           "minutes": 90,
-          "goals": 0,
-          "assists": 0,
+          "goals": 1,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -31936,6 +31986,18 @@
         {
           "id": "304572",
           "name": "Ismael Saibari",
+          "teamId": "2869",
+          "position": "M",
+          "minutes": 90,
+          "goals": 1,
+          "assists": 0,
+          "yellow": 0,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
+          "id": "195226",
+          "name": "Sofyan Amrabat",
           "teamId": "2869",
           "position": "M",
           "minutes": 90,
@@ -31948,18 +32010,6 @@
         {
           "id": "323807",
           "name": "Neil El Aynaoui",
-          "teamId": "2869",
-          "position": "M",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 0,
-          "yellow": 0,
-          "red": 0,
-          "ownGoals": 0
-        },
-        {
-          "id": "195226",
-          "name": "Sofyan Amrabat",
           "teamId": "2869",
           "position": "M",
           "minutes": 90,
@@ -32022,8 +32072,8 @@
           "name": "Gessime Yassine",
           "teamId": "2869",
           "position": null,
-          "minutes": 0,
-          "goals": 0,
+          "minutes": 90,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -32034,7 +32084,7 @@
           "name": "Noussair Mazraoui",
           "teamId": "2869",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -32058,7 +32108,7 @@
           "name": "Samir El Mourabet",
           "teamId": "2869",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -32118,9 +32168,9 @@
           "name": "Soufiane Rahimi",
           "teamId": "2869",
           "position": null,
-          "minutes": 0,
-          "goals": 0,
-          "assists": 0,
+          "minutes": 90,
+          "goals": 1,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -32166,7 +32216,7 @@
           "name": "Azzedine Ounahi",
           "teamId": "2869",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -32193,7 +32243,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -32240,7 +32290,7 @@
           "position": "D",
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -32289,7 +32339,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -32311,7 +32361,7 @@
           "teamId": "2654",
           "position": "F",
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -32370,7 +32420,7 @@
           "name": "Dominique Simon",
           "teamId": "2654",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -32382,10 +32432,10 @@
           "name": "Duckens Nazon",
           "teamId": "2654",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -32406,7 +32456,7 @@
           "name": "Carlens Arcus",
           "teamId": "2654",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -32442,7 +32492,7 @@
           "name": "Louicius Deedson",
           "teamId": "2654",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -32490,14 +32540,15 @@
           "name": "Frantzdy Pierrot",
           "teamId": "2654",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760465",
@@ -32999,7 +33050,7 @@
         },
         {
           "id": "176948",
-          "name": "Ederson ",
+          "name": "Ederson",
           "teamId": "205",
           "position": null,
           "minutes": 0,
@@ -33129,7 +33180,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760467",
@@ -33761,7 +33813,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760466",
@@ -34381,7 +34434,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760473",
@@ -35025,7 +35079,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760468",
@@ -35645,7 +35700,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760471",
@@ -36277,7 +36333,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760472",
@@ -36897,7 +36954,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760469",
@@ -36919,7 +36977,7 @@
       "players": [
         {
           "id": "301648",
-          "name": "Orlando Gil",
+          "name": "Orlando Gill",
           "teamId": "210",
           "position": "G",
           "minutes": 90,
@@ -37505,7 +37563,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760470",
@@ -38137,7 +38196,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760475",
@@ -38781,7 +38841,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760474",
@@ -39413,7 +39474,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760478",
@@ -40033,7 +40095,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760479",
@@ -40451,7 +40514,7 @@
         },
         {
           "id": "250465",
-          "name": "Pedri ",
+          "name": "Pedri",
           "teamId": "164",
           "position": "M",
           "minutes": 90,
@@ -40583,7 +40646,7 @@
         },
         {
           "id": "323702",
-          "name": "Gavi ",
+          "name": "Gavi",
           "teamId": "164",
           "position": null,
           "minutes": 0,
@@ -40677,7 +40740,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760476",
@@ -41297,7 +41361,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760477",
@@ -41917,7 +41982,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760480",
@@ -42561,7 +42627,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760485",
@@ -43193,7 +43260,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760481",
@@ -43293,7 +43361,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -43350,7 +43418,7 @@
           "name": "Daniel Muñoz",
           "teamId": "208",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -43362,7 +43430,7 @@
           "name": "Luis Suárez",
           "teamId": "208",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -43410,7 +43478,7 @@
           "name": "Kevin Castaño",
           "teamId": "208",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -43506,7 +43574,7 @@
           "name": "Juan Fernando Quintero",
           "teamId": "208",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -43518,7 +43586,7 @@
           "name": "Richard Ríos",
           "teamId": "208",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -43599,7 +43667,7 @@
         },
         {
           "id": "288897",
-          "name": "Vitinha ",
+          "name": "Vitinha",
           "teamId": "482",
           "position": "M",
           "minutes": 90,
@@ -43674,7 +43742,7 @@
           "name": "João Neves",
           "teamId": "482",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -43722,7 +43790,7 @@
           "name": "Rafael Leão",
           "teamId": "482",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -43746,7 +43814,7 @@
           "name": "Samú Costa",
           "teamId": "482",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -43758,7 +43826,7 @@
           "name": "Diogo Dalot",
           "teamId": "482",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -43806,7 +43874,7 @@
           "name": "Matheus Nunes",
           "teamId": "482",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -43837,7 +43905,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760482",
@@ -43937,7 +44006,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -43961,7 +44030,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -43971,7 +44040,7 @@
           "teamId": "2850",
           "position": "F",
           "minutes": 90,
-          "goals": 0,
+          "goals": 2,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -44006,7 +44075,7 @@
           "name": "Ngal'ayel Mukau",
           "teamId": "2850",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -44018,8 +44087,8 @@
           "name": "Fiston Mayele",
           "teamId": "2850",
           "position": null,
-          "minutes": 0,
-          "goals": 0,
+          "minutes": 90,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -44078,7 +44147,7 @@
           "name": "Joris Kayembe",
           "teamId": "2850",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -44090,9 +44159,9 @@
           "name": "Meschack Elia",
           "teamId": "2850",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -44102,7 +44171,7 @@
           "name": "Théo Bongonda",
           "teamId": "2850",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -44218,18 +44287,6 @@
           "ownGoals": 0
         },
         {
-          "id": "270461",
-          "name": "Akmal Mozgovoy",
-          "teamId": "2570",
-          "position": "M",
-          "minutes": 90,
-          "goals": 0,
-          "assists": 1,
-          "yellow": 0,
-          "red": 0,
-          "ownGoals": 0
-        },
-        {
           "id": "195281",
           "name": "Otabek Shukurov",
           "teamId": "2570",
@@ -44242,6 +44299,18 @@
           "ownGoals": 0
         },
         {
+          "id": "270461",
+          "name": "Akmal Mozgovoy",
+          "teamId": "2570",
+          "position": "M",
+          "minutes": 90,
+          "goals": 0,
+          "assists": 1,
+          "yellow": 0,
+          "red": 0,
+          "ownGoals": 0
+        },
+        {
           "id": "321728",
           "name": "Sherzod Nasrullaev",
           "teamId": "2570",
@@ -44249,7 +44318,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -44306,7 +44375,7 @@
           "name": "Azizjon Ganiev",
           "teamId": "2570",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -44378,7 +44447,7 @@
           "name": "Oston Urunov",
           "teamId": "2570",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -44402,7 +44471,7 @@
           "name": "Jamshid Iskanderov",
           "teamId": "2570",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -44414,7 +44483,7 @@
           "name": "Igor Sergeev",
           "teamId": "2570",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -44450,7 +44519,7 @@
           "name": "Odiljon Xamrobekov",
           "teamId": "2570",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -44481,7 +44550,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760484",
@@ -45113,7 +45183,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760483",
@@ -45757,7 +45828,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760486",
@@ -45914,7 +45986,7 @@
           "name": "Iqraam Rayners",
           "teamId": "467",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -45998,7 +46070,7 @@
           "name": "Tshepang Moremi",
           "teamId": "467",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -46058,7 +46130,7 @@
           "name": "Thalente Mbatha",
           "teamId": "467",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -46143,7 +46215,7 @@
           "teamId": "206",
           "position": "M",
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -46157,7 +46229,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -46238,7 +46310,7 @@
           "name": "Jacob Shaffelburg",
           "teamId": "206",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -46262,7 +46334,7 @@
           "name": "Promise David",
           "teamId": "206",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -46334,7 +46406,7 @@
           "name": "Luc de Fougerolles",
           "teamId": "206",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -46346,10 +46418,10 @@
           "name": "Niko Sigur",
           "teamId": "206",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -46358,7 +46430,7 @@
           "name": "Alphonso Davies",
           "teamId": "206",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -46377,7 +46449,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760487",
@@ -47009,7 +47082,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760489",
@@ -47120,7 +47194,7 @@
           "position": "M",
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -47155,9 +47229,9 @@
           "teamId": "481",
           "position": "F",
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -47190,7 +47264,7 @@
           "name": "Waldemar Anton",
           "teamId": "481",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -47202,7 +47276,7 @@
           "name": "Nadiem Amiri",
           "teamId": "481",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -47238,10 +47312,10 @@
           "name": "Jamal Musiala",
           "teamId": "481",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -47250,7 +47324,7 @@
           "name": "Malick Thiaw",
           "teamId": "481",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -47262,7 +47336,7 @@
           "name": "Nick Woltemade",
           "teamId": "481",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -47322,7 +47396,7 @@
           "name": "Leon Goretzka",
           "teamId": "481",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -47331,7 +47405,7 @@
         },
         {
           "id": "301648",
-          "name": "Orlando Gil",
+          "name": "Orlando Gill",
           "teamId": "210",
           "position": "G",
           "minutes": 90,
@@ -47397,7 +47471,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -47420,8 +47494,8 @@
           "position": "M",
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
-          "yellow": 0,
+          "assists": 1,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -47443,7 +47517,7 @@
           "teamId": "210",
           "position": "F",
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -47514,7 +47588,7 @@
           "name": "Antonio Sanabria",
           "teamId": "210",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -47550,7 +47624,7 @@
           "name": "Gustavo Velázquez",
           "teamId": "210",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -47574,7 +47648,7 @@
           "name": "Braian Ojeda",
           "teamId": "210",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -47586,7 +47660,7 @@
           "name": "Fabián Balbuena",
           "teamId": "210",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -47610,7 +47684,7 @@
           "name": "Gustavo Caballero",
           "teamId": "210",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -47622,14 +47696,15 @@
           "name": "Maurício",
           "teamId": "210",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760488",
@@ -48273,7 +48348,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760490",
@@ -48917,7 +48993,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760492",
@@ -49004,7 +49081,7 @@
           "position": "M",
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 2,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -49039,7 +49116,7 @@
           "teamId": "478",
           "position": "F",
           "minutes": 90,
-          "goals": 1,
+          "goals": 2,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -49051,7 +49128,7 @@
           "teamId": "478",
           "position": "M",
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -49098,7 +49175,7 @@
           "name": "Jean-Philippe Mateta",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -49110,7 +49187,7 @@
           "name": "Malo Gusto",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -49122,7 +49199,7 @@
           "name": "Rayan Cherki",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -49146,7 +49223,7 @@
           "name": "Désiré Doué",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -49182,7 +49259,7 @@
           "name": "Theo Hernández",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -49398,7 +49475,7 @@
           "name": "Besfort Zeneli",
           "teamId": "466",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -49410,7 +49487,7 @@
           "name": "Taha Ali",
           "teamId": "466",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -49506,7 +49583,7 @@
           "name": "Benjamin Nygren",
           "teamId": "466",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -49530,7 +49607,7 @@
           "name": "Gustaf Nilsson",
           "teamId": "466",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -49542,14 +49619,15 @@
           "name": "Mattias Svanberg",
           "teamId": "466",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760491",
@@ -50193,7 +50271,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760495",
@@ -50837,7 +50916,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760493",
@@ -51457,7 +51537,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760494",
@@ -52077,7 +52158,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760497",
@@ -52140,7 +52222,7 @@
           "position": "D",
           "minutes": 90,
           "goals": 0,
-          "assists": 1,
+          "assists": 2,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -52199,7 +52281,7 @@
           "teamId": "164",
           "position": "F",
           "minutes": 90,
-          "goals": 1,
+          "goals": 2,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -52246,7 +52328,7 @@
           "name": "Marc Pubill",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -52318,7 +52400,7 @@
           "name": "Fabián Ruiz",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -52342,7 +52424,7 @@
           "name": "Gavi",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -52465,7 +52547,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -52666,7 +52748,7 @@
           "name": "Alexander Prass",
           "teamId": "474",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -52721,7 +52803,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760496",
@@ -53365,7 +53448,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760498",
@@ -53973,7 +54057,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760499",
@@ -54250,7 +54335,7 @@
           "name": "Mathew Ryan",
           "teamId": "628",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -54313,7 +54398,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -54526,7 +54611,7 @@
           "name": "Mahmoud Saber",
           "teamId": "2620",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -54557,7 +54642,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760500",
@@ -54750,10 +54836,10 @@
           "name": "Gonzalo Montiel",
           "teamId": "202",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -54911,7 +54997,7 @@
           "assists": 0,
           "yellow": 0,
           "red": 0,
-          "ownGoals": 0
+          "ownGoals": 1
         },
         {
           "id": "257716",
@@ -54943,7 +55029,7 @@
           "teamId": "2597",
           "position": "D",
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -55052,7 +55138,7 @@
           "position": null,
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -55201,7 +55287,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760501",
@@ -55845,7 +55932,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760502",
@@ -56477,7 +56565,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760503",
@@ -57121,7 +57210,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760504",
@@ -57168,13 +57258,13 @@
       "status": "NS",
       "finished": false,
       "homeTeam": {
-        "id": "131535",
-        "name": "Round of 32 11 Winner",
+        "id": "482",
+        "name": "Portugal",
         "goals": null
       },
       "awayTeam": {
-        "id": "131536",
-        "name": "Round of 32 12 Winner",
+        "id": "164",
+        "name": "Spain",
         "goals": null
       },
       "winnerTeamId": null,
@@ -57187,13 +57277,13 @@
       "status": "NS",
       "finished": false,
       "homeTeam": {
-        "id": "131533",
-        "name": "Round of 32 9 Winner",
+        "id": "660",
+        "name": "United States",
         "goals": null
       },
       "awayTeam": {
-        "id": "131534",
-        "name": "Round of 32 10 Winner",
+        "id": "459",
+        "name": "Belgium",
         "goals": null
       },
       "winnerTeamId": null,
