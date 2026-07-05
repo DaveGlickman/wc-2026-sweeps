@@ -354,6 +354,9 @@ async function main() {
     for (const f of list) {
       const old = prevById.get(f.id);
       if (old && Array.isArray(old.players)) f.players = old.players;
+      // Carry the "captured in finished state" marker so we don't needlessly
+      // re-fetch a game whose FINAL box score we already have.
+      if (old && old.detailFinal) f.detailFinal = true;
       out.push(f);
       usedFresh.add(f.id);
     }
@@ -375,11 +378,16 @@ async function main() {
   for (const f of out) {
     const isLive = LIVE_CODES.has(f.status);
     const isFinished = FINISHED_CODES.has(f.status);
-    const detailed = Array.isArray(f.players) && f.players.length > 0;
-    if (isLive || (isFinished && !detailed)) {
+    // Re-fetch while live (score/events keep changing) AND once more after the
+    // final whistle: a box score captured mid-match is incomplete (missing late
+    // goals/assists), so we must pull the summary again in the finished state.
+    // detailFinal marks that we've captured the FINAL box score, so a settled
+    // game is fetched exactly once more and then left alone.
+    if (isLive || (isFinished && !f.detailFinal)) {
       try {
         const summary = await getJSON(`${BASE}/summary?event=${f.id}`);
         f.players = buildPlayers(summary);
+        if (isFinished) f.detailFinal = true;
         detailFetches += 1;
       } catch (e) {
         console.warn(`[fetch] detail failed for fixture ${f.id}: ${e.message}`);
