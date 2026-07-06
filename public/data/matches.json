@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-06T19:17:57.593Z",
+  "generatedAt": "2026-07-06T22:52:33.304Z",
   "fixtures": [
     {
       "id": "760415",
@@ -58483,8 +58483,8 @@
       "id": "760506",
       "date": "2026-07-06T19:00Z",
       "round": "Round of 16",
-      "status": "LIVE",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "homeTeam": {
         "id": "482",
         "name": "Portugal",
@@ -58493,9 +58493,9 @@
       "awayTeam": {
         "id": "164",
         "name": "Spain",
-        "goals": 0
+        "goals": 1
       },
-      "winnerTeamId": null,
+      "winnerTeamId": "164",
       "players": [
         {
           "id": "238903",
@@ -58517,7 +58517,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -58670,7 +58670,7 @@
           "name": "Diogo Dalot",
           "teamId": "482",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -58694,10 +58694,10 @@
           "name": "Bernardo Silva",
           "teamId": "482",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -58706,7 +58706,7 @@
           "name": "Nélson Semedo",
           "teamId": "482",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -58718,7 +58718,7 @@
           "name": "Francisco Conceição",
           "teamId": "482",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -58742,7 +58742,7 @@
           "name": "Rafael Leão",
           "teamId": "482",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -58946,8 +58946,8 @@
           "name": "Mikel Merino",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
-          "goals": 0,
+          "minutes": 90,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -58970,7 +58970,7 @@
           "name": "Borja Iglesias",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -59030,10 +59030,10 @@
           "name": "Ferran Torres",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
-          "assists": 0,
-          "yellow": 0,
+          "assists": 1,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -59114,14 +59114,15 @@
           "name": "Fabián Ruiz",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760507",
