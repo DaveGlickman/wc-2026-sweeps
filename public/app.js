@@ -150,7 +150,8 @@ function scorePlayer(playerId, scoring, idx, motm, manualStats) {
         if (conceded === 0) cleanSheets++;
       }
     }
-    if (f.finished && motm[String(f.id)] === playerId) motmCount++;
+    // motm.json stores ids as numbers; picks use string ids — compare as strings.
+    if (f.finished && String(motm[String(f.id)]) === String(playerId)) motmCount++;
   }
 
   const points =
