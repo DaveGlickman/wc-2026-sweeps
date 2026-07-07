@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-07T22:20:38.409Z",
+  "generatedAt": "2026-07-07T23:25:46.798Z",
   "fixtures": [
     {
       "id": "760415",
@@ -60382,8 +60382,8 @@
       "id": "760508",
       "date": "2026-07-07T20:00Z",
       "round": "Round of 16",
-      "status": "LIVE",
-      "finished": false,
+      "status": "PEN",
+      "finished": true,
       "homeTeam": {
         "id": "475",
         "name": "Switzerland",
@@ -60394,7 +60394,7 @@
         "name": "Colombia",
         "goals": 0
       },
-      "winnerTeamId": null,
+      "winnerTeamId": "475",
       "players": [
         {
           "id": "238544",
@@ -60953,7 +60953,7 @@
           "name": "Yerry Mina",
           "teamId": "208",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -60984,7 +60984,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760510",
