@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-07T17:46:18.149Z",
+  "generatedAt": "2026-07-07T19:26:54.483Z",
   "fixtures": [
     {
       "id": "760415",
@@ -59761,19 +59761,19 @@
       "id": "760509",
       "date": "2026-07-07T16:00Z",
       "round": "Round of 16",
-      "status": "LIVE",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "homeTeam": {
         "id": "202",
         "name": "Argentina",
-        "goals": 1
+        "goals": 3
       },
       "awayTeam": {
         "id": "2620",
         "name": "Egypt",
         "goals": 2
       },
-      "winnerTeamId": null,
+      "winnerTeamId": "202",
       "players": [
         {
           "id": "167192",
@@ -59878,7 +59878,7 @@
           "position": null,
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -59900,7 +59900,7 @@
           "name": "Facundo Medina",
           "teamId": "202",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -59914,7 +59914,7 @@
           "position": null,
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -59936,7 +59936,7 @@
           "name": "Nicolás Otamendi",
           "teamId": "202",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -60045,7 +60045,7 @@
           "teamId": "202",
           "position": "M",
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -60081,7 +60081,7 @@
           "teamId": "202",
           "position": "F",
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 1,
           "yellow": 0,
           "red": 0,
@@ -60095,7 +60095,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -60155,7 +60155,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 1,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -60191,7 +60191,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 1,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -60248,7 +60248,7 @@
           "name": "Zizo",
           "teamId": "2620",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -60287,7 +60287,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -60375,7 +60375,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760508",
