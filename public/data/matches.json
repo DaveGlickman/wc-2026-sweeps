@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-07T23:25:46.798Z",
+  "generatedAt": "2026-07-08T00:59:17.504Z",
   "fixtures": [
     {
       "id": "760415",
@@ -60994,13 +60994,13 @@
       "status": "NS",
       "finished": false,
       "homeTeam": {
-        "id": "19282",
-        "name": "Round of 16 1 Winner",
+        "id": "478",
+        "name": "France",
         "goals": null
       },
       "awayTeam": {
-        "id": "19283",
-        "name": "Round of 16 2 Winner",
+        "id": "2869",
+        "name": "Morocco",
         "goals": null
       },
       "winnerTeamId": null,
