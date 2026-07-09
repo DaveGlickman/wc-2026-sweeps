@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-09T21:50:03.921Z",
+  "generatedAt": "2026-07-09T22:58:39.698Z",
   "fixtures": [
     {
       "id": "760415",
@@ -60991,8 +60991,8 @@
       "id": "760510",
       "date": "2026-07-09T20:00Z",
       "round": "Quarter-finals",
-      "status": "LIVE",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "homeTeam": {
         "id": "478",
         "name": "France",
@@ -61003,7 +61003,7 @@
         "name": "Morocco",
         "goals": 0
       },
-      "winnerTeamId": null,
+      "winnerTeamId": "478",
       "players": [
         {
           "id": "189026",
@@ -61310,7 +61310,7 @@
           "name": "Malo Gusto",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -61629,7 +61629,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760511",
