@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-10T20:08:56.975Z",
+  "generatedAt": "2026-07-10T21:18:04.239Z",
   "fixtures": [
     {
       "id": "760415",
@@ -61636,19 +61636,19 @@
       "id": "760511",
       "date": "2026-07-10T19:00Z",
       "round": "Quarter-finals",
-      "status": "LIVE",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "homeTeam": {
         "id": "164",
         "name": "Spain",
-        "goals": 1
+        "goals": 2
       },
       "awayTeam": {
         "id": "459",
         "name": "Belgium",
         "goals": 1
       },
-      "winnerTeamId": null,
+      "winnerTeamId": "164",
       "players": [
         {
           "id": "222375",
@@ -61670,7 +61670,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -61787,7 +61787,7 @@
           "name": "Nico Williams",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -61835,8 +61835,8 @@
           "name": "Mikel Merino",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
-          "goals": 0,
+          "minutes": 90,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -61919,7 +61919,7 @@
           "name": "Pedri",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -61943,7 +61943,7 @@
           "name": "Ferran Torres",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -62030,7 +62030,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -62099,7 +62099,7 @@
           "name": "Alexis Saelemaekers",
           "teamId": "459",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -62123,7 +62123,7 @@
           "name": "Joaquin Seys",
           "teamId": "459",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -62147,7 +62147,7 @@
           "name": "Senne Lammens",
           "teamId": "459",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -62207,10 +62207,10 @@
           "name": "Axel Witsel",
           "teamId": "459",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -62231,14 +62231,15 @@
           "name": "Romelu Lukaku",
           "teamId": "459",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760512",
