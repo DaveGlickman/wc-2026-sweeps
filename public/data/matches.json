@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-09T22:58:39.698Z",
+  "generatedAt": "2026-07-10T00:05:15.687Z",
   "fixtures": [
     {
       "id": "760415",
@@ -61658,13 +61658,13 @@
       "status": "NS",
       "finished": false,
       "homeTeam": {
-        "id": "19284",
-        "name": "Round of 16 3 Winner",
+        "id": "464",
+        "name": "Norway",
         "goals": null
       },
       "awayTeam": {
-        "id": "19285",
-        "name": "Round of 16 4 Winner",
+        "id": "448",
+        "name": "England",
         "goals": null
       },
       "winnerTeamId": null,
@@ -61677,13 +61677,13 @@
       "status": "NS",
       "finished": false,
       "homeTeam": {
-        "id": "19280",
-        "name": "Round of 16 7 Winner",
+        "id": "202",
+        "name": "Argentina",
         "goals": null
       },
       "awayTeam": {
-        "id": "19281",
-        "name": "Round of 16 8 Winner",
+        "id": "475",
+        "name": "Switzerland",
         "goals": null
       },
       "winnerTeamId": null,
