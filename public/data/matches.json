@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-11T21:06:14.727Z",
+  "generatedAt": "2026-07-11T22:03:31.410Z",
   "fixtures": [
     {
       "id": "760415",
@@ -62245,17 +62245,17 @@
       "id": "760512",
       "date": "2026-07-11T21:00Z",
       "round": "Quarter-finals",
-      "status": "LIVE",
+      "status": "HT",
       "finished": false,
       "homeTeam": {
         "id": "464",
         "name": "Norway",
-        "goals": 0
+        "goals": 1
       },
       "awayTeam": {
         "id": "448",
         "name": "England",
-        "goals": 0
+        "goals": 1
       },
       "winnerTeamId": null,
       "players": [
@@ -62350,7 +62350,7 @@
           "position": "M",
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -62373,7 +62373,7 @@
           "teamId": "464",
           "position": "F",
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -62637,7 +62637,7 @@
           "teamId": "448",
           "position": "M",
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -62686,7 +62686,7 @@
           "position": "M",
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
