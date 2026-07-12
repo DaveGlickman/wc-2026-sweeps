@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-11T23:06:23.201Z",
+  "generatedAt": "2026-07-12T00:06:52.208Z",
   "fixtures": [
     {
       "id": "760415",
@@ -62245,8 +62245,8 @@
       "id": "760512",
       "date": "2026-07-11T21:00Z",
       "round": "Quarter-finals",
-      "status": "LIVE",
-      "finished": false,
+      "status": "AET",
+      "finished": true,
       "homeTeam": {
         "id": "464",
         "name": "Norway",
@@ -62255,9 +62255,9 @@
       "awayTeam": {
         "id": "448",
         "name": "England",
-        "goals": 1
+        "goals": 2
       },
-      "winnerTeamId": null,
+      "winnerTeamId": "448",
       "players": [
         {
           "id": "193610",
@@ -62291,7 +62291,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -62456,7 +62456,7 @@
           "name": "Jørgen Strand Larsen",
           "teamId": "464",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -62637,7 +62637,7 @@
           "teamId": "448",
           "position": "M",
           "minutes": 90,
-          "goals": 1,
+          "goals": 2,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -62768,7 +62768,7 @@
           "name": "Dan Burn",
           "teamId": "448",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -62871,7 +62871,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760513",
