@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-14T20:41:05.085Z",
+  "generatedAt": "2026-07-14T21:36:55.525Z",
   "fixtures": [
     {
       "id": "760415",
@@ -63511,8 +63511,8 @@
       "id": "760514",
       "date": "2026-07-14T19:00Z",
       "round": "Semi-finals",
-      "status": "LIVE",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "homeTeam": {
         "id": "478",
         "name": "France",
@@ -63523,7 +63523,7 @@
         "name": "Spain",
         "goals": 2
       },
-      "winnerTeamId": null,
+      "winnerTeamId": "164",
       "players": [
         {
           "id": "189026",
@@ -63629,7 +63629,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -64022,7 +64022,7 @@
           "name": "Marcos Llorente",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -64046,7 +64046,7 @@
           "name": "Nico Williams",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -64149,7 +64149,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760515",
