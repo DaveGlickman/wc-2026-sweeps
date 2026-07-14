@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-14T19:38:52.973Z",
+  "generatedAt": "2026-07-14T20:41:05.085Z",
   "fixtures": [
     {
       "id": "760415",
@@ -63521,7 +63521,7 @@
       "awayTeam": {
         "id": "164",
         "name": "Spain",
-        "goals": 1
+        "goals": 2
       },
       "winnerTeamId": null,
       "players": [
@@ -63734,7 +63734,7 @@
           "name": "Manu Koné",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -63758,7 +63758,7 @@
           "name": "Theo Hernández",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -63770,7 +63770,7 @@
           "name": "Désiré Doué",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -63782,7 +63782,7 @@
           "name": "Rayan Cherki",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -63891,7 +63891,7 @@
           "teamId": "164",
           "position": "D",
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -63904,7 +63904,7 @@
           "position": "M",
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -63998,7 +63998,7 @@
           "name": "Ferran Torres",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -64070,7 +64070,7 @@
           "name": "Pedri",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -64142,7 +64142,7 @@
           "name": "Mikel Merino",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
