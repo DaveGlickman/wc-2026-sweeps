@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-13T23:15:44.139Z",
+  "generatedAt": "2026-07-14T00:09:50.668Z",
   "fixtures": [
     {
       "id": "760415",
@@ -63533,13 +63533,13 @@
       "status": "NS",
       "finished": false,
       "homeTeam": {
-        "id": "17630",
-        "name": "Quarterfinal 3 Winner",
+        "id": "448",
+        "name": "England",
         "goals": null
       },
       "awayTeam": {
-        "id": "17632",
-        "name": "Quarterfinal 4 Winner",
+        "id": "202",
+        "name": "Argentina",
         "goals": null
       },
       "winnerTeamId": null,
