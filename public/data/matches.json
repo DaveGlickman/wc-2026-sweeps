@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-15T20:59:35.626Z",
+  "generatedAt": "2026-07-15T22:04:14.344Z",
   "fixtures": [
     {
       "id": "760415",
@@ -64156,8 +64156,8 @@
       "id": "760515",
       "date": "2026-07-15T19:00Z",
       "round": "Semi-finals",
-      "status": "LIVE",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "homeTeam": {
         "id": "448",
         "name": "England",
@@ -64168,7 +64168,7 @@
         "name": "Argentina",
         "goals": 2
       },
-      "winnerTeamId": null,
+      "winnerTeamId": "202",
       "players": [
         {
           "id": "159443",
@@ -64782,7 +64782,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760516",
