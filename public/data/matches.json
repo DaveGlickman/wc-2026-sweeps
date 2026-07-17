@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-16T23:33:29.106Z",
+  "generatedAt": "2026-07-17T01:08:13.447Z",
   "fixtures": [
     {
       "id": "760415",
@@ -64792,13 +64792,13 @@
       "status": "NS",
       "finished": false,
       "homeTeam": {
-        "id": "5958",
-        "name": "Semifinal 1 Loser",
+        "id": "478",
+        "name": "France",
         "goals": null
       },
       "awayTeam": {
-        "id": "5959",
-        "name": "Semifinal 2 Loser",
+        "id": "448",
+        "name": "England",
         "goals": null
       },
       "winnerTeamId": null,
