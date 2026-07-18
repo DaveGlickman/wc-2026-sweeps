@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-17T23:12:06.419Z",
+  "generatedAt": "2026-07-18T00:08:27.362Z",
   "fixtures": [
     {
       "id": "760415",
@@ -64811,13 +64811,13 @@
       "status": "NS",
       "finished": false,
       "homeTeam": {
-        "id": "5960",
-        "name": "Semifinal 1 Winner",
+        "id": "164",
+        "name": "Spain",
         "goals": null
       },
       "awayTeam": {
-        "id": "5961",
-        "name": "Semifinal 2 Winner",
+        "id": "202",
+        "name": "Argentina",
         "goals": null
       },
       "winnerTeamId": null,
