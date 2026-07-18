@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-18T21:26:58.505Z",
+  "generatedAt": "2026-07-18T22:22:25.387Z",
   "fixtures": [
     {
       "id": "760415",
@@ -64794,12 +64794,12 @@
       "homeTeam": {
         "id": "478",
         "name": "France",
-        "goals": 0
+        "goals": 2
       },
       "awayTeam": {
         "id": "448",
         "name": "England",
-        "goals": 2
+        "goals": 4
       },
       "winnerTeamId": null,
       "players": [
@@ -64905,8 +64905,8 @@
           "teamId": "478",
           "position": "F",
           "minutes": 90,
-          "goals": 0,
-          "assists": 0,
+          "goals": 1,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -64930,7 +64930,7 @@
           "position": "M",
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -64988,8 +64988,8 @@
           "name": "Bradley Barcola",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
-          "goals": 0,
+          "minutes": 90,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -65048,7 +65048,7 @@
           "name": "Dayot Upamecano",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -65060,7 +65060,7 @@
           "name": "Ousmane Dembélé",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -65084,7 +65084,7 @@
           "name": "Lucas Digne",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -65194,7 +65194,7 @@
           "position": "M",
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -65218,7 +65218,7 @@
           "position": "M",
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -65229,7 +65229,7 @@
           "teamId": "448",
           "position": "M",
           "minutes": 90,
-          "goals": 0,
+          "goals": 2,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -65408,7 +65408,7 @@
           "name": "Ollie Watkins",
           "teamId": "448",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
