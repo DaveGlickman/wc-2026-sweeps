@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-18T22:22:25.387Z",
+  "generatedAt": "2026-07-18T23:14:16.884Z",
   "fixtures": [
     {
       "id": "760415",
@@ -64789,19 +64789,19 @@
       "id": "760516",
       "date": "2026-07-18T21:00Z",
       "round": "3rd Place",
-      "status": "LIVE",
-      "finished": false,
+      "status": "FT",
+      "finished": true,
       "homeTeam": {
         "id": "478",
         "name": "France",
-        "goals": 2
+        "goals": 4
       },
       "awayTeam": {
         "id": "448",
         "name": "England",
-        "goals": 4
+        "goals": 6
       },
-      "winnerTeamId": null,
+      "winnerTeamId": "448",
       "players": [
         {
           "id": "189026",
@@ -64905,7 +64905,7 @@
           "teamId": "478",
           "position": "F",
           "minutes": 90,
-          "goals": 1,
+          "goals": 2,
           "assists": 1,
           "yellow": 0,
           "red": 0,
@@ -64930,7 +64930,7 @@
           "position": "M",
           "minutes": 90,
           "goals": 0,
-          "assists": 1,
+          "assists": 2,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -65012,7 +65012,7 @@
           "name": "Jules Koundé",
           "teamId": "478",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -65050,7 +65050,7 @@
           "position": null,
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -65061,7 +65061,7 @@
           "teamId": "478",
           "position": null,
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -65229,7 +65229,7 @@
           "teamId": "448",
           "position": "M",
           "minutes": 90,
-          "goals": 2,
+          "goals": 3,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -65264,8 +65264,8 @@
           "name": "Jude Bellingham",
           "teamId": "448",
           "position": null,
-          "minutes": 0,
-          "goals": 0,
+          "minutes": 90,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -65300,7 +65300,7 @@
           "name": "Trevoh Chalobah",
           "teamId": "448",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -65312,7 +65312,7 @@
           "name": "Elliot Anderson",
           "teamId": "448",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -65396,7 +65396,7 @@
           "name": "Reece James",
           "teamId": "448",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -65415,7 +65415,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     },
     {
       "id": "760517",
