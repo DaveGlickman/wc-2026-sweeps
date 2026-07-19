@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-19T21:27:40.781Z",
+  "generatedAt": "2026-07-19T22:25:53.634Z",
   "fixtures": [
     {
       "id": "760415",
@@ -65422,19 +65422,19 @@
       "id": "760517",
       "date": "2026-07-19T19:00Z",
       "round": "Final",
-      "status": "LIVE",
-      "finished": false,
+      "status": "AET",
+      "finished": true,
       "homeTeam": {
         "id": "164",
         "name": "Spain",
-        "goals": 0
+        "goals": 1
       },
       "awayTeam": {
         "id": "202",
         "name": "Argentina",
         "goals": 0
       },
-      "winnerTeamId": null,
+      "winnerTeamId": "164",
       "players": [
         {
           "id": "222375",
@@ -65585,7 +65585,7 @@
           "name": "Martín Zubimendi",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -65599,7 +65599,7 @@
           "position": null,
           "minutes": 90,
           "goals": 0,
-          "assists": 0,
+          "assists": 1,
           "yellow": 0,
           "red": 0,
           "ownGoals": 0
@@ -65622,7 +65622,7 @@
           "teamId": "164",
           "position": null,
           "minutes": 90,
-          "goals": 0,
+          "goals": 1,
           "assists": 0,
           "yellow": 0,
           "red": 0,
@@ -65741,7 +65741,7 @@
           "name": "Eric García",
           "teamId": "164",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -65816,7 +65816,7 @@
           "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -66005,7 +66005,7 @@
           "name": "Marcos Senesi",
           "teamId": "202",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
@@ -66060,7 +66060,8 @@
           "red": 0,
           "ownGoals": 0
         }
-      ]
+      ],
+      "detailFinal": true
     }
   ]
 }
