@@ -1,7 +1,7 @@
 {
   "league": "fifa.world",
   "season": 2026,
-  "generatedAt": "2026-07-19T19:48:57.417Z",
+  "generatedAt": "2026-07-19T20:32:31.332Z",
   "fixtures": [
     {
       "id": "760415",
@@ -65897,10 +65897,10 @@
           "name": "Leandro Paredes",
           "teamId": "202",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
-          "yellow": 0,
+          "yellow": 1,
           "red": 0,
           "ownGoals": 0
         },
@@ -65933,7 +65933,7 @@
           "name": "Nicolás Otamendi",
           "teamId": "202",
           "position": null,
-          "minutes": 0,
+          "minutes": 90,
           "goals": 0,
           "assists": 0,
           "yellow": 0,
